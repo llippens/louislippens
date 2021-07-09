@@ -1,11 +1,12 @@
 ---
 title: "Correspondence Test Database"
 url: "/cortest"
-summary: "cortest"
 author: "Louis Lippens"
-date: "2021-07-09"
-categories: []
+date: "`r format(Sys.time(), '%d %B %Y')`"
 tags: []
+series: []
 ---
 
-This is cortest.
+This page was last updated `r format(Sys.time(), '%d %B %Y')`.
+
+# This is cortest

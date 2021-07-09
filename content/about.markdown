@@ -1,11 +1,10 @@
 ---
 title: "About"
 url: "/about"
-summary: "about"
 author: "Louis Lippens"
-date: "2021-07-09"
-categories: []
+date: "09 juli 2021"
 tags: []
+series: []
 ---
 
 This is about.

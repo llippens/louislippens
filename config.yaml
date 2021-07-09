@@ -3,7 +3,7 @@ baseURL: https://louislippens.netlify.app/
 languageCode: en-uk
 title: Louis Lippens
 paginate: 5
-googleAnalytics: ''
+googleAnalytics: G-353SE2Q1DW
 
 ignoreFiles:
   - \.Rmd$

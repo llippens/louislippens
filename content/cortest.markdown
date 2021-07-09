@@ -1,11 +1,12 @@
 ---
 title: "Correspondence Test Database"
 url: "/cortest"
-summary: "cortest"
 author: "Louis Lippens"
-date: "2021-07-09"
-categories: []
+date: "09 juli 2021"
 tags: []
+series: []
 ---
 
-This is cortest.
+This page was last updated 09 juli 2021.
+
+# This is cortest
