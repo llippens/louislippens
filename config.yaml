@@ -21,18 +21,21 @@ permalinks:
 
 menu:
   main:
-    - identifier: home
-      name: home
+    - name: home
       url: /
       weight: 1
-    - identifier: about
-      name: about
+    - name: about
       url: /about/
       weight: 2
-    - identifier: cortest
-      name: cortest
+    - name: cortest
       url: /cortest/
       weight: 3
+      
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
       
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
