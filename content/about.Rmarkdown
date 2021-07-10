@@ -5,7 +5,7 @@ author: Louis Lippens
 slug: about
 ShowToc: false
 TocOpen: false
-draft: true
+draft: false
 ShowReadingTime: false
 ShowShareButtons: false
 ShowPostNavLinks: false

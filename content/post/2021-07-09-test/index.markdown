@@ -6,7 +6,7 @@ slug: test
 tags: ["tag1", "tag2"]
 ShowToc: false
 TocOpen: false
-draft: true
+draft: false
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pellentesque dictum bibendum. Duis eget suscipit mauris. Maecenas pretium purus at ante dapibus, sed lacinia velit dapibus. Fusce pulvinar rutrum semper. Ut arcu libero, tincidunt at cursus non, pulvinar et turpis. Nam suscipit tempus nisi, et consequat metus efficitur sagittis. Curabitur et erat at justo elementum imperdiet vel ac massa. Curabitur dignissim arcu ut feugiat sagittis. Proin posuere mi in aliquet rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam in fringilla justo. Praesent odio neque, pharetra nec volutpat in, porta sed mauris. Phasellus eu neque nulla. Donec quis eros risus.
