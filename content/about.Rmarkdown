@@ -19,9 +19,14 @@ knitr::include_graphics("https://raw.githubusercontent.com/lglip/louislippens/ma
 ```
 
 
-Hi, I am an interdisciplinary PhD researcher `r knitr::asis_output("\U1F575")` in (labour) economics and sociology at Ghent University and Vrije Universiteit Brussel. My present work focuses on the determinants of and contextual factors contributing to (ethnic) hiring discrimination. I have previously worked in consulting on data governance and data analytics projects. Besides, I have obtained a master's degree in industrial and organisational psychology and a business degree in management.
+### Professional
+Hi, I am a joint PhD researcher in (labour) economics and sociology at Ghent University and Vrije Universiteit Brussel. My present work focuses on the determinants of and contextual factors contributing to (ethnic) hiring discrimination. I have previously worked in consulting on data governance and data analytics projects. Besides, I have obtained a master's degree in industrial and organisational psychology and a business degree in management.
 
-I am a sucker for everything related to R (ggplot, Shiny, Xaringan...), my favourite environment for statistical computing `r knitr::asis_output("\U1F4BB")`. Not an expert, by far, but getting there, slowly but steadily. This web space is partly dedicated to showcasing some of the work I have produced in R. Make sure to check it out in the tabs above!
+I am a sucker for everything related to R (ggplot, Shiny, Xaringan...), my go-to environment for statistical computing. Not an expert, by far, but getting there, slowly but steadily. This webspace is partly dedicated to showcasing some of the work I have produced in R. Make sure to check it out in my blog posts and the tabs above!
+
+
+### Personal
+By the way, I have a cat named Abel `r knitr::asis_output("\U1F63C")` and also a girlfriend, Anna `r knitr::asis_output("\U1F467")`. They were listed in no particular order `r knitr::asis_output("\U1F60F")`. In a former life, I was a DJ and music producer and, to date, I still love to get some vinyl playing (from Flume and Deadmau5 to Paul Kalkbrenner and Ross From Friends) `r knitr::asis_output("\U1F3A7")`. You might still find [some traces](https://soundcloud.com/subwaves) of this past scattered around the internet. Another random fact is that I'm very fond of the sea(side) and used to be a lifeguard at the Belgian coast during the summer months `r knitr::asis_output("\U1F30A")`. Finally, on quiet days (around 7:00 PM), you are likely to find me behind the stove, stirring the pots`r knitr::asis_output("\U1F371")`.
 
 <br></br>
 _This page was last updated `r Sys.Date()`._

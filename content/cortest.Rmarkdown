@@ -38,7 +38,7 @@ ggplot(data %>% filter(year <= 2020), aes(year)) +
 
 ```
 
-### Appendix (full register)
+### The register
 
 ```{r kable, echo = FALSE}
 table <- data %>% select(-ground_number, -ground, -study, -effect_category, -url)

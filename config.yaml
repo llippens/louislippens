@@ -41,9 +41,9 @@ params:
   homeInfoParams:
       Title: "Hello, visitor \U0001F44B"
       Content: >
-        Welcome to my personal web space. Have a look around. You can read more about me in the eponymous tab.
+        Welcome to my webspace. Have a look around. You can read more about me in the eponymous tab.
         I don't blog often, but when I do, you will find it here.
-        Besides, you can can discover my work and a few of my highlighted projects in the other tabs above.
+        Besides, you can discover my work and a few of my highlighted projects in the other tabs above.
   socialIcons:
       - name: "twitter"
         url: "https://twitter.com/LippensLouis"

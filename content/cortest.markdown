@@ -21,7 +21,7 @@ ShowPostNavLinks: false
 
 <img src="/cortest_files/figure-html/analysis-1.png" width="672" />
 
-### Appendix (full register)
+### The register
 
 <table class="table" style="font-size: 12px; margin-left: auto; margin-right: auto;">
  <thead>
