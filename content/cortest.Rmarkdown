@@ -1,12 +1,71 @@
 ---
-title: "Correspondence Test Database"
+title: Register of correspondence tests
 url: "/cortest"
-author: "Louis Lippens"
-date: "`r format(Sys.time(), '%d %B %Y')`"
-tags: []
-series: []
+author: ["Louis Lippens", "Stijn Baert", "Siel Vermeiren"]
+slug: cortest
+ShowToc: false
+TocOpen: false
+draft: true
+ShowReadingTime: false
+ShowShareButtons: false
+ShowPostNavLinks: false
 ---
 
-This page was last updated `r format(Sys.time(), '%d %B %Y')`.
+```{r setup, echo = FALSE, include = FALSE}
+library(tidyverse)
+library(readxl)
+library(knitr)
+library(kableExtra)
+library(ggplot2)
 
-# This is cortest
+githubURL <- ("https://raw.githubusercontent.com/lglip/louislippens/main/data/corregisterv6.RDS")
+download.file(githubURL, "corregisterv6.RDS", method="curl")
+data <- readRDS("corregisterv6.RDS")
+file.remove("corregisterv6.RDS")
+
+data$year <- as.numeric(data$year)
+grounds <- data$ground %>% unique
+```
+
+(intro).
+
+### Analysis
+
+```{r analysis, echo = FALSE, warning = FALSE}
+
+ggplot(data %>% filter(year <= 2020), aes(year)) +
+  geom_histogram(binwidth = 1)
+
+```
+
+### Appendix (full register)
+
+```{r kable, echo = FALSE}
+table <- data %>% select(-ground_number, -ground, -study, -effect_category, -url)
+#names(table) <- names(table) %>% str_replace_all("_", " ") %>% str_to_title()
+names(table) <- c("Treatment Group", "Control Group", "Country of Analysis", "Authors", "Year", "Effect")
+
+table %>%
+  kable() %>%
+  kable_styling(font_size = 12) %>%
+  column_spec(6, monospace = TRUE) %>% #this should be defined before collapse_*
+  collapse_rows(c(1:3), valign = "top", target = 1) %>%
+  pack_rows(index = c("Race and national origin" = nrow(data %>% filter(ground == grounds[1])),
+                      "Gender and motherhood" = nrow(data %>% filter(ground == grounds[2])),
+                      "Religion" = nrow(data %>% filter(ground == grounds[3])),
+                      "Disability" = nrow(data %>% filter(ground == grounds[4])),
+                      "Age" = nrow(data %>% filter(ground == grounds[5])),
+                      "Military service or affiliation" = nrow(data %>% filter(ground == grounds[6])),
+                      "Wealth" = nrow(data %>% filter(ground == grounds[7])),
+                      "Genetic information & Citizenship status" =
+                        nrow(data %>% filter(ground == grounds[8])) + nrow(data %>% filter(ground == grounds[9])),
+                      "Marital status" = nrow(data %>% filter(ground == grounds[10])),
+                      "Sexual orientation" = nrow(data %>% filter(ground == grounds[11])),
+                      "Political orientation" = nrow(data %>% filter(ground == grounds[12])),
+                      "Union affiliation" = nrow(data %>% filter(ground == grounds[13])),
+                      "Physical appearance" = nrow(data %>% filter(ground == grounds[14]))),
+            indent = FALSE)
+```
+
+<br></br>
+_This page was last updated `r Sys.Date()`._

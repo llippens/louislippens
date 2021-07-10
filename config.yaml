@@ -31,12 +31,6 @@ menu:
       url: /cortest/
       weight: 3
       
-outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON
-      
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   author: Louis Lippens
@@ -45,8 +39,11 @@ params:
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
   homeInfoParams:
-      Title: "Hello visitor \U0001F44B"
-      Content: "Welcome to my personal webspace. Have a look around."
+      Title: "Hello, visitor \U0001F44B"
+      Content: >
+        Welcome to my personal web space. Have a look around. You can read more about me in the eponymous tab.
+        I don't blog often, but when I do, you will find it here.
+        Besides, you can can discover my work and a few of my highlighted projects in the other tabs above.
   socialIcons:
       - name: "twitter"
         url: "https://twitter.com/LippensLouis"
