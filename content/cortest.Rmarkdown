@@ -1,5 +1,5 @@
 ---
-title: Register of correspondence tests
+title: "Register of correspondence tests on hiring discrimination (2005-2020)"
 url: "/cortest"
 author: " "
 slug: cortest
@@ -23,128 +23,385 @@ download.file(githubURL, "corregisterv6.RDS", method="curl")
 data <- readRDS("corregisterv6.RDS")
 file.remove("corregisterv6.RDS")
 
-data$year <- as.numeric(data$year)
+data$year_first_pub <- as.numeric(data$year_first_pub)
+data$year_pub <- as.numeric(data$year_pub)
+
+#Colours
+blue <- "#1E64C8"
+green <- "#FFD200"
+green <- "#AEB050"
+white <- "#FFFFFF"
+black <- "#000000"
 ```
 
 (intro).
 
 ### Analysis
 
-```{r analysis trend, echo = FALSE, warning = FALSE}
-general <- data %>%
-  select(year) %>%
-  group_by(year) %>%
+```{r analysis trend, echo = FALSE, warning = FALSE, fig.height = 6}
+#Add same trend for year of official publication
+firstyear <- data %>%
+  select(year_first_pub) %>%
+  group_by(year_first_pub) %>%
   summarise(freq = n(), .groups = "keep") %>%
+  rename(year = year_first_pub) %>%
+  mutate(legend = "Year of first publication") %>%
   drop_na() %>%
   ungroup()
 
+pubyear <- data %>%
+  select(year_pub) %>%
+  group_by(year_pub) %>%
+  summarise(freq = n(), .groups = "keep") %>%
+  filter(year_pub <= 2021) %>% #Filtering out studies published in 2021
+  rename(year = year_pub) %>%
+  mutate(legend = "Year of last/issue publication") %>%
+  drop_na() %>%
+  ungroup()
+
+general <- rbind(firstyear, pubyear)
+
 general %>%
-  filter(year <= 2020) %>%
-  ggplot(aes(x = year, y = freq)) +
-  geom_line(color = "#1E64C8", size = 1.2, alpha = 0.8) +
-  geom_point(color = "#1E64C8", shape = "square", size = 1.5) +
-  scale_x_continuous(limits = c(2005, 2020)) +
+  ggplot(aes(x = year, y = freq, color = legend)) +
+  geom_line(aes(color = legend, linetype = legend), size = 2, alpha = 0.8) +
+  scale_color_manual(values = c(blue, green),
+                     name = "Publication:") +
+  scale_linetype_manual(values=c("solid", "longdash"), guide = FALSE) +
+  geom_point(shape = "square", size = 2.5) +
+  scale_x_continuous(limits = c(2005, 2021), breaks = seq(2005, 2020, 5)) +
   theme_minimal() +
   theme(text = element_text(family = "UGent Panno Text"),
         panel.grid.minor = element_blank(),
-        panel.spacing.y=unit(1.5, "lines")) +
+        axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
+        axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
+        plot.title.position = "plot",
+        legend.position = "bottom",) +
   labs(title = "Trend in the number of correspondence tests",
        x = "Year", y = "Count")
 ```
 
-```{r analysis ground, echo = FALSE, warning = FALSE, fig.height = 8}
-long_yg <- data %>%
-  select(year, ground) %>%
-  group_by(ground, year) %>%
+<p style="line-height:1; font-style:italic"><font size="1"> Notes. The solid (dashed) line represents the year the study was first published (the year in which the study appeared in the journal issue). </font></p>
+
+```{r analysis region, echo = FALSE, warning = FALSE, fig.height = 6}
+#Add subregions (e.g. North America)
+#Add new plot: grounds by region (not including year)
+long_yr <- data %>%
+  select(year_first_pub, region) %>%
+  group_by(region, year_first_pub) %>%
   summarise(freq = n(), .groups = "keep") %>%
   drop_na() %>%
   ungroup()
 
-years <- rep(min(long_yg$year):max(long_yg$year), long_yg$ground %>% unique %>% length())
-grounds <- rep(long_yg$ground %>% unique, long_yg$year %>% unique %>% length())
+years <- rep(min(long_yr$year_first_pub):max(long_yr$year_first_pub), long_yr$region %>% unique %>% length())
+regions <- rep(long_yr$region %>% unique, long_yr$year_first_pub %>% unique %>% length())
 
-frame_yg <- tibble(year = years %>% sort(),
-                   ground = grounds)
+frame_yr <- tibble(year_first_pub = years %>% sort(),
+                   region = regions)
 
-long_yg <- left_join(frame_yg, long_yg, by = c("year", "ground"))
-long_yg$freq[is.na(long_yg$freq)] <- 0 #Plugging in zeros instead of NAs
+long_yr <- left_join(frame_yr, long_yr, by = c("year_first_pub", "region"))
+long_yr$freq[is.na(long_yr$freq)] <- 0
 
-bar_yg <- long_yg %>%
-  group_by(ground) %>%
-  filter(sum(freq) >= 2) %>% #Retaining grounds with at least 2 observations
+line_yr <- long_yr %>%
+  group_by(region) %>%
+  filter(sum(freq) >= 5) %>% #Retaining regions with at least 5 observations
   ungroup()
 
-bar_yg <- bar_yg %>%
-  mutate(ground2 = ground)
-bar_yg %>%
-  filter(year <= 2020) %>%
-  ggplot(aes(x = year, y = freq)) +
-  geom_line(data = bar_yg %>% select(-ground),
-            aes(group = ground2), color = "grey", size = 0.6, alpha = 0.5) +
-  geom_line(aes(color = ground), color = "#1E64C8", size = 1.2, alpha = 0.8) +
-  geom_point(color = "#1E64C8", shape = "square", size = 1.5) +
-  scale_y_continuous(limits = c(0, max(bar_yg$freq)+2)) +
+yr_order <- line_yr %>%
+  group_by(region) %>%
+  summarise(sumfreq = sum(freq)) %>%
+  arrange(desc(sumfreq)) %>%
+  ungroup()
+
+line_yr$region <- factor(line_yr$region, levels = yr_order$region)
+
+line_yr <- line_yr %>%
+  mutate(region2 = region)
+line_yr %>%
+  ggplot(aes(x = year_first_pub, y = freq)) +
+  geom_line(data = line_yr %>% select(-region),
+            aes(group = region2), color = black, size = 0.6, alpha = 0.2) +
+  geom_line(aes(color = region), color = blue, size = 1.2, alpha = 0.8) +
+  geom_point(color = blue, shape = "square", size = 1.5) +
+  scale_y_continuous(limits = c(0, max(line_yr$freq)+2),
+                     breaks = seq(0, max(line_yr$freq)+2, 4)) +
   scale_x_continuous(limits = c(2005, 2020)) +
-  facet_wrap(~ground, ncol = 2,
+  facet_wrap(~region, ncol = 2,
              scales = "free") +
   theme_minimal() +
   theme(text = element_text(family = "UGent Panno Text"),
         panel.grid.minor = element_blank(),
-        panel.spacing.y=unit(1.5, "lines")) +
-  labs(title = "Trend in the number of correspondence tests by discrimination ground",
+        panel.spacing.y = unit(1.5, "lines"),
+        axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
+        axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
+        plot.title.position = "plot") +
+  labs(title = "Trend in the number of correspondence tests by region",
+       subtitle = "Considering regions where at least five tests were performed",
        x = "Year", y = "Count")
 ```
 
-```{r analysic country, echo = FALSE, warning = FALSE, fig.height = 8}
-long_yc <- data %>%
-  mutate(country = case_when(str_detect(country_of_analysis, "cross-national") ~ "Cross-national",
-                             !str_detect(country_of_analysis, "cross-national") ~ country_of_analysis)) %>%
-  select(year, country) %>%
-  group_by(country, year) %>%
+<p style="line-height:1; font-style:italic"><font size="2"> Notes. The values on the x-axis represent the year the study was first published. If the study is a peer-reviewed manuscript, this is the year it was first published in the journal issue. If the study is a non-peer-reviewed manuscript, this is the year it was first published online. The regional classification is based on the United Nations Geoscheme. </font></p>
+
+```{r analysis subregion, echo = FALSE, warning = FALSE, fig.height = 6}
+long_ysr <- data %>%
+  select(year_first_pub, region, subregion) %>%
+  group_by(region, subregion, year_first_pub) %>%
   summarise(freq = n(), .groups = "keep") %>%
   drop_na() %>%
   ungroup()
 
-years <- rep(min(long_yc$year):max(long_yc$year), long_yc$country %>% unique %>% length())
-countries <- rep(long_yc$country %>% unique, long_yc$year %>% unique %>% length())
+reg_subreg <- long_ysr %>% select(region, subregion) %>% unique()
 
-frame_yc <- tibble(year = years %>% sort(),
-                   country = countries)
+years <- rep(min(long_ysr$year_first_pub):max(long_ysr$year_first_pub),
+             long_ysr$subregion %>% unique %>% length())
+subregions <- rep(long_ysr$subregion %>% unique,
+                  long_ysr$year_first_pub %>% unique %>% length())
 
-long_yc <- left_join(frame_yc, long_yc, by = c("year", "country"))
-long_yc$freq[is.na(long_yc$freq)] <- 0
+frame_ysr <- tibble(year_first_pub = years %>% sort(),
+                    subregion = subregions)
 
-bar_yc <- long_yc %>%
-  group_by(country) %>%
-  filter(sum(freq) >= 5) %>% #Retaining grounds with at least 5 observations
+long_ysr <- left_join(frame_ysr, long_ysr %>% select(-region), by = c("year_first_pub", "subregion"))
+long_ysr$freq[is.na(long_ysr$freq)] <- 0
+
+long_ysr <- left_join(long_ysr, reg_subreg, by = "subregion")
+
+line_ysr <- long_ysr %>%
+  group_by(subregion) %>%
+  filter(sum(freq) >= 5) %>% #Retaining subregions with at least 5 observations
   ungroup()
 
-bar_yc <- bar_yc %>%
-  mutate(country2 = country)
-bar_yc %>%
-  filter(year <= 2020) %>%
-  ggplot(aes(x = year, y = freq)) +
-  geom_line(data = bar_yc %>% select(-country),
-            aes(group = country2), color = "grey", size = 0.6, alpha = 0.5) +
-  geom_line(aes(color = country), color = "#1E64C8", size = 1.2, alpha = 0.8) +
-  geom_point(color = "#1E64C8", shape = "square", size = 1.5) +
-  scale_y_continuous(limits = c(0, max(bar_yg$freq)+2)) +
+ysr_order_subreg <- line_ysr %>%
+  group_by(subregion) %>%
+  summarise(sumfreq = sum(freq)) %>%
+  arrange(desc(sumfreq)) %>%
+  ungroup()
+
+ysr_order_reg <- line_ysr %>%
+  group_by(region) %>%
+  summarise(sumfreq = sum(freq)) %>%
+  arrange(desc(sumfreq)) %>%
+  ungroup()
+
+line_ysr$subregion <- factor(line_ysr$subregion, levels = ysr_order_subreg$subregion)
+line_ysr$region <- factor(line_ysr$region, levels = ysr_order_reg$region)
+
+line_ysr <- line_ysr %>%
+  mutate(subregion2 = subregion)
+
+line_ysr %>%
+  filter(region == "Europe") %>% #Filter on region (Europe)
+  ggplot(aes(x = year_first_pub, y = freq)) +
+  geom_line(data = line_ysr %>% filter(region == "Europe") %>% select(-subregion),
+            aes(group = subregion2), color = black, size = 0.6, alpha = 0.2) +
+  geom_line(aes(color = region), color = blue, size = 1.2, alpha = 0.8) +
+  geom_point(color = blue, shape = "square", size = 1.5) +
+  scale_y_continuous(limits = c(0, 15),
+                     breaks = seq(0, 15, 5)) +
   scale_x_continuous(limits = c(2005, 2020)) +
-  facet_wrap(~country, ncol = 2,
+  facet_wrap(~subregion, ncol = 2,
              scales = "free") +
   theme_minimal() +
   theme(text = element_text(family = "UGent Panno Text"),
         panel.grid.minor = element_blank(),
-        panel.spacing.y = unit(1.5, "lines")) +
-  labs(title = "Trend in the number of correspondence tests by country",
+        panel.spacing.y = unit(1.5, "lines"),
+        axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
+        axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
+        plot.title.position = "plot") +
+  labs(title = "Trend in the number of correspondence tests by region (Europe)",
+       subtitle = "Considering subregions where at least five tests were performed",
        x = "Year", y = "Count")
+```
+
+```{r analysis subregion 2, echo = FALSE, warning = FALSE, fig.height = 3.5}
+line_ysr %>%
+  filter(region == "Americas") %>% #Filter on region (Americas)
+  ggplot(aes(x = year_first_pub, y = freq)) +
+  geom_line(data = line_ysr %>% filter(region == "Americas") %>% select(-subregion),
+            aes(group = subregion2), color = black, size = 0.6, alpha = 0.2) +
+  geom_line(aes(color = region), color = blue, size = 1.2, alpha = 0.8) +
+  geom_point(color = blue, shape = "square", size = 1.5) +
+  scale_y_continuous(limits = c(0, 15),
+                     breaks = seq(0, 15, 5)) +
+  scale_x_continuous(limits = c(2005, 2020)) +
+  facet_wrap(~subregion, ncol = 2,
+             scales = "free") +
+  theme_minimal() +
+  theme(text = element_text(family = "UGent Panno Text"),
+        panel.grid.minor = element_blank(),
+        panel.spacing.y = unit(1.5, "lines"),
+        axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
+        axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
+        plot.title.position = "plot") +
+  labs(title = "Trend in the number of correspondence tests by region (Americas)",
+       subtitle = "Considering subregions where at least five tests were performed",
+       x = "Year", y = "Count")
+
+line_ysr %>%
+  filter(region == "Asia") %>% #Filter on region (Asia)
+  ggplot(aes(x = year_first_pub, y = freq)) +
+  geom_line(data = line_ysr %>% filter(region == "Asia") %>% select(-subregion),
+            aes(group = subregion2), color = black, size = 0.6, alpha = 0.2) +
+  geom_line(aes(color = region), color = blue, size = 1.2, alpha = 0.8) +
+  geom_point(color = blue, shape = "square", size = 1.5) +
+  scale_y_continuous(limits = c(0, 15),
+                     breaks = seq(0, 15, 5)) +
+  scale_x_continuous(limits = c(2005, 2020)) +
+  facet_wrap(~subregion, ncol = 2,
+             scales = "free") +
+  theme_minimal() +
+  theme(text = element_text(family = "UGent Panno Text"),
+        panel.grid.minor = element_blank(),
+        panel.spacing.y = unit(1.5, "lines"),
+        axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
+        axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
+        plot.title.position = "plot") +
+  labs(title = "Trend in the number of correspondence tests by region (Asia)",
+       subtitle = "Considering subregions where at least five tests were performed",
+       x = "Year", y = "Count")
+```
+
+```{r analysis effect, echo = FALSE, warning = FALSE, fig.height = 6}
+effect <- data %>%
+  select(ground, effect_category) %>%
+  filter(effect_category != "N/A") %>%
+  group_by(ground, effect_category) %>%
+  summarise(freq = n(), .groups = "keep") %>%
+  drop_na() %>%
+  ungroup()
+
+grounds <- rep(effect$ground %>% unique, effect$effect_category %>% unique %>% length())
+effects <- rep(effect$effect_category %>% unique, effect$ground %>% unique %>% length())
+
+frame_effect <- tibble(ground = grounds %>% sort(),
+                       effect_category = effects)
+
+long_effect <- left_join(frame_effect, effect, by = c("ground", "effect_category"))
+long_effect$freq[is.na(long_effect$freq)] <- 0
+
+bar_effect <- long_effect
+
+bar_effect$effect_category <- factor(bar_effect$effect_category,
+                                     levels = c("None", "Mixed", "Positive", "Negative"))
+
+bar_effect <- bar_effect %>%
+  group_by(ground) %>%
+  #filter(sum(freq) >= 2) %>% #Retaining grounds with at least 2 observations
+  ungroup()
+
+ground_order <- bar_effect %>%
+  group_by(ground) %>%
+  summarise(sumfreq = sum(freq)) %>%
+  arrange(desc(sumfreq)) %>%
+  ungroup()
+
+bar_effect$ground <- factor(bar_effect$ground, levels = ground_order$ground)
+
+bar_effect %>%
+  ggplot(aes(x = ground, y = freq, fill = effect_category)) +
+  geom_bar(position = "stack", stat = "identity") +
+  scale_y_continuous(breaks = seq(0,80,10)) +
+  scale_fill_manual(values = c("#e6e6e6", "#cccccc", green, blue),
+                    name = "Effect:") +
+  coord_flip() +
+  theme_minimal() +
+  theme(text = element_text(family = "UGent Panno Text"),
+        panel.grid.minor = element_blank(),
+        legend.position = "bottom",
+        axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
+        axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
+        plot.title.position = "plot") +
+  labs(title = "Effect of the treatment on the call-back outomes by discrimination ground",
+       #subtitle = "For discrimination grounds which were tested at least twice",
+       x = "Discrimination ground", y = "Count")
+```
+
+```{r analysis effect 2, echo = FALSE, warning = FALSE, fig.height = 15}
+effect_reg <- data %>%
+  select(ground, region, effect_category) %>%
+  filter(effect_category != "N/A") %>%
+  group_by(ground, region, effect_category) %>%
+  summarise(freq = n(), .groups = "keep") %>%
+  drop_na() %>%
+  ungroup()
+
+ground_reg <- effect_reg %>% select(ground, region) %>% unique()
+
+grounds <- rep(effect_reg$ground %>% unique,
+               effect_reg$effect_category %>% unique %>% length()*effect_reg$region %>% unique %>% length())
+effects <- rep(effect_reg$effect_category %>% unique,
+               effect_reg$ground %>% unique %>% length()*effect_reg$region %>% unique %>% length())
+regions <- rep(effect_reg$region %>% unique,
+               effect_reg$ground %>% unique %>% length()*effect_reg$effect_category %>% unique %>% length())
+
+frame_effect_reg <- tibble(ground = grounds %>% sort(),
+                           effect_category = effects,
+                           region = regions)
+
+long_effect_reg <- left_join(frame_effect_reg, effect_reg,
+                             by = c("ground", "effect_category","region"))
+long_effect_reg$freq[is.na(long_effect_reg$freq)] <- 0
+
+bar_effect_reg <- long_effect_reg
+
+bar_effect_reg$effect_category <- factor(bar_effect_reg$effect_category,
+                                         levels = c("None", "Mixed", "Positive", "Negative"))
+
+bar_effect_reg <- bar_effect_reg %>%
+  group_by(ground) %>%
+  #filter(sum(freq) >= 2) %>% #Retaining grounds with at least 2 observations
+  ungroup()
+
+ground_order_reg <- bar_effect_reg %>%
+  group_by(region) %>%
+  summarise(sumfreq = sum(freq)) %>%
+  arrange(desc(sumfreq)) %>%
+  ungroup()
+
+ground_order <- bar_effect_reg %>%
+  group_by(ground) %>%
+  summarise(sumfreq = sum(freq)) %>%
+  arrange(desc(sumfreq)) %>%
+  ungroup()
+
+bar_effect_reg$region <- factor(bar_effect_reg$region, levels = ground_order_reg$region)
+bar_effect_reg$ground <- factor(bar_effect_reg$ground, levels = ground_order$ground)
+
+bar_effect_reg <- bar_effect_reg %>%
+  group_by(region) %>%
+  mutate(sumfreq = sum(freq)) %>%
+  filter(sumfreq >= 5) %>% #Retaining regions with at least 5 observations
+  select(-sumfreq) %>%
+  ungroup()
+
+bar_effect_reg <- bar_effect_reg %>%
+  mutate(region2 = region)
+
+bar_effect_reg %>%
+  ggplot(aes(x = ground, y = freq, fill = effect_category)) +
+  geom_bar(position = "stack", stat = "identity") +
+  scale_y_continuous(limits = c(0,60), breaks = seq(0,60,10)) +
+  scale_fill_manual(values = c("#e6e6e6", "#cccccc", green, blue),
+                    name = "Effect:") +
+  coord_flip() +
+  facet_wrap(~region, ncol = 1,
+             scales = "free") +
+  theme_minimal() +
+  theme(text = element_text(family = "UGent Panno Text"),
+        panel.grid.minor = element_blank(),
+        legend.position = "bottom",
+        axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
+        axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
+        plot.title.position = "plot") +
+  labs(title = "Effect of the treatment on the call-back outomes by region and discrimination ground",
+       subtitle = "Considering subregions where at least five tests were performed",
+       x = "Discrimination ground", y = "Count")
 ```
 
 ### The register
 
 ```{r kable, echo = FALSE}
-table <- data %>% select(-ground_number, -ground, -authors, -effect_category)
-names(table) <- c("Treatment Group", "Control Group", "Country of Analysis", "Study", "Year", "Effect", "url")
+table <- data %>%
+  select(treatment_group, control_group, country, study, year_first_pub, effect_sign, url)
+names(table) <- c("Treatment Group", "Control Group", "Country", "Study", "Year", "Effect", "url")
 
 table <- table %>% #Adding links to the studies
   mutate(Study = paste0('<a href="', url, '" target="_blank">', Study, '</a>')) %>%
@@ -153,7 +410,7 @@ table <- table %>% #Adding links to the studies
 grounds <- data$ground %>% unique
 
 table %>%
-  kable(format = "html", escape = FALSE) %>% #Escape option is vital to make links work
+  kable(format = "html", escape = FALSE) %>% #'escape = FALSE' is vital to make links work
   kable_styling(font_size = 12) %>%
   #column_spec(5, monospace = TRUE) %>% #this should be defined before collapse_*
   collapse_rows(c(1:3), valign = "top", target = 1) %>%
@@ -171,8 +428,11 @@ table %>%
                       "Political orientation" = nrow(data %>% filter(ground == grounds[12])),
                       "Union affiliation" = nrow(data %>% filter(ground == grounds[13])),
                       "Physical appearance" = nrow(data %>% filter(ground == grounds[14]))),
-             indent = FALSE)
+             indent = FALSE) %>%
+  add_footnote(label = c("The values in the 'Year' column are based on the year the study was first published. If the study is a peer-reviewed manuscript, this is the year it was first published in the journal issue. If the study is a non-peer-reviewed manuscript, this is the year it was first published online.",
+                         "The symbols in the 'Effect' column illustrate the effect of the treatment group on the call-back outcomes in the correspondence test. The + (0) ((-)) symbol indicates an overall significantly positive (neutral) ((negative)) effect."),
+               notation = "none")
 ```
 
 <br></br>
-_This page was last updated `r Sys.Date()`._
+<font size="3"> _This page was last updated `r Sys.Date()`._ </font>

@@ -1,5 +1,5 @@
 ---
-title: Register of correspondence tests
+title: "Register of correspondence tests on hiring discrimination (2005-2020)"
 url: "/cortest"
 author: " "
 slug: cortest
@@ -21,9 +21,19 @@ ShowPostNavLinks: false
 
 <img src="/cortest_files/figure-html/analysis trend-1.png" width="672" />
 
-<img src="/cortest_files/figure-html/analysis ground-1.png" width="672" />
+<p style="line-height:1; font-style:italic"><font size="1"> Notes. The solid (dashed) line represents the year the study was first published (the year in which the study appeared in the journal issue). </font></p>
 
-<img src="/cortest_files/figure-html/analysic country-1.png" width="672" />
+<img src="/cortest_files/figure-html/analysis region-1.png" width="672" />
+
+<p style="line-height:1; font-style:italic"><font size="2"> Notes. The values on the x-axis represent the year the study was first published. If the study is a peer-reviewed manuscript, this is the year it was first published in the journal issue. If the study is a non-peer-reviewed manuscript, this is the year it was first published online. The regional classification is based on the United Nations Geoscheme. </font></p>
+
+<img src="/cortest_files/figure-html/analysis subregion-1.png" width="672" />
+
+<img src="/cortest_files/figure-html/analysis subregion 2-1.png" width="672" /><img src="/cortest_files/figure-html/analysis subregion 2-2.png" width="672" />
+
+<img src="/cortest_files/figure-html/analysis effect-1.png" width="672" />
+
+<img src="/cortest_files/figure-html/analysis effect 2-1.png" width="672" />
 
 ### The register
 
@@ -32,14 +42,14 @@ ShowPostNavLinks: false
   <tr>
    <th style="text-align:left;"> Treatment Group </th>
    <th style="text-align:left;"> Control Group </th>
-   <th style="text-align:left;"> Country of Analysis </th>
+   <th style="text-align:left;"> Country </th>
    <th style="text-align:left;"> Study </th>
    <th style="text-align:right;"> Year </th>
    <th style="text-align:left;"> Effect </th>
   </tr>
  </thead>
 <tbody>
-  <tr grouplength="84"><td colspan="6" style="border-bottom: 1px solid;"><strong>Race and national origin</strong></td></tr>
+  <tr grouplength="88"><td colspan="6" style="border-bottom: 1px solid;"><strong>Race and national origin</strong></td></tr>
 <tr>
    <td style="text-align:left;vertical-align: top !important;" rowspan="3"> African American name </td>
    <td style="text-align:left;vertical-align: top !important;" rowspan="3"> Anglo-Saxon name </td>
@@ -53,7 +63,7 @@ ShowPostNavLinks: false
    
    
    <td style="text-align:left;"> <a href="https://doi.org/10.1080/01639625.2019.1596539" target="_blank">Leasure &amp; Andersen (2020)</a> </td>
-   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 2019 </td>
    <td style="text-align:left;"> 0/- </td>
   </tr>
   <tr>
@@ -73,19 +83,11 @@ ShowPostNavLinks: false
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> African or Arab name </td>
-   <td style="text-align:left;"> Native name </td>
-   <td style="text-align:left;"> Sweden </td>
-   <td style="text-align:left;"> <a href="https://ideas.repec.org/p/hhs/sulcis/2007_007.html" target="_blank">Bursell (2007)</a> </td>
-   <td style="text-align:right;"> 2007 </td>
-   <td style="text-align:left;"> - </td>
-  </tr>
-  <tr>
    <td style="text-align:left;vertical-align: top !important;" rowspan="3"> African or Hispanic name </td>
    <td style="text-align:left;vertical-align: top !important;" rowspan="2"> Anglo-Saxon name </td>
    <td style="text-align:left;vertical-align: top !important;" rowspan="2"> United States </td>
    <td style="text-align:left;"> <a href="http://dx.doi.org/10.1080/13504851.2015.1114571" target="_blank">Darolia et al. (2016)</a> </td>
-   <td style="text-align:right;"> 2016 </td>
+   <td style="text-align:right;"> 2015 </td>
    <td style="text-align:left;"> 0 </td>
   </tr>
   <tr>
@@ -181,7 +183,7 @@ ShowPostNavLinks: false
    <td style="text-align:left;vertical-align: top !important;" rowspan="4"> Native name </td>
    <td style="text-align:left;vertical-align: top !important;" rowspan="2"> Netherlands </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1093/sf/sot124" target="_blank">Blommaert et al. (2014)</a> </td>
-   <td style="text-align:right;"> 2014 </td>
+   <td style="text-align:right;"> 2013 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -189,7 +191,7 @@ ShowPostNavLinks: false
    
    
    <td style="text-align:left;"> <a href="http://dx.doi.org/10.1002/job.769" target="_blank">Derous et al. (2012)</a> </td>
-   <td style="text-align:right;"> 2012 </td>
+   <td style="text-align:right;"> 2011 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -204,8 +206,8 @@ ShowPostNavLinks: false
    
    
    
-   <td style="text-align:left;"> <a href="https://doi.org/10.1111/imre.12170" target="_blank">Arai et al. (2015)</a> </td>
-   <td style="text-align:right;"> 2015 </td>
+   <td style="text-align:left;"> <a href="https://doi.org/10.1111/imre.12170" target="_blank">Arai et al. (2016)</a> </td>
+   <td style="text-align:right;"> 2016 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -213,14 +215,14 @@ ShowPostNavLinks: false
    <td style="text-align:left;"> Native origin </td>
    <td style="text-align:left;"> France </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1111/jems.12291" target="_blank">Manant et al. (2019)</a> </td>
-   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:right;"> 2018 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Asian domestic-born; Asian domestic-born, white domestic-born, white foreign-born </td>
    <td style="text-align:left;"> White domestic-born; Asian foreign-born </td>
    <td style="text-align:left;"> United States </td>
-   <td style="text-align:left;"> <a href="https://doi.org/10.1108/PR-06-2018-0229" target="_blank">Lambert &amp; Akinlade (2019)</a> </td>
+   <td style="text-align:left;"> <a href="https://doi.org/10.1108/PR-06-2018-0229" target="_blank">Lambert &amp; Akinlade (2020)</a> </td>
    <td style="text-align:right;"> 2019 </td>
    <td style="text-align:left;"> - </td>
   </tr>
@@ -285,7 +287,7 @@ ShowPostNavLinks: false
    
    
    <td style="text-align:left;"> <a href="https://doi.org/10.1093/sf/sou111" target="_blank">Gaddis (2015)</a> </td>
-   <td style="text-align:right;"> 2015 </td>
+   <td style="text-align:right;"> 2014 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -333,7 +335,7 @@ ShowPostNavLinks: false
    <td style="text-align:left;"> Native name </td>
    <td style="text-align:left;"> Australia </td>
    <td style="text-align:left;"> <a href="http://dx.doi.org/10.1111/j.1468-0084.2011.00664.x" target="_blank">Booth et al. (2012)</a> </td>
-   <td style="text-align:right;"> 2012 </td>
+   <td style="text-align:right;"> 2011 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -353,12 +355,20 @@ ShowPostNavLinks: false
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Cuban, Dominican, Ecuadorian, Mexican, Puerto Rican, or Salvadorian name </td>
-   <td style="text-align:left;"> Anglo-Saxon or native name </td>
-   <td style="text-align:left;"> Spain &amp; United States (cross-national experiment) </td>
+   <td style="text-align:left;vertical-align: top !important;" rowspan="2"> Cuban, Dominican, Ecuadorian, Mexican, Puerto Rican, or Salvadorian name </td>
+   <td style="text-align:left;vertical-align: top !important;" rowspan="2"> Anglo-Saxon or native name </td>
+   <td style="text-align:left;"> Spain </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1080/1369183X.2019.1622806" target="_blank">Yemane &amp; Fernández-Reino (2021)</a> </td>
-   <td style="text-align:right;"> 2021 </td>
-   <td style="text-align:left;"> 0/- </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:left;"> 0 </td>
+  </tr>
+  <tr>
+   
+   
+   <td style="text-align:left;"> United States </td>
+   <td style="text-align:left;"> <a href="https://doi.org/10.1080/1369183X.2019.1622806" target="_blank">Yemane &amp; Fernández-Reino (2021)</a> </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:left;"> - </td>
   </tr>
   <tr>
    <td style="text-align:left;vertical-align: top !important;" rowspan="2"> Dark skin </td>
@@ -389,15 +399,31 @@ ShowPostNavLinks: false
    <td style="text-align:left;"> Native name </td>
    <td style="text-align:left;"> Finland </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1111/soin.12276" target="_blank">Ahmad (2020)</a> </td>
-   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 2019 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Foreign-born; Middle Eastern or African origin </td>
-   <td style="text-align:left;"> Domestic-born; European origin </td>
-   <td style="text-align:left;"> Germany, Netherlands, Norway, Spain, &amp; United Kingdom (cross-national experiment) </td>
+   <td style="text-align:left;vertical-align: top !important;" rowspan="3"> Foreign-born; Middle Eastern or African origin </td>
+   <td style="text-align:left;vertical-align: top !important;" rowspan="3"> Domestic-born; European origin </td>
+   <td style="text-align:left;"> Germany &amp; Netherlands </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1080/1369183X.2019.1622825" target="_blank">Veit &amp; Thijssen (2021)</a> </td>
-   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:left;"> - </td>
+  </tr>
+  <tr>
+   
+   
+   <td style="text-align:left;"> Norway &amp; United Kingdom </td>
+   <td style="text-align:left;"> <a href="https://doi.org/10.1080/1369183X.2019.1622825" target="_blank">Veit &amp; Thijssen (2021)</a> </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:left;"> - </td>
+  </tr>
+  <tr>
+   
+   
+   <td style="text-align:left;"> Spain </td>
+   <td style="text-align:left;"> <a href="https://doi.org/10.1080/1369183X.2019.1622825" target="_blank">Veit &amp; Thijssen (2021)</a> </td>
+   <td style="text-align:right;"> 2019 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -405,7 +431,7 @@ ShowPostNavLinks: false
    <td style="text-align:left;"> Native name </td>
    <td style="text-align:left;"> Switzerland </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1177%2F1747016118820497" target="_blank">Zschirnt (2020)</a> </td>
-   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 2019 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -429,7 +455,7 @@ ShowPostNavLinks: false
    <td style="text-align:left;"> Han Chinese name </td>
    <td style="text-align:left;"> China </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1016/j.jce.2019.12.001" target="_blank">Hou et al. (2020)</a> </td>
-   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 2019 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -477,7 +503,7 @@ ShowPostNavLinks: false
    <td style="text-align:left;"> Chinese name </td>
    <td style="text-align:left;"> Malaysia </td>
    <td style="text-align:left;"> <a href="http://dx.doi.org/10.1080/13547860.2015.1055948" target="_blank">Lee &amp; Khalid (2016)</a> </td>
-   <td style="text-align:right;"> 2016 </td>
+   <td style="text-align:right;"> 2015 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -557,12 +583,12 @@ ShowPostNavLinks: false
    <td style="text-align:left;"> Native name </td>
    <td style="text-align:left;"> China </td>
    <td style="text-align:left;"> <a href="http://dx.doi.org/10.1186/2193-9039-1-12" target="_blank">Maurer-Fazio (2013)</a> </td>
-   <td style="text-align:right;"> 2013 </td>
+   <td style="text-align:right;"> 2012 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
-   <td style="text-align:left;vertical-align: top !important;" rowspan="4"> Moroccan name </td>
-   <td style="text-align:left;vertical-align: top !important;" rowspan="4"> Native name </td>
+   <td style="text-align:left;vertical-align: top !important;" rowspan="5"> Moroccan name </td>
+   <td style="text-align:left;vertical-align: top !important;" rowspan="5"> Native name </td>
    <td style="text-align:left;vertical-align: top !important;" rowspan="3"> France </td>
    <td style="text-align:left;"> <a href="http://www.parisschoolofeconomics.eu/IMG/pdf/testing_retail_t2.pdf" target="_blank">Berson (2012)</a> </td>
    <td style="text-align:right;"> 2012 </td>
@@ -587,9 +613,17 @@ ShowPostNavLinks: false
   <tr>
    
    
-   <td style="text-align:left;"> Netherlands &amp; Spain (cross-national experiment) </td>
+   <td style="text-align:left;"> Netherlands </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1080/1369183X.2019.1622824" target="_blank">Ramos et al. (2021)</a> </td>
-   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:left;"> - </td>
+  </tr>
+  <tr>
+   
+   
+   <td style="text-align:left;"> Spain </td>
+   <td style="text-align:left;"> <a href="https://doi.org/10.1080/1369183X.2019.1622824" target="_blank">Ramos et al. (2021)</a> </td>
+   <td style="text-align:right;"> 2019 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -597,7 +631,7 @@ ShowPostNavLinks: false
    <td style="text-align:left;"> Native name </td>
    <td style="text-align:left;"> Norway </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1093/esr/jcw030" target="_blank">Birkelund et al. (2017)</a> </td>
-   <td style="text-align:right;"> 2017 </td>
+   <td style="text-align:right;"> 2016 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -625,11 +659,11 @@ ShowPostNavLinks: false
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
-   <td style="text-align:left;vertical-align: top !important;" rowspan="5"> Pakistani name </td>
-   <td style="text-align:left;vertical-align: top !important;" rowspan="5"> Native name </td>
+   <td style="text-align:left;vertical-align: top !important;" rowspan="6"> Pakistani name </td>
+   <td style="text-align:left;vertical-align: top !important;" rowspan="6"> Native name </td>
    <td style="text-align:left;vertical-align: top !important;" rowspan="4"> Norway </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1093/esr/jcw030" target="_blank">Birkelund et al. (2017)</a> </td>
-   <td style="text-align:right;"> 2017 </td>
+   <td style="text-align:right;"> 2016 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -659,9 +693,17 @@ ShowPostNavLinks: false
   <tr>
    
    
-   <td style="text-align:left;"> Norway &amp; United Kingdom (cross-national experiment) </td>
+   <td style="text-align:left;"> United Kingdom </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1080/1369183X.2019.1622777" target="_blank">Larsen &amp; Di Stasio (2021)</a> </td>
-   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:left;"> - </td>
+  </tr>
+  <tr>
+   
+   
+   <td style="text-align:left;"> Norway </td>
+   <td style="text-align:left;"> <a href="https://doi.org/10.1080/1369183X.2019.1622777" target="_blank">Larsen &amp; Di Stasio (2021)</a> </td>
+   <td style="text-align:right;"> 2019 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -669,7 +711,7 @@ ShowPostNavLinks: false
    <td style="text-align:left;"> European origin </td>
    <td style="text-align:left;"> Russia </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1093/esr/jcz045" target="_blank">Bessudnov &amp; Shcherbak (2020)</a> </td>
-   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 2019 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -693,15 +735,15 @@ ShowPostNavLinks: false
    
    <td style="text-align:left;"> Germany </td>
    <td style="text-align:left;"> <a href="http://dx.doi.org/10.1111/j.1468-0475.2011.00538.x" target="_blank">Kaas &amp; Manger (2012)</a> </td>
-   <td style="text-align:right;"> 2012 </td>
+   <td style="text-align:right;"> 2011 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
    
    
-   <td style="text-align:left;"> Germany &amp; Netherlands (cross-national experiment) </td>
+   <td style="text-align:left;"> Germany &amp; Netherlands </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1080/1369183X.2019.1622793" target="_blank">Thijssen et al. (2021)</a> </td>
-   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 2019 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -734,7 +776,7 @@ ShowPostNavLinks: false
    <td style="text-align:left;vertical-align: top !important;" rowspan="3"> Being a father </td>
    <td style="text-align:left;"> Germany </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1093/esr/jcz056" target="_blank">Hipp (2020)</a> </td>
-   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 2019 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -756,7 +798,7 @@ ShowPostNavLinks: false
   <tr>
    <td style="text-align:left;"> Being a mother with older children </td>
    <td style="text-align:left;"> Being a mother with younger children </td>
-   <td style="text-align:left;"> Austria, Germany, &amp; Switzerland (cross-national experiment) </td>
+   <td style="text-align:left;"> Austria, Germany, &amp; Switzerland </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1016/j.labeco.2019.04.009" target="_blank">Becker et al. (2019)</a> </td>
    <td style="text-align:right;"> 2019 </td>
    <td style="text-align:left;"> + </td>
@@ -773,7 +815,7 @@ ShowPostNavLinks: false
    <td style="text-align:left;vertical-align: top !important;" rowspan="29"> Female gender </td>
    <td style="text-align:left;vertical-align: top !important;" rowspan="29"> Male gender </td>
    <td style="text-align:left;"> Algeria </td>
-   <td style="text-align:left;"> <a href="https://hal-upec-upem.archives-ouvertes.fr/hal-01683421/document" target="_blank">Benhabib &amp; Adair (2017)</a> </td>
+   <td style="text-align:left;"> <a href="https://www.researchgate.net/profile/Philippe-Adair/publication/316256285_Hiring_Discrimination_on_the_Algerian_Labour_Market_an_Assessment_with_Testing/links/58f7c9be4585158d8a6c20b9/Hiring-Discrimination-on-the-Algerian-Labour-Market-an-Assessment-with-Testing.pdf" target="_blank">Benhabib &amp; Adair (2017)</a> </td>
    <td style="text-align:right;"> 2017 </td>
    <td style="text-align:left;"> + </td>
   </tr>
@@ -837,7 +879,7 @@ ShowPostNavLinks: false
    
    
    
-   <td style="text-align:left;"> <a href="https://halshs.archives-ouvertes.fr/halshs-01878917/document" target="_blank">Duguet et al. (2017)</a> </td>
+   <td style="text-align:left;"> <a href="https://dx.doi.org/10.2139/ssrn.3083957" target="_blank">Duguet et al. (2017)</a> </td>
    <td style="text-align:right;"> 2017 </td>
    <td style="text-align:left;"> - </td>
   </tr>
@@ -846,7 +888,7 @@ ShowPostNavLinks: false
    
    
    <td style="text-align:left;"> <a href="http://dx.doi.org/10.1016/j.labeco.2006.01.006" target="_blank">Petit (2007)</a> </td>
-   <td style="text-align:right;"> 2007 </td>
+   <td style="text-align:right;"> 2006 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -910,7 +952,7 @@ ShowPostNavLinks: false
    
    
    <td style="text-align:left;"> <a href="https://doi.org/10.1080/1369183X.2019.1622806" target="_blank">Yemane &amp; Fernández-Reino (2021)</a> </td>
-   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 2019 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -998,7 +1040,7 @@ ShowPostNavLinks: false
    
    
    <td style="text-align:left;"> <a href="https://doi.org/10.1080/1369183X.2019.1622806" target="_blank">Yemane &amp; Fernández-Reino (2021)</a> </td>
-   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 2019 </td>
    <td style="text-align:left;"> + </td>
   </tr>
   <tr>
@@ -1025,7 +1067,7 @@ ShowPostNavLinks: false
    <td style="text-align:right;"> 2020 </td>
    <td style="text-align:left;"> - </td>
   </tr>
-  <tr grouplength="13"><td colspan="6" style="border-bottom: 1px solid;"><strong>Religion</strong></td></tr>
+  <tr grouplength="17"><td colspan="6" style="border-bottom: 1px solid;"><strong>Religion</strong></td></tr>
 <tr>
    <td style="text-align:left;"> Buddhist or Hindu </td>
    <td style="text-align:left;"> No religious affiliation </td>
@@ -1046,13 +1088,13 @@ ShowPostNavLinks: false
    <td style="text-align:left;"> Expressing a religious identity </td>
    <td style="text-align:left;"> No religious identity </td>
    <td style="text-align:left;"> United States </td>
-   <td style="text-align:left;"> <a href="http://dx.doi.org/10.1177/2329496514524541" target="_blank">Wright et al. (2013)</a> </td>
-   <td style="text-align:right;"> 2013 </td>
+   <td style="text-align:left;"> <a href="http://dx.doi.org/10.1177/2329496514524541" target="_blank">Wright et al. (2014)</a> </td>
+   <td style="text-align:right;"> 2014 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
-   <td style="text-align:left;vertical-align: top !important;" rowspan="9"> Muslim </td>
-   <td style="text-align:left;vertical-align: top !important;" rowspan="7"> Majority religion </td>
+   <td style="text-align:left;vertical-align: top !important;" rowspan="13"> Muslim </td>
+   <td style="text-align:left;vertical-align: top !important;" rowspan="11"> Majority religion </td>
    <td style="text-align:left;vertical-align: top !important;" rowspan="3"> France </td>
    <td style="text-align:left;"> <a href="http://dx.doi.org/10.1073/pnas.1015550107" target="_blank">Adida et al. (2010)</a> </td>
    <td style="text-align:right;"> 2010 </td>
@@ -1077,9 +1119,33 @@ ShowPostNavLinks: false
   <tr>
    
    
-   <td style="text-align:left;"> Germany, Netherlands, Norway, Spain, &amp; United Kingdom (cross-national experiment) </td>
+   <td style="text-align:left;"> Germany &amp; Netherlands </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1080/1369183X.2019.1622826" target="_blank">Di Stasio et al. (2021)</a> </td>
-   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:left;"> - </td>
+  </tr>
+  <tr>
+   
+   
+   <td style="text-align:left;"> Spain </td>
+   <td style="text-align:left;"> <a href="https://doi.org/10.1080/1369183X.2019.1622826" target="_blank">Di Stasio et al. (2021)</a> </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:left;"> - </td>
+  </tr>
+  <tr>
+   
+   
+   <td style="text-align:left;"> United Kingdom </td>
+   <td style="text-align:left;"> <a href="https://doi.org/10.1080/1369183X.2019.1622826" target="_blank">Di Stasio et al. (2021)</a> </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:left;"> - </td>
+  </tr>
+  <tr>
+   
+   
+   <td style="text-align:left;"> Norway </td>
+   <td style="text-align:left;"> <a href="https://doi.org/10.1080/1369183X.2019.1622826" target="_blank">Di Stasio et al. (2021)</a> </td>
+   <td style="text-align:right;"> 2019 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -1093,7 +1159,15 @@ ShowPostNavLinks: false
   <tr>
    
    
-   <td style="text-align:left;"> Netherlands &amp; United Kingdom (cross-national experiment) </td>
+   <td style="text-align:left;"> Netherlands </td>
+   <td style="text-align:left;"> <a href="https://www.mdpi.com/2076-0760/6/4/112" target="_blank">Abubaker &amp; Bagley (2017)</a> </td>
+   <td style="text-align:right;"> 2017 </td>
+   <td style="text-align:left;"> - </td>
+  </tr>
+  <tr>
+   
+   
+   <td style="text-align:left;"> United Kingdom </td>
    <td style="text-align:left;"> <a href="https://www.mdpi.com/2076-0760/6/4/112" target="_blank">Abubaker &amp; Bagley (2017)</a> </td>
    <td style="text-align:right;"> 2017 </td>
    <td style="text-align:left;"> - </td>
@@ -1103,8 +1177,8 @@ ShowPostNavLinks: false
    
    <td style="text-align:left;vertical-align: top !important;" rowspan="2"> United States </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1287/mnsc.2018.3269" target="_blank">Acquisti &amp; Fong (2020)</a> </td>
-   <td style="text-align:right;"> 2020 </td>
-   <td style="text-align:left;"> 0/- </td>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:left;"> 0 </td>
   </tr>
   <tr>
    
@@ -1192,7 +1266,7 @@ ShowPostNavLinks: false
    <td style="text-align:left;"> Disclosing a physical injury </td>
    <td style="text-align:left;"> United States </td>
    <td style="text-align:left;"> <a href="http://dx.doi.org/10.1016/j.ssresearch.2015.12.001" target="_blank">Hipes et al. (2016)</a> </td>
-   <td style="text-align:right;"> 2016 </td>
+   <td style="text-align:right;"> 2015 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -1227,7 +1301,7 @@ ShowPostNavLinks: false
    <td style="text-align:right;"> 2013 </td>
    <td style="text-align:left;"> - </td>
   </tr>
-  <tr grouplength="16"><td colspan="6" style="border-bottom: 1px solid;"><strong>Age</strong></td></tr>
+  <tr grouplength="17"><td colspan="6" style="border-bottom: 1px solid;"><strong>Age</strong></td></tr>
 <tr>
    <td style="text-align:left;"> Age 22-23 or age 60-61 </td>
    <td style="text-align:left;"> Age 33-34 or age 42-43 </td>
@@ -1273,7 +1347,7 @@ ShowPostNavLinks: false
    <td style="text-align:left;"> Age 31 </td>
    <td style="text-align:left;"> Sweden </td>
    <td style="text-align:left;"> <a href="http://dx.doi.org/10.1080/13504851.2011.581199" target="_blank">Ahmed et al. (2012)</a> </td>
-   <td style="text-align:right;"> 2012 </td>
+   <td style="text-align:right;"> 2011 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -1333,9 +1407,17 @@ ShowPostNavLinks: false
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Age 57 </td>
-   <td style="text-align:left;"> Age 47 </td>
-   <td style="text-align:left;"> Germany, France, &amp; Spain (cross-national experiment) </td>
+   <td style="text-align:left;vertical-align: top !important;" rowspan="2"> Age 57 </td>
+   <td style="text-align:left;vertical-align: top !important;" rowspan="2"> Age 47 </td>
+   <td style="text-align:left;"> Germany &amp; France </td>
+   <td style="text-align:left;"> <a href="https://doi.org/10.1080/02692171.2015.1021667" target="_blank">Riach (2015)</a> </td>
+   <td style="text-align:right;"> 2015 </td>
+   <td style="text-align:left;"> - </td>
+  </tr>
+  <tr>
+   
+   
+   <td style="text-align:left;"> Spain </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1080/02692171.2015.1021667" target="_blank">Riach (2015)</a> </td>
    <td style="text-align:right;"> 2015 </td>
    <td style="text-align:left;"> - </td>
@@ -1362,7 +1444,7 @@ ShowPostNavLinks: false
    <td style="text-align:left;"> Previous membership in the reserves </td>
    <td style="text-align:left;"> United States </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1177%2F0019793916679601" target="_blank">Figinski (2017)</a> </td>
-   <td style="text-align:right;"> 2017 </td>
+   <td style="text-align:right;"> 2016 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -1378,7 +1460,7 @@ ShowPostNavLinks: false
    
    <td style="text-align:left;vertical-align: top !important;" rowspan="2"> United States </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1080/10242694.2017.1357521" target="_blank">Figinski (2019)</a> </td>
-   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:right;"> 2017 </td>
    <td style="text-align:left;"> + </td>
   </tr>
   <tr>
@@ -1419,7 +1501,7 @@ ShowPostNavLinks: false
    <td style="text-align:left;vertical-align: top !important;" rowspan="2"> Upper-caste </td>
    <td style="text-align:left;vertical-align: top !important;" rowspan="2"> India </td>
    <td style="text-align:left;"> <a href="http://dx.doi.org/10.1016/j.jce.2008.09.002" target="_blank">Banerjee et al. (2009)</a> </td>
-   <td style="text-align:right;"> 2009 </td>
+   <td style="text-align:right;"> 2008 </td>
    <td style="text-align:left;"> 0 </td>
   </tr>
   <tr>
@@ -1443,7 +1525,7 @@ ShowPostNavLinks: false
    <td style="text-align:left;vertical-align: top !important;" rowspan="2"> Residence in neighbourhood with bland reputation </td>
    <td style="text-align:left;"> France </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1177%2F0042098014563470" target="_blank">Bunel et al. (2016)</a> </td>
-   <td style="text-align:right;"> 2016 </td>
+   <td style="text-align:right;"> 2015 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -1491,7 +1573,7 @@ ShowPostNavLinks: false
   <tr>
    <td style="text-align:left;"> Being married and childless </td>
    <td style="text-align:left;"> Being single and childless </td>
-   <td style="text-align:left;"> Austria, Germany, &amp; Switzerland (cross-national experiment) </td>
+   <td style="text-align:left;"> Austria, Germany, &amp; Switzerland </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1016/j.labeco.2019.04.009" target="_blank">Becker et al. (2019)</a> </td>
    <td style="text-align:right;"> 2019 </td>
    <td style="text-align:left;"> - </td>
@@ -1510,7 +1592,7 @@ ShowPostNavLinks: false
    
    <td style="text-align:left;"> Germany </td>
    <td style="text-align:left;"> <a href="http://dx.doi.org/10.1111/irel.12079" target="_blank">Weichselbaumer (2015)</a> </td>
-   <td style="text-align:right;"> 2015 </td>
+   <td style="text-align:right;"> 2014 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -1534,7 +1616,7 @@ ShowPostNavLinks: false
    
    <td style="text-align:left;"> Italy </td>
    <td style="text-align:left;"> <a href="http://dx.doi.org/10.1007/s00148-014-0533-9" target="_blank">Patacchini et al. (2015)</a> </td>
-   <td style="text-align:right;"> 2015 </td>
+   <td style="text-align:right;"> 2014 </td>
    <td style="text-align:left;"> 0 </td>
   </tr>
   <tr>
@@ -1557,7 +1639,7 @@ ShowPostNavLinks: false
    
    
    <td style="text-align:left;"> United Kingdom </td>
-   <td style="text-align:left;"> <a href="http://dx.doi.org/10.1016/j.labeco.2008.12.003" target="_blank">Drydakis (2015)</a> </td>
+   <td style="text-align:left;"> <a href="https://doi.org/10.1177%2F0018726715569855" target="_blank">Drydakis (2015)</a> </td>
    <td style="text-align:right;"> 2015 </td>
    <td style="text-align:left;"> - </td>
   </tr>
@@ -1590,7 +1672,7 @@ ShowPostNavLinks: false
    <td style="text-align:left;"> Opposite sex orientation </td>
    <td style="text-align:left;"> United States </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1287/mnsc.2018.3269" target="_blank">Acquisti &amp; Fong (2020)</a> </td>
-   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 2019 </td>
    <td style="text-align:left;"> 0 </td>
   </tr>
   <tr grouplength="1"><td colspan="6" style="border-bottom: 1px solid;"><strong>Political orientation</strong></td></tr>
@@ -1611,7 +1693,7 @@ ShowPostNavLinks: false
    <td style="text-align:right;"> 2015 </td>
    <td style="text-align:left;"> - </td>
   </tr>
-  <tr groupLength="13"><td colspan="6" style="border-bottom: 1px solid;"><strong>Physical appearance</strong></td></tr>
+  <tr groupLength="12"><td colspan="6" style="border-bottom: 1px solid;"><strong>Physical appearance</strong></td></tr>
 <tr>
    <td style="text-align:left;"> Facial disfigurement in resume picture </td>
    <td style="text-align:left;"> No facial disfigurement in resume picture </td>
@@ -1629,27 +1711,19 @@ ShowPostNavLinks: false
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
-   <td style="text-align:left;vertical-align: top !important;" rowspan="11"> Lower attractiveness of resume picture </td>
-   <td style="text-align:left;vertical-align: top !important;" rowspan="11"> Higher attractiveness of resume picture </td>
+   <td style="text-align:left;vertical-align: top !important;" rowspan="10"> Lower attractiveness of resume picture </td>
+   <td style="text-align:left;vertical-align: top !important;" rowspan="10"> Higher attractiveness of resume picture </td>
    <td style="text-align:left;"> Argentina </td>
    <td style="text-align:left;"> <a href="http://doi.org/10.1016/j.econlet.2012.10.016" target="_blank">Lopez Bóo et al. (2013)</a> </td>
-   <td style="text-align:right;"> 2013 </td>
+   <td style="text-align:right;"> 2012 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
    
    
-   <td style="text-align:left;vertical-align: top !important;" rowspan="2"> Belgium </td>
-   <td style="text-align:left;"> <a href="https://doi.org/10.1177/1461444816687294" target="_blank">Baert (2018)</a> </td>
-   <td style="text-align:right;"> 2018 </td>
-   <td style="text-align:left;"> - </td>
-  </tr>
-  <tr>
-   
-   
-   
+   <td style="text-align:left;"> Belgium </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1177%2F1461444816687294" target="_blank">Baert (2018a)</a> </td>
-   <td style="text-align:right;"> 2018 </td>
+   <td style="text-align:right;"> 2017 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -1657,7 +1731,7 @@ ShowPostNavLinks: false
    
    <td style="text-align:left;vertical-align: top !important;" rowspan="3"> China </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1007/s00148-019-00744-7" target="_blank">Deng et al. (2020)</a> </td>
-   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 2019 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -1681,7 +1755,7 @@ ShowPostNavLinks: false
    
    <td style="text-align:left;"> Israel </td>
    <td style="text-align:left;"> <a href="http://dx.doi.org/10.1287/mnsc.2014.1927" target="_blank">Ruffle &amp; Shtudiner (2015)</a> </td>
-   <td style="text-align:right;"> 2015 </td>
+   <td style="text-align:right;"> 2014 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -1689,7 +1763,7 @@ ShowPostNavLinks: false
    
    <td style="text-align:left;vertical-align: top !important;" rowspan="2"> Italy </td>
    <td style="text-align:left;"> <a href="https://doi.org/10.1007/s40888-020-00194-5" target="_blank">Busetta et al. (2021)</a> </td>
-   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 2020 </td>
    <td style="text-align:left;"> - </td>
   </tr>
   <tr>
@@ -1697,7 +1771,7 @@ ShowPostNavLinks: false
    
    
    <td style="text-align:left;"> <a href="http://dx.doi.org/10.1007/s00148-014-0533-9" target="_blank">Patacchini et al. (2015)</a> </td>
-   <td style="text-align:right;"> 2015 </td>
+   <td style="text-align:right;"> 2014 </td>
    <td style="text-align:left;"> 0 </td>
   </tr>
   <tr>
@@ -1713,11 +1787,19 @@ ShowPostNavLinks: false
    
    <td style="text-align:left;"> Philippines </td>
    <td style="text-align:left;"> <a href="http://dx.doi.org/10.1086/701232" target="_blank">Beam et al. (2020)</a> </td>
-   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 2019 </td>
    <td style="text-align:left;"> - </td>
   </tr>
 </tbody>
+<tfoot>
+<tr>
+<td style = 'padding: 0; border:0;' colspan='100%'><sup></sup> The values in the 'Year' column are based on the year the study was first published. If the study is a peer-reviewed manuscript, this is the year it was first published in the journal issue. If the study is a non-peer-reviewed manuscript, this is the year it was first published online.</td>
+</tr>
+<tr>
+<td style = 'padding: 0; border:0;' colspan='100%'><sup></sup> The symbols in the 'Effect' column illustrate the effect of the treatment group on the call-back outcomes in the correspondence test. The + (0) ((-)) symbol indicates an overall significantly positive (neutral) ((negative)) effect.</td>
+</tr>
+</tfoot>
 </table>
 
 <br></br>
-_This page was last updated 2021-07-11._
+<font size="3"> _This page was last updated 2021-07-12._ </font>
