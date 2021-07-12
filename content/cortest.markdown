@@ -5,7 +5,7 @@ author: " "
 slug: cortest
 ShowToc: false
 TocOpen: false
-draft: false
+draft: true
 ShowReadingTime: false
 ShowShareButtons: false
 ShowPostNavLinks: false
