@@ -1,4 +1,4 @@
 library(readxl)
 library(readr)
-x <- read_xlsx("./data/corregisterv6.xlsx")
-write_rds(x, "./data/corregisterv6.RDS")
+x <- read_xlsx("./data/corregister.xlsx")
+write_rds(x, "./data/corregister.RDS")
