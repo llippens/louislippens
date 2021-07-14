@@ -35,13 +35,13 @@
 }
 
 .cookie-btn {
-    margin-top: .8rem;
+    margin-top: 1.2rem;
     background: #ffd200;
     border: 0;
-    color: #333333;
-    padding: .5rem .8rem;
+    color: #000000;
+    padding: .8rem 1rem;
     font-size: 1rem;
-    margin-bottom: .8rem;
+    margin-bottom: 1.2rem;
     border-radius: .2rem;
     cursor: pointer;
 }

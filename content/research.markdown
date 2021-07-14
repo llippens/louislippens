@@ -19,8 +19,8 @@ always_allow_html: yes
 
 
 ## Publication overview
-The publication overview below is pulled directly from Google Scholar and was last updated on 14 July 2021. Clicking the value in the 'Cites' column will redirect you to the article entry on Google Scholar.
-<table class="table" style="font-size: 12px; margin-left: auto; margin-right: auto;">
+The publication overview below is taken directly from Google Scholar and was last updated on 14 July 2021. Clicking the value in the 'Cites' column will redirect you to the article entry on Google Scholar. This entry provides you with additional details, such as a description of the research.
+<table class="table" style="font-size: 13px; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;"> Title </th>
@@ -70,10 +70,15 @@ The publication overview below is pulled directly from Google Scholar and was la
    <td style="text-align:left;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:u5HHmVD_uO8C" target="_blank">3</a> </td>
   </tr>
 </tbody>
+<tfoot>
+<tr>
+<td style = 'padding: 0; border:0;' colspan='100%'><sup>1</sup> The value in the 'Cites' column also includes citations of previous versions of the article mentioned in the 'Title' column (e.g. citations of a discussion paper which was later published in a peer-reviewed journal).</td>
+</tr>
+</tfoot>
 </table>
 
-## Online research profiles
-You can retrieve more detailed information concerning my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, my <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or my <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profile. According to the former source, the publications I have (co-)authored have been cited 129 times.
+## Online profiles
+You can find more detailed information on my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, my <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or my <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profile. According to the former source, the publications I have (co-)authored have been cited 129 times.
 
 <br></br>
 <font size="3"> _This page was last updated on 14 July 2021._ <font>

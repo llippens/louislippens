@@ -1795,10 +1795,10 @@ ShowPostNavLinks: false
 </tbody>
 <tfoot>
 <tr>
-<td style = 'padding: 0; border:0;' colspan='100%'><sup></sup> The values in the 'Year' column are based on the year the study was first published. If the study is a peer-reviewed manuscript, this is the year it was first published in the journal issue. If the study is a non-peer-reviewed manuscript, this is the year it was first published online.</td>
+<td style = 'padding: 0; border:0;' colspan='100%'><sup>1</sup> The values in the 'Year' column are based on the year the study was first published. If the study is a peer-reviewed manuscript, this is the year it was first published in the journal issue. If the study is a non-peer-reviewed manuscript, this is the year it was first published online.</td>
 </tr>
 <tr>
-<td style = 'padding: 0; border:0;' colspan='100%'><sup></sup> The symbols in the 'Effect' column illustrate the effect of the treatment group on the call-back outcomes in the correspondence test. The + (0) ((-)) symbol indicates an overall significantly positive (neutral) ((negative)) effect.</td>
+<td style = 'padding: 0; border:0;' colspan='100%'><sup>2</sup> The symbols in the 'Effect' column illustrate the effect of the treatment group on the call-back outcomes in the correspondence test. The + (0) ((-)) symbol indicates an overall significantly positive (neutral) ((negative)) effect.</td>
 </tr>
 </tfoot>
 </table>
