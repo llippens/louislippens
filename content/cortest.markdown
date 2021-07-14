@@ -27,7 +27,7 @@ ShowPostNavLinks: false
 
 <img src="/cortest_files/figure-html/analysis region-1.png" width="672" />
 
-<p style="line-height:1; font-style:italic"><font size="2"> Notes. The values on the x-axis represent the year the study was first published. If the study is a peer-reviewed manuscript, this is the year it was first published in the journal issue. If the study is a non-peer-reviewed manuscript, this is the year it was first published online. The regional classification is based on the United Nations Geoscheme. </font></p>
+<p style="line-height:1; font-style:italic"><font size="2"> Notes. The values on the x-axis represent the year the study was first published. If the study is a peer-reviewed manuscript, this is the year it was first published in the journal issue. If the study is a non-peer-reviewed manuscript, this is the year it was first published online. The regional classification is based on the <a href="https://unstats.un.org/unsd/methodology/m49/" target="_blank">United Nations Geoscheme</a>. </font></p>
 
 <img src="/cortest_files/figure-html/analysis subregion-1.png" width="672" />
 
@@ -1804,4 +1804,4 @@ ShowPostNavLinks: false
 </table>
 
 <br></br>
-<font size="3"> _This page was last updated on 14 July 2021._ </font>
+<font size="3"> _This page was last updated on 15 July 2021._ </font>

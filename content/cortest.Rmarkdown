@@ -144,7 +144,7 @@ line_yr %>%
        x = "Year", y = "Count")
 ```
 
-<p style="line-height:1; font-style:italic"><font size="2"> Notes. The values on the x-axis represent the year the study was first published. If the study is a peer-reviewed manuscript, this is the year it was first published in the journal issue. If the study is a non-peer-reviewed manuscript, this is the year it was first published online. The regional classification is based on the United Nations Geoscheme. </font></p>
+<p style="line-height:1; font-style:italic"><font size="2"> Notes. The values on the x-axis represent the year the study was first published. If the study is a peer-reviewed manuscript, this is the year it was first published in the journal issue. If the study is a non-peer-reviewed manuscript, this is the year it was first published online. The regional classification is based on the <a href="https://unstats.un.org/unsd/methodology/m49/" target="_blank">United Nations Geoscheme</a>. </font></p>
 
 ```{r analysis subregion, echo = FALSE, warning = FALSE, fig.height = 6}
 long_ysr <- data %>%

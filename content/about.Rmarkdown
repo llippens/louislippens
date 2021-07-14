@@ -20,13 +20,13 @@ Sys.setlocale("LC_ALL","English") #Setting the locale to English is crucial for 
 knitr::include_graphics("https://raw.githubusercontent.com/lglip/louislippens/main/images/llprofilewide.png")
 ```
 
-<p style="line-height:.8; font-style:italic; text-align:center"><font size="3">Doctoral Researcher in Labour Economics and Sociology <br></br> Hiring Discrimination - Audit Studies - Applied Econometrics & Psychometrics </font></p>
+<p style="line-height:.8; font-style:italic; text-align:center"><font size="3">PhD Researcher in Labour Economics & Sociology <br></br> Hiring Discrimination - Audit Studies - Applied Econometrics & Psychometrics </font></p>
 
 
 ### Professional
 Hi, I am a joint PhD researcher in (labour) economics and sociology at Ghent University and Vrije Universiteit Brussel with an interdisciplinary background. My present work focuses on the determinants of and contextual factors contributing to (ethnic) hiring discrimination. I have previously worked in consulting on data governance and data analytics projects. Besides, I have obtained a master's degree in industrial and organisational psychology and a business degree in management.
 
-I am a sucker for everything related to R (ggplot, Shiny, Xaringan...), my go-to environment for statistical computing. Not an expert, by far, but getting there, slowly but steadily. This webspace is partly dedicated to showcasing some of the work I have produced in R. Scroll through the content on this site to get a glimpse of it!
+I am a sucker for everything related to R (ggplot, Shiny, Xaringan...), my go-to environment for statistical computing. Not an expert, by far, but getting there, slowly but steadily. The contents in this webspace are largely written in R using R Markdown, the <a href="https://gohugo.io/" target="_blank">Hugo</a> framework and Aditya Telange's handsome <a href="https://github.com/adityatelange/hugo-PaperMod" target="_blank">PaperMod</a> theme. In addition, this webspace is partly dedicated to showcasing some of the work I have produced in R. Scroll through the content on this site to get a glimpse of it!
 
 
 ### Personal
