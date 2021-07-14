@@ -11,9 +11,16 @@ ShowShareButtons: false
 ShowPostNavLinks: false
 ---
 
-```{r, echo=FALSE, out.width="50%", fig.align='center'}
+```{r, setup, echo = FALSE, include = FALSE}
+d <- Sys.Date()
+Sys.setlocale("LC_ALL","English") #Setting the locale to English is crucial for dates
+```
+
+```{r, echo = FALSE, out.width = "50%", fig.align = "center"}
 knitr::include_graphics("https://raw.githubusercontent.com/lglip/louislippens/main/images/llprofilewide.png")
 ```
+
+<p style="line-height:.8; font-style:italic; text-align:center"><font size="3">Doctoral Researcher in Labour Economics and Sociology <br></br> Hiring Discrimination - Audit Studies - Applied Econometrics & Psychometrics </font></p>
 
 
 ### Professional
@@ -26,4 +33,4 @@ I am a sucker for everything related to R (ggplot, Shiny, Xaringan...), my go-to
 I have a cat named Abel `r knitr::asis_output("\U1F63C")` and also a girlfriend, Anna `r knitr::asis_output("\U1F467")`. In a former life, I was a DJ and music producer and, to date, I still love to get some vinyl playing (from Flume and Deadmau5 to Paul Kalkbrenner and Ross From Friends) `r knitr::asis_output("\U1F3A7")`. You might still find <a href="https://soundcloud.com/subwaves" target="_blank">some traces</a> of this past scattered around the internet. Another random fact is that I'm very fond of the sea(side): I used to be a lifeguard at the Belgian coast during the summer months `r knitr::asis_output("\U1F30A")`. Finally, in the evening, on quiet days, you are likely to find me behind the stove, stirring the pots`r knitr::asis_output("\U1F958")`.
 
 <br></br>
-<font size="3"> _This page was last updated `r Sys.Date()`._ <font>
+<font size="3"> _This page was last updated on `r format(Sys.Date(), "%d %B %Y")`._ <font>

@@ -1,0 +1,2 @@
+knitr::knit(input = "C:/Users/lglippen/Documents/Personal blog/louislippens/content/research.Rmarkdown",
+            output = "C:/Users/lglippen/Documents/Personal blog/louislippens/content/research.markdown")

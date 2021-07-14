@@ -1,0 +1,75 @@
+---
+title: My research
+url: "/research"
+author: " "
+slug: research
+ShowToc: false
+TocOpen: false
+draft: false
+ShowReadingTime: false
+ShowShareButtons: false
+ShowPostNavLinks: false
+always_allow_html: yes
+---
+
+```{r setup, echo = FALSE, include = FALSE}
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(scholar)
+
+d <- Sys.Date()
+Sys.setlocale("LC_ALL","English") #Setting the locale to English is crucial for dates
+```
+
+```{r google scholar, echo = FALSE, warning = FALSE, message = FALSE, include = FALSE}
+profile_id <- "N5hW-KgAAAAJ"
+scholar_url <- paste0("https://scholar.google.be/citations?",
+                      "view_op=view_citation", "&hl=en",
+                      "&user=", profile_id,
+                      "&citation_for_view=", profile_id)
+citations <- get_profile(profile_id)
+publications <- get_publications(profile_id, flush = TRUE, sortby = "year")
+```
+
+## Publication overview
+The publication overview below is pulled directly from Google Scholar and was last updated on `r format(Sys.Date(), "%d %B %Y")`. Clicking the value in the 'Cites' column will redirect you to the article entry on Google Scholar.
+```{r kable, echo = FALSE}
+table <- publications %>%
+  select("title", "author", "journal", "number", "cites", "year", "pubid")
+names(table) <- c("Title", "Authors", "Journal", "Number", "Cites", "Year", "pubid")
+
+categories <- c("Peer-reviewed Publications", "Discussion Papers", "Master's Thesis")
+
+table <- table %>%
+  mutate(url = paste0(scholar_url, ":", pubid)) %>%
+  mutate(Cites = paste0('<a href="', url, '" target="_blank">', Cites, '</a>'),
+         Category = case_when(!str_detect(Journal, "Discussion Paper") &
+                                !str_detect(Journal, "Ghent University") ~ categories[1],
+                              str_detect(Journal, "Discussion Paper") ~ categories[2],
+                              str_detect(Journal, "Ghent University") ~ categories[3]),
+         Journal = case_when(Number == "" ~ Journal,
+                             Number != "" ~ paste0(Journal, " <br>[", Number, "]</br>"))) %>%
+  select(Title, Authors, Journal, Year, Cites, Category) %>%
+  as_tibble
+
+table$Category <- factor(table$Category, levels = categories)
+
+table <- table %>%
+  arrange(Category, desc(Year))
+
+table %>%
+  select(-Category) %>% #Deleting 'Category' from kable while still keeping it in 'table'
+  kable(format = "html", escape = FALSE) %>% #'escape = FALSE' is vital to make links work
+  kable_styling(font_size = 12) %>%
+  group_rows(index = c("Peer-reviewed Publications" = nrow(table %>% filter(Category == categories[1])),
+                       "Discussion Papers" = nrow(table %>% filter(Category == categories[2])),
+                       "Master's Thesis" = nrow(table %>% filter(Category == categories[3]))),
+             indent = FALSE)
+```
+
+## Online research profiles
+You can retrieve more detailed information concerning my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, my <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or my <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profile. According to the former source, the publications I have (co-)authored have been cited `r citations$total_cites` times.
+
+<br></br>
+<font size="3"> _This page was last updated on `r format(Sys.Date(), "%d %B %Y")`._ <font>

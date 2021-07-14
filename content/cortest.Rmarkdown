@@ -18,13 +18,8 @@ library(knitr)
 library(kableExtra)
 library(ggplot2)
 
-githubURL <- ("https://raw.githubusercontent.com/lglip/louislippens/main/data/corregisterv6.RDS")
-download.file(githubURL, "corregisterv6.RDS", method="curl")
-data <- readRDS("corregisterv6.RDS")
-file.remove("corregisterv6.RDS")
-
-data$year_first_pub <- as.numeric(data$year_first_pub)
-data$year_pub <- as.numeric(data$year_pub)
+d <- Sys.Date()
+Sys.setlocale("LC_ALL","English") #Setting the locale to English is crucial for dates
 
 #Colours
 blue <- "#1E64C8"
@@ -32,6 +27,16 @@ green <- "#FFD200"
 green <- "#AEB050"
 white <- "#FFFFFF"
 black <- "#000000"
+```
+
+```{r data, echo = FALSE, include = FALSE}
+githubURL <- ("https://raw.githubusercontent.com/lglip/louislippens/main/data/corregister.RDS")
+download.file(githubURL, "corregister.RDS", method="curl")
+data <- readRDS("corregister.RDS")
+file.remove("corregister.RDS")
+
+data$year_first_pub <- as.numeric(data$year_first_pub)
+data$year_pub <- as.numeric(data$year_pub)
 ```
 
 (intro).
@@ -435,4 +440,4 @@ table %>%
 ```
 
 <br></br>
-<font size="3"> _This page was last updated `r Sys.Date()`._ </font>
+<font size="3"> _This page was last updated on `r format(Sys.Date(), "%d %B %Y")`._ </font>

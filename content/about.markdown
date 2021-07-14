@@ -11,7 +11,11 @@ ShowShareButtons: false
 ShowPostNavLinks: false
 ---
 
+
+
 <img src="https://raw.githubusercontent.com/lglip/louislippens/main/images/llprofilewide.png" width="50%" style="display: block; margin: auto;" />
+
+<p style="line-height:.8; font-style:italic; text-align:center"><font size="3">Doctoral Researcher in Labour Economics and Sociology <br></br> Hiring Discrimination - Audit Studies - Applied Econometrics & Psychometrics </font></p>
 
 
 ### Professional
@@ -24,4 +28,4 @@ I am a sucker for everything related to R (ggplot, Shiny, Xaringan...), my go-to
 I have a cat named Abel 😼 and also a girlfriend, Anna 👧. In a former life, I was a DJ and music producer and, to date, I still love to get some vinyl playing (from Flume and Deadmau5 to Paul Kalkbrenner and Ross From Friends) 🎧. You might still find <a href="https://soundcloud.com/subwaves" target="_blank">some traces</a> of this past scattered around the internet. Another random fact is that I'm very fond of the sea(side): I used to be a lifeguard at the Belgian coast during the summer months 🌊. Finally, in the evening, on quiet days, you are likely to find me behind the stove, stirring the pots🥘.
 
 <br></br>
-<font size="3"> _This page was last updated 2021-07-12._ <font>
+<font size="3"> _This page was last updated on 14 July 2021._ <font>

@@ -27,9 +27,12 @@ menu:
     - name: about
       url: /about/
       weight: 2
+    - name: research
+      url: /research/
+      weight: 3
     - name: cortest
       url: /cortest/
-      weight: 3
+      weight: 4
       
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
