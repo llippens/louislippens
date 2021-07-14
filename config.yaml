@@ -1,5 +1,5 @@
 theme: "hugo-PaperMod"
-baseURL: https://louislippens.netlify.app/
+baseURL: https://www.louislippens.be
 languageCode: en-uk
 title: Louis Lippens
 paginate: 5
