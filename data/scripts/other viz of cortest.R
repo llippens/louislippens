@@ -93,3 +93,89 @@ line_yc %>%
        subtitle = "For countries where at least five tests were performed",
        x = "Year", y = "Count",
        caption = "Cross-national studies are studies in which a correspondence test was executed across at least two countries simultaneously")
+
+
+
+
+
+```{r analysis effect 2, echo = FALSE, warning = FALSE, fig.height = 15}
+effect_reg <- data %>%
+  select(ground, region, effect_category) %>%
+  filter(effect_category != "N/A") %>%
+  group_by(ground, region, effect_category) %>%
+  summarise(freq = n(), .groups = "keep") %>%
+  drop_na() %>%
+  ungroup()
+
+ground_reg <- effect_reg %>% select(ground, region) %>% unique()
+
+grounds <- rep(effect_reg$ground %>% unique,
+               effect_reg$effect_category %>% unique %>% length()*effect_reg$region %>% unique %>% length())
+effects <- rep(effect_reg$effect_category %>% unique,
+               effect_reg$ground %>% unique %>% length()*effect_reg$region %>% unique %>% length())
+regions <- rep(effect_reg$region %>% unique,
+               effect_reg$ground %>% unique %>% length()*effect_reg$effect_category %>% unique %>% length())
+
+frame_effect_reg <- tibble(ground = grounds %>% sort(),
+                           effect_category = effects,
+                           region = regions)
+
+long_effect_reg <- left_join(frame_effect_reg, effect_reg,
+                             by = c("ground", "effect_category","region"))
+long_effect_reg$freq[is.na(long_effect_reg$freq)] <- 0
+
+bar_effect_reg <- long_effect_reg
+
+bar_effect_reg$effect_category <- factor(bar_effect_reg$effect_category,
+                                         levels = c("None", "Mixed", "Positive", "Negative"))
+
+bar_effect_reg <- bar_effect_reg %>%
+  group_by(ground) %>%
+  #filter(sum(freq) >= 2) %>% #Retaining grounds with at least 2 observations
+  ungroup()
+
+ground_order_reg <- bar_effect_reg %>%
+  group_by(region) %>%
+  summarise(sumfreq = sum(freq)) %>%
+  arrange(desc(sumfreq)) %>%
+  ungroup()
+
+ground_order <- bar_effect_reg %>%
+  group_by(ground) %>%
+  summarise(sumfreq = sum(freq)) %>%
+  arrange(desc(sumfreq)) %>%
+  ungroup()
+
+bar_effect_reg$region <- factor(bar_effect_reg$region, levels = ground_order_reg$region)
+bar_effect_reg$ground <- factor(bar_effect_reg$ground, levels = ground_order$ground)
+
+bar_effect_reg <- bar_effect_reg %>%
+  group_by(region) %>%
+  mutate(sumfreq = sum(freq)) %>%
+  filter(sumfreq >= 5) %>% #Retaining regions with at least 5 observations
+  select(-sumfreq) %>%
+  ungroup()
+
+bar_effect_reg <- bar_effect_reg %>%
+  mutate(region2 = region)
+
+bar_effect_reg %>%
+  ggplot(aes(x = ground, y = freq, fill = effect_category)) +
+  geom_bar(position = "stack", stat = "identity") +
+  scale_y_continuous(limits = c(0,60), breaks = seq(0,60,10)) +
+  scale_fill_manual(values = c("#e6e6e6", "#cccccc", green, blue),
+                    name = "Effect:") +
+  coord_flip() +
+  facet_wrap(~region, ncol = 1,
+             scales = "free") +
+  theme_minimal() +
+  theme(text = element_text(family = "UGent Panno Text"),
+        panel.grid.minor = element_blank(),
+        legend.position = "bottom",
+        axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
+        axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
+        plot.title.position = "plot") +
+  labs(title = "Effect of the treatment on the call-back outomes by region and discrimination ground",
+       subtitle = "Considering subregions where at least five tests were performed",
+       x = "Discrimination ground", y = "Count")
+```
