@@ -1,5 +1,5 @@
 theme: "hugo-PaperMod"
-baseURL: http://www.louislippens.be
+baseURL: https://louislippens.be
 languageCode: en-uk
 title: Louis Lippens
 paginate: 5
@@ -30,6 +30,9 @@ menu:
     - name: research
       url: /research/
       weight: 3
+    - name: cortest
+      url: /cortest/
+      weight: 4
       
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.

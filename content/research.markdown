@@ -9,7 +9,6 @@ draft: false
 ShowReadingTime: false
 ShowShareButtons: false
 ShowPostNavLinks: false
-always_allow_html: yes
 ---
 <script src="/rmarkdown-libs/kePrint/kePrint.js"></script>
 <link href="/rmarkdown-libs/lightable/lightable.css" rel="stylesheet" />

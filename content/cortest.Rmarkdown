@@ -18,22 +18,31 @@ library(knitr)
 library(kableExtra)
 library(ggplot2)
 
+library(plotly)
+library(widgetframe)
+
 d <- Sys.Date()
 Sys.setlocale("LC_ALL","English") #Setting the locale to English is crucial for dates
 
 #Colours
 blue <- "#1E64C8"
-green <- "#FFD200"
+yellow <- "#FFD200"
 green <- "#AEB050"
 white <- "#FFFFFF"
 black <- "#000000"
+lightgrey <- "#F5F5F5"
 ```
 
 ```{r data, echo = FALSE, include = FALSE}
-githubURL <- ("https://raw.githubusercontent.com/lglip/louislippens/main/data/corregister.RDS")
-download.file(githubURL, "corregister.RDS", method="curl")
+corregURL <- ("https://raw.githubusercontent.com/lglip/louislippens/main/data/corregister.RDS")
+download.file(corregURL, "corregister.RDS", method="curl")
 data <- readRDS("corregister.RDS")
 file.remove("corregister.RDS")
+
+ungURL <- ("https://raw.githubusercontent.com/lglip/louislippens/main/data/ungeoscheme.csv")
+download.file(ungURL, "ungeoscheme.csv", method="curl")
+ung <- read_csv("ungeoscheme.csv")
+file.remove("ungeoscheme.csv")
 
 data$year_first_pub <- as.numeric(data$year_first_pub)
 data$year_pub <- as.numeric(data$year_pub)
@@ -71,11 +80,11 @@ general %>%
   geom_line(aes(color = legend, linetype = legend), size = 2, alpha = 0.8) +
   scale_color_manual(values = c(blue, green),
                      name = "Publication:") +
-  scale_linetype_manual(values=c("solid", "longdash"), guide = FALSE) +
+  scale_linetype_manual(values=c("solid", "longdash"), guide = "none") +
   geom_point(shape = "square", size = 2.5) +
   scale_x_continuous(limits = c(2005, 2021), breaks = seq(2005, 2020, 5)) +
   theme_minimal() +
-  theme(text = element_text(family = "UGent Panno Text"),
+  theme(#text = element_text(family = "UGent Panno Text"),
         panel.grid.minor = element_blank(),
         axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
         axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
@@ -133,7 +142,7 @@ line_yr %>%
   facet_wrap(~region, ncol = 2,
              scales = "free") +
   theme_minimal() +
-  theme(text = element_text(family = "UGent Panno Text"),
+  theme(#text = element_text(family = "UGent Panno Text"),
         panel.grid.minor = element_blank(),
         panel.spacing.y = unit(1.5, "lines"),
         axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
@@ -205,7 +214,7 @@ line_ysr %>%
   facet_wrap(~subregion, ncol = 2,
              scales = "free") +
   theme_minimal() +
-  theme(text = element_text(family = "UGent Panno Text"),
+  theme(#text = element_text(family = "UGent Panno Text"),
         panel.grid.minor = element_blank(),
         panel.spacing.y = unit(1.5, "lines"),
         axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
@@ -230,7 +239,7 @@ line_ysr %>%
   facet_wrap(~subregion, ncol = 2,
              scales = "free") +
   theme_minimal() +
-  theme(text = element_text(family = "UGent Panno Text"),
+  theme(#text = element_text(family = "UGent Panno Text"),
         panel.grid.minor = element_blank(),
         panel.spacing.y = unit(1.5, "lines"),
         axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
@@ -253,7 +262,7 @@ line_ysr %>%
   facet_wrap(~subregion, ncol = 2,
              scales = "free") +
   theme_minimal() +
-  theme(text = element_text(family = "UGent Panno Text"),
+  theme(#text = element_text(family = "UGent Panno Text"),
         panel.grid.minor = element_blank(),
         panel.spacing.y = unit(1.5, "lines"),
         axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
@@ -308,7 +317,7 @@ bar_effect %>%
                     name = "Effect:") +
   coord_flip() +
   theme_minimal() +
-  theme(text = element_text(family = "UGent Panno Text"),
+  theme(#text = element_text(family = "UGent Panno Text"),
         panel.grid.minor = element_blank(),
         legend.position = "bottom",
         axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
@@ -319,92 +328,58 @@ bar_effect %>%
        x = "Discrimination ground", y = "Count")
 ```
 
-```{r analysis effect 2, echo = FALSE, warning = FALSE, fig.height = 15}
-effect_reg <- data %>%
-  select(ground, region, effect_category) %>%
-  filter(effect_category != "N/A") %>%
-  group_by(ground, region, effect_category) %>%
-  summarise(freq = n(), .groups = "keep") %>%
-  drop_na() %>%
+```{r plotly, warning = FALSE, message = FALSE, echo = FALSE}
+# Read
+plotly <- data %>%
+  filter(country_iso3 != "N/A") %>%
+  group_by(country_iso3) %>%
+  summarise(n.cortests = n()) %>%
   ungroup()
 
-ground_reg <- effect_reg %>% select(ground, region) %>% unique()
+ung <- ung %>%
+  select(country_iso3 = `ISO-alpha3 Code`,
+         country = `Country or Area`,
+         subregion = `Sub-region Name`)
 
-grounds <- rep(effect_reg$ground %>% unique,
-               effect_reg$effect_category %>% unique %>% length()*effect_reg$region %>% unique %>% length())
-effects <- rep(effect_reg$effect_category %>% unique,
-               effect_reg$ground %>% unique %>% length()*effect_reg$region %>% unique %>% length())
-regions <- rep(effect_reg$region %>% unique,
-               effect_reg$ground %>% unique %>% length()*effect_reg$effect_category %>% unique %>% length())
+map <- left_join(ung, plotly, by = "country_iso3")
+map$n.cortests[is.na(map$n.cortests)] <- 0
+#map <- map %>% filter(country_iso3 != "ATA")
 
-frame_effect_reg <- tibble(ground = grounds %>% sort(),
-                           effect_category = effects,
-                           region = regions)
+geo <- list(showframe = FALSE,
+          showcoastlines = FALSE,
+          projection = list(type = "natural earth"),
+          bgcolor = white)
 
-long_effect_reg <- left_join(frame_effect_reg, effect_reg,
-                             by = c("ground", "effect_category","region"))
-long_effect_reg$freq[is.na(long_effect_reg$freq)] <- 0
+title <- list(text = "Number of correspondence tests by country",
+              font = list(size = 16),
+              family = "",
+              x = 0.1,
+              yanchor = "top",
+              pad = list(t = 100, b = 100))
 
-bar_effect_reg <- long_effect_reg
+fig <- plot_geo(map) %>%
+  add_trace(z = ~n.cortests, color = ~n.cortests,
+            colors = c(white, blue),
+            text = array(c(map$country, paste0(" ", map$subregion)), dim = c(nrow(map),2)),
+            locations = ~country_iso3) %>%
+  colorbar(title = "") %>%
+  layout(title = title, geo = geo)
+```
 
-bar_effect_reg$effect_category <- factor(bar_effect_reg$effect_category,
-                                         levels = c("None", "Mixed", "Positive", "Negative"))
-
-bar_effect_reg <- bar_effect_reg %>%
-  group_by(ground) %>%
-  #filter(sum(freq) >= 2) %>% #Retaining grounds with at least 2 observations
-  ungroup()
-
-ground_order_reg <- bar_effect_reg %>%
-  group_by(region) %>%
-  summarise(sumfreq = sum(freq)) %>%
-  arrange(desc(sumfreq)) %>%
-  ungroup()
-
-ground_order <- bar_effect_reg %>%
-  group_by(ground) %>%
-  summarise(sumfreq = sum(freq)) %>%
-  arrange(desc(sumfreq)) %>%
-  ungroup()
-
-bar_effect_reg$region <- factor(bar_effect_reg$region, levels = ground_order_reg$region)
-bar_effect_reg$ground <- factor(bar_effect_reg$ground, levels = ground_order$ground)
-
-bar_effect_reg <- bar_effect_reg %>%
-  group_by(region) %>%
-  mutate(sumfreq = sum(freq)) %>%
-  filter(sumfreq >= 5) %>% #Retaining regions with at least 5 observations
-  select(-sumfreq) %>%
-  ungroup()
-
-bar_effect_reg <- bar_effect_reg %>%
-  mutate(region2 = region)
-
-bar_effect_reg %>%
-  ggplot(aes(x = ground, y = freq, fill = effect_category)) +
-  geom_bar(position = "stack", stat = "identity") +
-  scale_y_continuous(limits = c(0,60), breaks = seq(0,60,10)) +
-  scale_fill_manual(values = c("#e6e6e6", "#cccccc", green, blue),
-                    name = "Effect:") +
-  coord_flip() +
-  facet_wrap(~region, ncol = 1,
-             scales = "free") +
-  theme_minimal() +
-  theme(text = element_text(family = "UGent Panno Text"),
-        panel.grid.minor = element_blank(),
-        legend.position = "bottom",
-        axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
-        axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
-        plot.title.position = "plot") +
-  labs(title = "Effect of the treatment on the call-back outomes by region and discrimination ground",
-       subtitle = "Considering subregions where at least five tests were performed",
-       x = "Discrimination ground", y = "Count")
+```{r fig, echo = FALSE}
+frameWidget(frameableWidget(fig), width = "100%", height = "400px",
+            options = frameOptions(title = "Number of correspondence tests by country", allowfullscreen = TRUE))
 ```
 
 ### The register
 
 ```{r kable, echo = FALSE}
 table <- data %>%
+  group_by(ground_number, treatment_group, country, study, effect_sign) %>%
+  arrange(.by_group = TRUE) %>%
+  ungroup()
+
+table <- table %>%
   select(treatment_group, control_group, country, study, year_first_pub, effect_sign, url)
 names(table) <- c("Treatment Group", "Control Group", "Country", "Study", "Year", "Effect", "url")
 
@@ -436,7 +411,7 @@ table %>%
              indent = FALSE) %>%
   add_footnote(label = c("The values in the 'Year' column are based on the year the study was first published. If the study is a peer-reviewed manuscript, this is the year it was first published in the journal issue. If the study is a non-peer-reviewed manuscript, this is the year it was first published online.",
                          "The symbols in the 'Effect' column illustrate the effect of the treatment group on the call-back outcomes in the correspondence test. The + (0) ((-)) symbol indicates an overall significantly positive (neutral) ((negative)) effect."),
-               notation = "number")
+               notation = "none")
 ```
 
 <br></br>
