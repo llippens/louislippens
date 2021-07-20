@@ -179,3 +179,78 @@ bar_effect_reg %>%
        subtitle = "Considering subregions where at least five tests were performed",
        x = "Discrimination ground", y = "Count")
 ```
+
+
+
+
+
+line_ysr %>%
+  filter(region == "Europe") %>% #Filter on region (Europe)
+  ggplot(aes(x = year_first_pub, y = freq)) +
+  geom_line(data = line_ysr %>% filter(region == "Europe") %>% select(-subregion),
+            aes(group = subregion2), color = black, size = 0.6, alpha = 0.2) +
+  geom_line(aes(color = region), color = blue, size = 1.2, alpha = 0.8) +
+  geom_point(color = blue, shape = "square", size = 1.5) +
+  scale_y_continuous(limits = c(0, 15),
+                     breaks = seq(0, 15, 5)) +
+  scale_x_continuous(limits = c(2005, 2020)) +
+  facet_wrap(~subregion, ncol = 2,
+             scales = "free") +
+  theme_minimal() +
+  theme(#text = element_text(family = "UGent Panno Text"),
+    panel.grid.minor = element_blank(),
+    panel.spacing.y = unit(1.5, "lines"),
+    axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
+    axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
+    plot.title.position = "plot") +
+  labs(title = "Trend in the number of correspondence tests by region (Europe)",
+       subtitle = "Considering subregions where at least five tests were performed",
+       x = "Year", y = "Count")
+
+```{r analysis subregion 2, echo = FALSE, warning = FALSE, fig.height = 3.5}
+line_ysr %>%
+  filter(region == "Americas") %>% #Filter on region (Americas)
+  ggplot(aes(x = year_first_pub, y = freq)) +
+  geom_line(data = line_ysr %>% filter(region == "Americas") %>% select(-subregion),
+            aes(group = subregion2), color = black, size = 0.6, alpha = 0.2) +
+  geom_line(aes(color = region), color = blue, size = 1.2, alpha = 0.8) +
+  geom_point(color = blue, shape = "square", size = 1.5) +
+  scale_y_continuous(limits = c(0, 15),
+                     breaks = seq(0, 15, 5)) +
+  scale_x_continuous(limits = c(2005, 2020)) +
+  facet_wrap(~subregion, ncol = 2,
+             scales = "free") +
+  theme_minimal() +
+  theme(#text = element_text(family = "UGent Panno Text"),
+    panel.grid.minor = element_blank(),
+    panel.spacing.y = unit(1.5, "lines"),
+    axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
+    axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
+    plot.title.position = "plot") +
+  labs(title = "Trend in the number of correspondence tests by region (Americas)",
+       subtitle = "Considering subregions where at least five tests were performed",
+       x = "Year", y = "Count")
+
+line_ysr %>%
+  filter(region == "Asia") %>% #Filter on region (Asia)
+  ggplot(aes(x = year_first_pub, y = freq)) +
+  geom_line(data = line_ysr %>% filter(region == "Asia") %>% select(-subregion),
+            aes(group = subregion2), color = black, size = 0.6, alpha = 0.2) +
+  geom_line(aes(color = region), color = blue, size = 1.2, alpha = 0.8) +
+  geom_point(color = blue, shape = "square", size = 1.5) +
+  scale_y_continuous(limits = c(0, 15),
+                     breaks = seq(0, 15, 5)) +
+  scale_x_continuous(limits = c(2005, 2020)) +
+  facet_wrap(~subregion, ncol = 2,
+             scales = "free") +
+  theme_minimal() +
+  theme(#text = element_text(family = "UGent Panno Text"),
+    panel.grid.minor = element_blank(),
+    panel.spacing.y = unit(1.5, "lines"),
+    axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
+    axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
+    plot.title.position = "plot") +
+  labs(title = "Trend in the number of correspondence tests by region (Asia)",
+       subtitle = "Considering subregions where at least five tests were performed",
+       x = "Year", y = "Count")
+```

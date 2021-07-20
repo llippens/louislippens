@@ -1,5 +1,5 @@
 ---
-title: "Register of correspondence tests on hiring discrimination (2005-2020)"
+title: The state of hiring discrimination
 url: "/cortest"
 author: " "
 slug: cortest
@@ -10,6 +10,12 @@ ShowReadingTime: false
 ShowShareButtons: false
 ShowPostNavLinks: false
 ---
+
+```{r UGent font, echo = FALSE, include = FALSE}
+library(extrafont)
+font_import("C:/Users/lglippen/Documents/Personal blog/louislippens/fonts", prompt = FALSE)
+loadfonts(device="win")
+```
 
 ```{r setup, echo = FALSE, include = FALSE}
 library(tidyverse)
@@ -30,75 +36,107 @@ yellow <- "#FFD200"
 green <- "#AEB050"
 white <- "#FFFFFF"
 black <- "#000000"
-lightgrey <- "#F5F5F5"
 ```
 
+
 ```{r data, echo = FALSE, include = FALSE}
-corregURL <- ("https://raw.githubusercontent.com/lglip/louislippens/main/data/corregister.RDS")
+corregURL <- "https://raw.githubusercontent.com/lglip/louislippens/main/data/corregister.RDS"
 download.file(corregURL, "corregister.RDS", method="curl")
 data <- readRDS("corregister.RDS")
 file.remove("corregister.RDS")
 
-ungURL <- ("https://raw.githubusercontent.com/lglip/louislippens/main/data/ungeoscheme.csv")
+ungURL <- "https://raw.githubusercontent.com/lglip/louislippens/main/data/ungeoscheme.csv"
 download.file(ungURL, "ungeoscheme.csv", method="curl")
-ung <- read_csv("ungeoscheme.csv")
+ungeoscheme <- read_csv("ungeoscheme.csv")
 file.remove("ungeoscheme.csv")
+
+treatclassURL <- "https://raw.githubusercontent.com/lglip/louislippens/main/data/treatmentclassification.RDS"
+download.file(treatclassURL, "treatmentclassification.RDS", method="curl")
+treatmentclassification <- readRDS("treatmentclassification.RDS")
+file.remove("treatmentclassification.RDS")
 
 data$year_first_pub <- as.numeric(data$year_first_pub)
 data$year_pub <- as.numeric(data$year_pub)
+data$year_research <- as.numeric(data$year_research)
+
+### !!!!!
+data_distinct <- data %>% #Only keep unique studies (no duplicates by country!)
+  dplyr::distinct(study, treatment_group, .keep_all = TRUE)
+### !!!!!
 ```
 
 (intro).
 
 ### Analysis
 
-```{r analysis trend, echo = FALSE, warning = FALSE, fig.height = 6}
-#Add same trend for year of official publication
-firstyear <- data %>%
+```{r analysis trend, echo = FALSE, warning = FALSE, fig.height = 3.5}
+### !!!!!
+firstyear <- data_distinct %>%
+  #Only keep unique studies (no duplicates by country!)
   select(year_first_pub) %>%
   group_by(year_first_pub) %>%
   summarise(freq = n(), .groups = "keep") %>%
   rename(year = year_first_pub) %>%
-  mutate(legend = "Year of first publication") %>%
+  mutate(legend = "Year of online publication") %>%
   drop_na() %>%
   ungroup()
 
-pubyear <- data %>%
+firstyear <- firstyear %>%
+  add_row(year = 2005, freq = 0, legend = "Year of online publication")
+
+### !!!!!
+pubyear <- data_distinct %>% #This data is left out for now
+  #Only keep unique studies (no duplicates by country!)
   select(year_pub) %>%
   group_by(year_pub) %>%
   summarise(freq = n(), .groups = "keep") %>%
-  filter(year_pub <= 2021) %>% #Filtering out studies published in 2021
   rename(year = year_pub) %>%
-  mutate(legend = "Year of last/issue publication") %>%
+  mutate(legend = "Year of last publication") %>%
   drop_na() %>%
   ungroup()
 
-general <- rbind(firstyear, pubyear)
+### !!!!!
+resyear <- data_distinct %>%
+  #Only keep unique studies (no duplicates by country!)
+  select(year_research) %>%
+  group_by(year_research) %>%
+  summarise(freq = n(), .groups = "keep") %>%
+  rename(year = year_research) %>%
+  mutate(legend = "Year of correspondence test") %>%
+  drop_na() %>%
+  ungroup()
 
-general %>%
+line_trend <- rbind(firstyear, resyear)
+
+line_trend$legend <- factor(line_trend$legend, levels = c("Year of online publication",
+                                                    "Year of correspondence test"))
+
+trendline <- line_trend %>%
   ggplot(aes(x = year, y = freq, color = legend)) +
-  geom_line(aes(color = legend, linetype = legend), size = 2, alpha = 0.8) +
+  geom_line(aes(color = legend, linetype = legend, group = legend), size = 2, alpha = 0.8) +
+  geom_point(shape = "square", size = 2) +
   scale_color_manual(values = c(blue, green),
-                     name = "Publication:") +
-  scale_linetype_manual(values=c("solid", "longdash"), guide = "none") +
-  geom_point(shape = "square", size = 2.5) +
-  scale_x_continuous(limits = c(2005, 2021), breaks = seq(2005, 2020, 5)) +
+                     name = "Legend:") +
+  scale_linetype_manual(values=c("solid", "dashed"), guide = "none") +
+  scale_x_continuous(limits = c(2000, 2021), breaks = seq(2000, 2020, 5)) +
+  scale_y_continuous(limits = c(0, 40), breaks = seq(0, 40, 10)) +
   theme_minimal() +
-  theme(#text = element_text(family = "UGent Panno Text"),
+  theme(title = element_text(family = "UGent Panno Text"),
+        text = element_text(family = "UGent Panno Text",
+                            size = 13),
         panel.grid.minor = element_blank(),
         axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
         axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
         plot.title.position = "plot",
-        legend.position = "bottom",) +
+        legend.position = "bottom") +
   labs(title = "Trend in the number of correspondence tests",
        x = "Year", y = "Count")
+trendline
 ```
 
-<p style="line-height:1; font-style:italic"><font size="1"> Notes. The solid (dashed) line represents the year the study was first published (the year in which the study appeared in the journal issue). </font></p>
+<p style="line-height:1"><font size="2"><em> Notes.</em> The solid (dashed) line represents the year the study was published online in its current form (the year in which the correspondence test was finalised). If the study is a (non-)peer-reviewed manuscript, the year of online publication is the year it was first published in the journal issue (first published online). </font></p>
 
 ```{r analysis region, echo = FALSE, warning = FALSE, fig.height = 6}
-#Add subregions (e.g. North America)
-#Add new plot: grounds by region (not including year)
 long_yr <- data %>%
   select(year_first_pub, region) %>%
   group_by(region, year_first_pub) %>%
@@ -130,19 +168,22 @@ line_yr$region <- factor(line_yr$region, levels = yr_order$region)
 
 line_yr <- line_yr %>%
   mutate(region2 = region)
-line_yr %>%
+
+yrline <- line_yr %>%
   ggplot(aes(x = year_first_pub, y = freq)) +
   geom_line(data = line_yr %>% select(-region),
             aes(group = region2), color = black, size = 0.6, alpha = 0.2) +
   geom_line(aes(color = region), color = blue, size = 1.2, alpha = 0.8) +
   geom_point(color = blue, shape = "square", size = 1.5) +
-  scale_y_continuous(limits = c(0, max(line_yr$freq)+2),
-                     breaks = seq(0, max(line_yr$freq)+2, 4)) +
+  scale_y_continuous(limits = c(0, 40),
+                     breaks = seq(0, 40, 10)) +
   scale_x_continuous(limits = c(2005, 2020)) +
   facet_wrap(~region, ncol = 2,
              scales = "free") +
   theme_minimal() +
-  theme(#text = element_text(family = "UGent Panno Text"),
+  theme(title = element_text(family = "UGent Panno Text"),
+        text = element_text(family = "UGent Panno Text",
+                            size = 13),
         panel.grid.minor = element_blank(),
         panel.spacing.y = unit(1.5, "lines"),
         axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
@@ -151,11 +192,14 @@ line_yr %>%
   labs(title = "Trend in the number of correspondence tests by region",
        subtitle = "Considering regions where at least five tests were performed",
        x = "Year", y = "Count")
+### !!!!!
+#yrline
+### !!!!!
+
+#<p style="line-height:1"><font size="2"><em> Notes.</em> The values on the x-axis represent the year the study was published online in its current form. If the study is a (non-)peer-reviewed manuscript, this is the year it was first published in the journal issue. If the study is a non-peer-reviewed manuscript, this is the year it was first published online. The regional classification is based on the <a href="https://unstats.un.org/unsd/methodology/m49/" target="_blank">United Nations Geoscheme</a>. </font></p>
 ```
 
-<p style="line-height:1; font-style:italic"><font size="2"> Notes. The values on the x-axis represent the year the study was first published. If the study is a peer-reviewed manuscript, this is the year it was first published in the journal issue. If the study is a non-peer-reviewed manuscript, this is the year it was first published online. The regional classification is based on the <a href="https://unstats.un.org/unsd/methodology/m49/" target="_blank">United Nations Geoscheme</a>. </font></p>
-
-```{r analysis subregion, echo = FALSE, warning = FALSE, fig.height = 6}
+```{r analysis subregion, echo = FALSE, warning = FALSE, fig.height = 12}
 long_ysr <- data %>%
   select(year_first_pub, region, subregion) %>%
   group_by(region, subregion, year_first_pub) %>%
@@ -201,80 +245,83 @@ line_ysr$region <- factor(line_ysr$region, levels = ysr_order_reg$region)
 line_ysr <- line_ysr %>%
   mutate(subregion2 = subregion)
 
-line_ysr %>%
-  filter(region == "Europe") %>% #Filter on region (Europe)
+ysrline <- line_ysr %>%
   ggplot(aes(x = year_first_pub, y = freq)) +
-  geom_line(data = line_ysr %>% filter(region == "Europe") %>% select(-subregion),
+  geom_line(data = line_ysr %>% select(-subregion),
             aes(group = subregion2), color = black, size = 0.6, alpha = 0.2) +
   geom_line(aes(color = region), color = blue, size = 1.2, alpha = 0.8) +
   geom_point(color = blue, shape = "square", size = 1.5) +
-  scale_y_continuous(limits = c(0, 15),
-                     breaks = seq(0, 15, 5)) +
+  scale_y_continuous(limits = c(0, 20),
+                     breaks = seq(0, 20, 5)) +
   scale_x_continuous(limits = c(2005, 2020)) +
   facet_wrap(~subregion, ncol = 2,
              scales = "free") +
   theme_minimal() +
-  theme(#text = element_text(family = "UGent Panno Text"),
+  theme(title = element_text(family = "UGent Panno Text"),
+        text = element_text(family = "UGent Panno Text",
+                            size = 13),
         panel.grid.minor = element_blank(),
         panel.spacing.y = unit(1.5, "lines"),
         axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
         axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
         plot.title.position = "plot") +
-  labs(title = "Trend in the number of correspondence tests by region (Europe)",
+  labs(title = "Trend in the number of correspondence tests by subregion",
        subtitle = "Considering subregions where at least five tests were performed",
        x = "Year", y = "Count")
+ysrline
 ```
 
-```{r analysis subregion 2, echo = FALSE, warning = FALSE, fig.height = 3.5}
-line_ysr %>%
-  filter(region == "Americas") %>% #Filter on region (Americas)
-  ggplot(aes(x = year_first_pub, y = freq)) +
-  geom_line(data = line_ysr %>% filter(region == "Americas") %>% select(-subregion),
-            aes(group = subregion2), color = black, size = 0.6, alpha = 0.2) +
-  geom_line(aes(color = region), color = blue, size = 1.2, alpha = 0.8) +
-  geom_point(color = blue, shape = "square", size = 1.5) +
-  scale_y_continuous(limits = c(0, 15),
-                     breaks = seq(0, 15, 5)) +
-  scale_x_continuous(limits = c(2005, 2020)) +
-  facet_wrap(~subregion, ncol = 2,
-             scales = "free") +
-  theme_minimal() +
-  theme(#text = element_text(family = "UGent Panno Text"),
-        panel.grid.minor = element_blank(),
-        panel.spacing.y = unit(1.5, "lines"),
-        axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
-        axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
-        plot.title.position = "plot") +
-  labs(title = "Trend in the number of correspondence tests by region (Americas)",
-       subtitle = "Considering subregions where at least five tests were performed",
-       x = "Year", y = "Count")
+<p style="line-height:1"><font size="2"><em> Notes.</em> The values on the x-axis represent the year the study was published online in its current form. If the study is a peer-reviewed manuscript, this is the year it was first published in the journal issue. If the study is a non-peer-reviewed manuscript, this is the year it was first published online. The regional classification is based on the <a href="https://unstats.un.org/unsd/methodology/m49/" target="_blank">United Nations Geoscheme</a>. </font></p>
 
-line_ysr %>%
-  filter(region == "Asia") %>% #Filter on region (Asia)
-  ggplot(aes(x = year_first_pub, y = freq)) +
-  geom_line(data = line_ysr %>% filter(region == "Asia") %>% select(-subregion),
-            aes(group = subregion2), color = black, size = 0.6, alpha = 0.2) +
-  geom_line(aes(color = region), color = blue, size = 1.2, alpha = 0.8) +
-  geom_point(color = blue, shape = "square", size = 1.5) +
-  scale_y_continuous(limits = c(0, 15),
-                     breaks = seq(0, 15, 5)) +
-  scale_x_continuous(limits = c(2005, 2020)) +
-  facet_wrap(~subregion, ncol = 2,
-             scales = "free") +
-  theme_minimal() +
-  theme(#text = element_text(family = "UGent Panno Text"),
-        panel.grid.minor = element_blank(),
-        panel.spacing.y = unit(1.5, "lines"),
-        axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
-        axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
-        plot.title.position = "plot") +
-  labs(title = "Trend in the number of correspondence tests by region (Asia)",
-       subtitle = "Considering subregions where at least five tests were performed",
-       x = "Year", y = "Count")
+```{r plotly worldmap, warning = FALSE, message = FALSE, echo = FALSE}
+plotly <- data %>%
+  filter(country_iso3 != "N/A") %>%
+  group_by(country_iso3) %>%
+  summarise(n.cortests = n()) %>%
+  ungroup()
+
+ung <- ungeoscheme %>%
+  select(country_iso3 = `ISO-alpha3 Code`,
+         country = `Country or Area`,
+         subregion = `Sub-region Name`)
+
+map <- left_join(ung, plotly, by = "country_iso3")
+map$n.cortests[is.na(map$n.cortests)] <- 0
+#map <- map %>% filter(country_iso3 != "ATA")
+
+geo <- list(showframe = FALSE,
+          showcoastlines = FALSE,
+          projection = list(type = "natural earth"),
+          bgcolor = white)
+
+title <- list(text = "Number of correspondence tests by country",
+              #font = list(size = 16),
+              family = "UGent Panno Text",
+              x = 0,
+              yanchor = "top",
+              pad = list(t = 100, b = 100))
+
+fig <- plot_geo(map) %>%
+  add_trace(z = ~n.cortests, color = ~n.cortests,
+            colors = c(white, blue),
+            text = array(c(map$country, paste0(" ", map$subregion)), dim = c(nrow(map),2)),
+            locations = ~country_iso3,
+            showscale = FALSE) %>% #Deletes the colourbar on the side
+  #colorbar(title = " ") %>%
+  layout(title = title, geo = geo)
 ```
+
+```{r fig worldmap, echo = FALSE}
+frameWidget(frameableWidget(fig), width = "100%", height = "450px",
+            options = frameOptions(title = "Number of correspondence tests by country", allowfullscreen = TRUE))
+```
+
+<p style="line-height:1"><font size="2"><em> Notes.</em> This is an interactive map. You can (i) pan and zoom, (ii) select (highlight) specific countries or regions and (iii) hover over countries to get more information. </font></p>
 
 ```{r analysis effect, echo = FALSE, warning = FALSE, fig.height = 6}
-effect <- data %>%
+### !!!!!
+effect <- data_distinct %>%
+  #Only keep unique studies (no duplicates by country!)
   select(ground, effect_category) %>%
   filter(effect_category != "N/A") %>%
   group_by(ground, effect_category) %>%
@@ -309,78 +356,116 @@ ground_order <- bar_effect %>%
 
 bar_effect$ground <- factor(bar_effect$ground, levels = ground_order$ground)
 
-bar_effect %>%
-  ggplot(aes(x = ground, y = freq, fill = effect_category)) +
+effectbar <- bar_effect %>%
+  mutate(Ground = ground, Effect = effect_category, Count = freq) %>%
+  ggplot(aes(x = Ground, y = Count, fill = Effect)) +
   geom_bar(position = "stack", stat = "identity") +
-  scale_y_continuous(breaks = seq(0,80,10)) +
+  scale_y_continuous(limits = c(0,90), breaks = seq(0,90,10)) +
   scale_fill_manual(values = c("#e6e6e6", "#cccccc", green, blue),
                     name = "Effect:") +
   coord_flip() +
   theme_minimal() +
-  theme(#text = element_text(family = "UGent Panno Text"),
+  theme(title = element_text(family = "UGent Panno Text"),
+        text = element_text(family = "UGent Panno Text",
+                            size = 13),
         panel.grid.minor = element_blank(),
         legend.position = "bottom",
         axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
         axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
         plot.title.position = "plot") +
-  labs(title = "Effect of the treatment on the call-back outomes by discrimination ground",
+  labs(title = "Treatment effect on the call-back by discrimination ground",
        #subtitle = "For discrimination grounds which were tested at least twice",
        x = "Discrimination ground", y = "Count")
+effectbar
 ```
 
-```{r plotly, warning = FALSE, message = FALSE, echo = FALSE}
-# Read
-plotly <- data %>%
-  filter(country_iso3 != "N/A") %>%
-  group_by(country_iso3) %>%
-  summarise(n.cortests = n()) %>%
+<p style="line-height:1"><font size="2"><em> Notes.</em> The discrimination grounds 'genetic information' and 'citizenship status' are excluded from this figure because no related correspondence experiments were identified. </font></p>
+
+```{r analysis treatment classification, echo = FALSE, warning = FALSE, fig.height = 12}
+# Add table to illustrate classifications by ground
+treatclass <- treatmentclassification %>%
+  filter(treatment_group != "N/A") %>%
+  group_by(ground, treatment_classification, treat_class_abbrev, effect) %>%
+  summarise(freq = n(), .groups = "keep") %>%
   ungroup()
 
-ung <- ung %>%
-  select(country_iso3 = `ISO-alpha3 Code`,
-         country = `Country or Area`,
-         subregion = `Sub-region Name`)
+groundselect <- treatclass %>% #Selection of grounds with at least two treatment classifications
+  group_by(ground) %>%
+  distinct(ground, treatment_classification, .keep_all = TRUE) %>%
+  summarise(groundfreq = n()) %>%
+  filter(groundfreq > 1) %>%
+  select(ground) %>%
+  pull() %>% as.character()
 
-map <- left_join(ung, plotly, by = "country_iso3")
-map$n.cortests[is.na(map$n.cortests)] <- 0
-#map <- map %>% filter(country_iso3 != "ATA")
+class_order <- treatclass %>%
+  group_by(treatment_classification) %>%
+  summarise(sumfreq = sum(freq), .groups = "keep") %>%
+  arrange(desc(sumfreq), treatment_classification) %>% #Arrange alphabetically and by descending sumfreq
+  ungroup()
 
-geo <- list(showframe = FALSE,
-          showcoastlines = FALSE,
-          projection = list(type = "natural earth"),
-          bgcolor = white)
+class_abbrev_order <- treatclass %>%
+  group_by(treat_class_abbrev) %>%
+  summarise(sumfreq = sum(freq), .groups = "keep") %>%
+  arrange(desc(sumfreq), treat_class_abbrev) %>% #Arrange alphabetically and by descending sumfreq
+  ungroup()
 
-title <- list(text = "Number of correspondence tests by country",
-              font = list(size = 16),
-              family = "",
-              x = 0.1,
-              yanchor = "top",
-              pad = list(t = 100, b = 100))
+treatclass$effect <- factor(treatclass$effect,
+                            levels = c("None", "Mixed", "Positive", "Negative"))
+treatclass$ground <- factor(treatclass$ground,
+                            levels = ground_order$ground)
+treatclass$treatment_classification <- factor(treatclass$treatment_classification,
+                                              levels = class_order$treatment_classification)
+treatclass$treat_class_abbrev <- factor(treatclass$treat_class_abbrev,
+                                              levels = class_abbrev_order$treat_class_abbrev)
 
-fig <- plot_geo(map) %>%
-  add_trace(z = ~n.cortests, color = ~n.cortests,
-            colors = c(white, blue),
-            text = array(c(map$country, paste0(" ", map$subregion)), dim = c(nrow(map),2)),
-            locations = ~country_iso3) %>%
-  colorbar(title = "") %>%
-  layout(title = title, geo = geo)
+label <- c("RNO", "GMO", "AGE", "DIS", "REL", "PHA", "SEO")
+names(label) <- treatclass %>%
+  filter(ground %in% groundselect) %>%
+  select(ground) %>%
+  pull %>%
+  droplevels %>%
+  levels
+
+treatclassbar <- treatclass %>%
+  filter(ground %in% groundselect) %>% #Selecting grounds with at least two treatment classifications
+  ggplot(aes(x = treat_class_abbrev, y = freq, fill = effect)) +
+  geom_bar(position = "stack", stat = "identity") +
+  scale_y_continuous(limits = c(0,40), breaks = seq(0,40,10)) +
+  scale_fill_manual(values = c("#e6e6e6", "#cccccc", green, blue)) +
+  coord_flip() +
+  facet_grid(ground~.,
+             scales = "free",
+             space = "free_y",
+             labeller = labeller(ground = label)) +
+  theme_minimal() +
+  theme(title = element_text(family = "UGent Panno Text"),
+        text = element_text(family = "UGent Panno Text",
+                            size = 13),
+        panel.grid.minor = element_blank(),
+        legend.position = "right",
+        axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
+        axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
+        plot.title.position = "plot") +
+  labs(title = "Treatment effect on the call-back by discrimination ground and treatment classification",
+       subtitle = "Considering discrimination grounds with at least two treatment classifications",
+       x = "Treatment classification", y = "Count") +
+  guides(fill = guide_legend("Effect:"))
+treatclassbar
 ```
 
-```{r fig, echo = FALSE}
-frameWidget(frameableWidget(fig), width = "100%", height = "400px",
-            options = frameOptions(title = "Number of correspondence tests by country", allowfullscreen = TRUE))
-```
+<p style="line-height:1"><font size="2"><em> Notes.</em> If a correspondence test comprises multiple treatment classifications, the correspondence test is counted as many times as the number of treatment classifications per discrimination ground. Abbreviations used: RNO = Race and national origin, GMO = Gender and motherhood, AGE = Age, DIS = Disability, REL = Religion, PHA = Physical appearance, SEO = Sexual orientation, N (E) ((S)) (((W))) = Northern (Eastern) ((Southern)) (((Western))), Eur. = European, Gen. = Generic, His. = Hispanic, Lat. Am. = Latin American, Afr. Am. = African American, Mid. Eas. = Middle Eastern, phy. att. = physical attractiveness, aff. = affiliation. </font></p>
 
 ### The register
 
 ```{r kable, echo = FALSE}
 table <- data %>%
-  group_by(ground_number, treatment_group, country, study, effect_sign) %>%
+  group_by(ground_number, treatment_group, country, study, effect_category) %>%
   arrange(.by_group = TRUE) %>%
   ungroup()
 
 table <- table %>%
-  select(treatment_group, control_group, country, study, year_first_pub, effect_sign, url)
+  select(treatment_group, control_group, country, study, year_research, effect_category, url) %>%
+  filter(treatment_group != "N/A") # Filtering out 'Genetic information' & 'Citizenship status'
 names(table) <- c("Treatment Group", "Control Group", "Country", "Study", "Year", "Effect", "url")
 
 table <- table %>% #Adding links to the studies
@@ -391,7 +476,7 @@ grounds <- data$ground %>% unique
 
 table %>%
   kable(format = "html", escape = FALSE) %>% #'escape = FALSE' is vital to make links work
-  kable_styling(font_size = 12) %>%
+  kable_styling(font_size = 13) %>%
   #column_spec(5, monospace = TRUE) %>% #this should be defined before collapse_*
   collapse_rows(c(1:3), valign = "top", target = 1) %>%
   group_rows(index = c("Race and national origin" = nrow(data %>% filter(ground == grounds[1])),
@@ -401,18 +486,15 @@ table %>%
                       "Age" = nrow(data %>% filter(ground == grounds[5])),
                       "Military service or affiliation" = nrow(data %>% filter(ground == grounds[6])),
                       "Wealth" = nrow(data %>% filter(ground == grounds[7])),
-                      "Genetic information & Citizenship status" =
-                        nrow(data %>% filter(ground == grounds[8])) + nrow(data %>% filter(ground == grounds[9])),
                       "Marital status" = nrow(data %>% filter(ground == grounds[10])),
+                      #8 and 9 are 'Genetic information' & 'Citizenship status'
                       "Sexual orientation" = nrow(data %>% filter(ground == grounds[11])),
                       "Political orientation" = nrow(data %>% filter(ground == grounds[12])),
                       "Union affiliation" = nrow(data %>% filter(ground == grounds[13])),
                       "Physical appearance" = nrow(data %>% filter(ground == grounds[14]))),
              indent = FALSE) %>%
-  add_footnote(label = c("The values in the 'Year' column are based on the year the study was first published. If the study is a peer-reviewed manuscript, this is the year it was first published in the journal issue. If the study is a non-peer-reviewed manuscript, this is the year it was first published online.",
-                         "The symbols in the 'Effect' column illustrate the effect of the treatment group on the call-back outcomes in the correspondence test. The + (0) ((-)) symbol indicates an overall significantly positive (neutral) ((negative)) effect."),
+  add_footnote(label = c("Notes. The values in the 'Year' column are based on the year in which the correspondence test was finalised. The values in the 'Effect' column illustrate the effect of the treatment group on the call-back outcomes in the correspondence test. The discrimination grounds 'genetic information' and 'citizenship status' are excluded from this table because no related correspondence experiments were identified."),
                notation = "none")
 ```
 
-<br></br>
-<font size="3"> _This page was last updated on `r format(Sys.Date(), "%d %B %Y")`._ </font>
+<br></br> <font size="3"> *This page was last updated on `r format(Sys.Date(), "%d %B %Y")`.* </font>

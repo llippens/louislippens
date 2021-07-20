@@ -12,6 +12,8 @@ ShowPostNavLinks: false
 ---
 
 ```{r, setup, echo = FALSE, include = FALSE}
+#Justification ('justify') of the text is set, for all content, in main.css
+
 d <- Sys.Date()
 Sys.setlocale("LC_ALL","English") #Setting the locale to English is crucial for dates
 ```

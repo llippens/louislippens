@@ -28,4 +28,4 @@ I am a sucker for everything related to R (ggplot, Shiny, Xaringan...), my go-to
 I have a cat named Abel 😼 and also a girlfriend, Anna 👧. In a former life, I was a DJ and music producer and, to date, I still love to get some vinyl playing (from Flume and Deadmau5 to Paul Kalkbrenner and Ross From Friends) 🎧. You might still find <a href="https://soundcloud.com/subwaves" target="_blank">some traces</a> of this past scattered around the internet. Another couple of random facts is that I'm very fond of the sea(side) and that I used to be a lifeguard at the Belgian coast during the summer months 🌊. Finally, in the evening, on quiet days, you are likely to find me behind the stove, stirring the pots🥘.
 
 <br></br>
-<font size="3"> _This page was last updated on 16 July 2021._ <font>
+<font size="3"> _This page was last updated on 17 July 2021._ <font>
