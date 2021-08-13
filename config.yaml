@@ -45,9 +45,9 @@ params:
   homeInfoParams:
       Title: "Hello, visitor \U0001F44B"
       Content: >
-        Hi, my name is Louis Lippens and I am a doctoral research in economics and sociology at Ghent University and Vrije Universiteit Brussel.
-        Welcome to my webspace. Have a look around. You can read more about me in the eponymous tab.
-        I don't blog often, but when I do, you will find it here.
+        Welcome to my webspace. My name is Louis Lippens and I am a doctoral research in economics and sociology 
+        at Ghent University and Vrije Universiteit Brussel. 
+        You can read more about me in the eponymous tab. I don't blog often, but when I do, you will find it here.
         Furthermore, you can discover my academic work and a few of my highlighted projects in the other tabs above.
   socialIcons:
       - name: "twitter"
