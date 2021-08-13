@@ -30,9 +30,13 @@ menu:
     - name: research
       url: /research/
       weight: 3
+
       
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: >
+        Personal webspace of Louis Lippens, doctoral researcher in economics and sociology 
+        at Ghent University and Vrije Universiteit Brussel."
   author: Louis Lippens
   ShowShareButtons: true
   ShowReadingTime: true
@@ -41,9 +45,10 @@ params:
   homeInfoParams:
       Title: "Hello, visitor \U0001F44B"
       Content: >
+        Hi, my name is Louis Lippens and I am a doctoral research in economics and sociology at Ghent University and Vrije Universiteit Brussel.
         Welcome to my webspace. Have a look around. You can read more about me in the eponymous tab.
         I don't blog often, but when I do, you will find it here.
-        Besides, you can discover my work and a few of my highlighted projects in the other tabs above.
+        Furthermore, you can discover my academic work and a few of my highlighted projects in the other tabs above.
   socialIcons:
       - name: "twitter"
         url: "https://twitter.com/LippensLouis"
