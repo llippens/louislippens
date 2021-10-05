@@ -32,7 +32,7 @@ publications <- get_publications(profile_id, flush = TRUE, sortby = "year")
 ```
 
 ## Publication overview
-The publication overview below is taken directly from <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a> and was last updated on *`r format(Sys.Date(), "%d %B %Y")`*. Clicking the value in the 'Citations' column will redirect you to the article entry on <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>. This entry provides you with additional details, such as a description of the research. The value in the 'Citations' column also includes citations of previous versions of the article mentioned in the 'Title' column (e.g. citations of a discussion paper which was later published in a peer-reviewed journal).
+The publication overview below is taken directly from <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a> and was last updated on *`r format(Sys.Date(), "%d %B %Y")`*. Clicking the value in the 'Citations' column will redirect you to the article entry on <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>. This entry provides you with additional details, such as a description of the research. The value in the 'Citations' column also includes citations of previous versions of the article (e.g., citations of a discussion paper which was later published in a peer-reviewed journal).
 
 ```{r kable, echo = FALSE}
 table <- publications %>%
