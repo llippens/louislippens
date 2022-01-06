@@ -46,7 +46,7 @@ params:
       Title: "Hello, visitor \U0001F44B"
       Content: >
         Welcome to my personal website. You can read more about me in the eponymous tab or
-        discover my (academic) work in one of the other tabs above.
+        discover my (academic) work in one of the other tabs above. Links to my socials are below.
   socialIcons:
       - name: "linkedin"
         url: "https://www.linkedin.com/in/louislippens/"
