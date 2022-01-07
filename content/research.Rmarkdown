@@ -70,7 +70,7 @@ table %>%
 ```
 
 ## Reviewer duties
-In addition to conducting my own research, I have also reviewed the work of my peers. In this context, I have served as a reviewer for the Journal of Labor Economics, PLOS ONE, Social Forces, International Migration Review, Oxford Bulletin of Economics and Statistics, International Journal of Manpower, and Economics Bulletin.
+In addition to conducting my own research, I have also reviewed the work of some of my peers. In this context, I have served as a reviewer for the Journal of Labor Economics, PLOS ONE, Social Forces, International Migration Review, Oxford Bulletin of Economics and Statistics, International Journal of Manpower, and Economics Bulletin.
 
 ## Online profiles
 You can find more detailed information about my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profile. According to the former source, the publications I have (co-)authored have been cited `r citations$total_cites` times.
