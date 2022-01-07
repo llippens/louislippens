@@ -36,7 +36,7 @@ params:
   description: >
         Louis Lippens, doctoral researcher in economics and sociology at UGent and VUB."
   author: Louis Lippens
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowReadingTime: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
