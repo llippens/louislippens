@@ -32,7 +32,7 @@ publications <- get_publications(profile_id, flush = TRUE, sortby = "year")
 ```
 
 ## Publication overview
-The publication overview below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on `r format(Sys.Date(), "%d %B %Y")`. Clicking the value in the 'Citations' column will redirect you to the article entry. This entry provides you with additional details, such as a succint description of the research. The value in the 'Citations' column also includes citations of previous versions of the article (e.g. citations of a discussion paper which was later published in a peer-reviewed journal).
+The publication overview below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on `r format(Sys.Date(), "%d %B %Y")`. Clicking the value in the 'Citations' column will redirect you to the article entry. This entry provides you with additional details, including a succint description of the research. The value in the 'Citations' column also includes citations of previous versions of the article (e.g. citations of a discussion paper which was later published in a peer-reviewed journal).
 
 ```{r kable, echo = FALSE}
 table <- publications %>%
@@ -40,17 +40,20 @@ table <- publications %>%
 
 names(table) <- c("Title", "Authors", "Source", "Number", "Citations", "Year", "pubid")
 
-categories <- c("Peer-reviewed Publications", "Discussion Papers", "Master's Thesis")
+categories <- c("Peer-reviewed Publications", "Discussion Papers", "Master's Thesis", "Other")
 
 table <- table %>%
   mutate(url = paste0(scholar_url, ":", pubid)) %>%
   mutate(Citations = paste0('<a href="', url, '" target="_blank">', Citations, '</a>'),
          Category = case_when(!str_detect(Source, "Discussion Paper") &
-                                !str_detect(Source, "Ghent University") ~ categories[1],
+                                !str_detect(Source, "Ghent University") &
+                                Source != "" ~ categories[1],
                               str_detect(Source, "Discussion Paper") ~ categories[2],
-                              str_detect(Source, "Ghent University") ~ categories[3]),
-         Source = case_when(Number == "" ~ Source,
-                             Number != "" ~ paste0(Source, " <br>[", Number, "]</br>"))) %>%
+                              str_detect(Source, "Ghent University") ~ categories[3],
+                              Source == "" ~ categories[4]),
+         Source = case_when(Source == "" ~ "Ghent University",
+                            Number == "" & Source != "" ~ Source,
+                            Number != "" & Source != "" ~ paste0(Source, " <br>[", Number, "]</br>"))) %>%
   select(Title, Authors, Source, Year, Citations, Category) %>%
   as_tibble
 
@@ -65,15 +68,17 @@ table %>%
   kable_styling(font_size = 13) %>%
   group_rows(index = c("Peer-reviewed Publications" = nrow(table %>% filter(Category == categories[1])),
                        "Discussion Papers" = nrow(table %>% filter(Category == categories[2])),
-                       "Master's Thesis" = nrow(table %>% filter(Category == categories[3]))),
+                       "Master's Thesis" = nrow(table %>% filter(Category == categories[3])),
+                       "Other" = nrow(table %>% filter(Category == categories[4]))
+                       ),
              indent = FALSE)
 ```
 
 ## Reviewer duties
-In addition to conducting my own research, I have also reviewed the work of some of my peers. In this context, I have served as a reviewer for the Journal of Labor Economics, PLOS ONE, Social Forces, International Migration Review, Oxford Bulletin of Economics and Statistics, International Journal of Manpower, and Economics Bulletin.
+In addition to conducting my own research, I have also reviewed the work of some of my peers. I have served as a reviewer for the Journal of Labor Economics, PLOS ONE, Social Forces, International Migration Review, Oxford Bulletin of Economics and Statistics, International Journal of Manpower, and Economics Bulletin.
 
 ## Online profiles
-You can find more detailed information about my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profile. According to the former source, the publications I have (co-)authored have been cited `r citations$total_cites` times.
+You can find more detailed information about my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profiles. According to the former source, the publications I have (co-)authored have been cited `r citations$total_cites` times.
 
 <br></br>
 <font size="3"> _This page was last updated on `r format(Sys.Date(), "%d %B %Y")`._ <font>
