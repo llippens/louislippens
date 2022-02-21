@@ -49,8 +49,10 @@ table <- table %>%
                                 !str_detect(Source, "Ghent University") &
                                 Source != "" ~ categories[1],
                               str_detect(Source, "Discussion Paper") ~ categories[2],
-                              str_detect(Source, "Ghent University") ~ categories[3],
-                              Source == "" ~ categories[4]),
+                              str_detect(Source, "Ghent University") &
+                                !str_detect(Title, "rapportering") ~ categories[3],
+                              str_detect(Source, "Ghent University") &
+                                str_detect(Title, "rapportering") == "" ~ categories[4]),
          Source = case_when(Source == "" ~ "Ghent University",
                             Number == "" & Source != "" ~ Source,
                             Number != "" & Source != "" ~ paste0(Source, " <br>[", Number, "]</br>"))) %>%
@@ -75,10 +77,10 @@ table %>%
 ```
 
 ## Reviewer duties
-In addition to conducting my own research, I have also reviewed the work of some of my peers. I have served as a reviewer for the Journal of Labor Economics, PLOS ONE, Social Forces, International Migration Review, Oxford Bulletin of Economics and Statistics, International Journal of Manpower, and Economics Bulletin.
+In addition to conducting my research, I have also reviewed the work of some of my peers. I have served as a reviewer for the Journal of Labor Economics (1), Social Science & Medicine (1), PLOS ONE (2), Social Forces (1), International Migration Review (1), Oxford Bulletin of Economics and Statistics (1), International Journal of Manpower (1), and Economics Bulletin (2).
 
 ## Online profiles
-You can find more detailed information about my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profiles. According to the former source, the publications I have (co-)authored have been cited `r citations$total_cites` times.
+You can find more detailed, up-to-date information about my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profiles. According to the former source, the publications I have (co-)authored have been cited `r citations$total_cites` times.
 
 <br></br>
 <font size="3"> _This page was last updated on `r format(Sys.Date(), "%d %B %Y")`._ <font>
