@@ -58,11 +58,6 @@ file.remove("treatmentclassification.RDS")
 data$year_first_pub <- as.numeric(data$year_first_pub)
 data$year_pub <- as.numeric(data$year_pub)
 data$year_research <- as.numeric(data$year_research)
-
-### !!!!!
-data_distinct <- data %>% #Only keep unique studies (no duplicates by country!)
-  dplyr::distinct(study, treatment_group, .keep_all = TRUE)
-### !!!!!
 ```
 
 (intro).
@@ -71,8 +66,13 @@ data_distinct <- data %>% #Only keep unique studies (no duplicates by country!)
 
 ```{r analysis trend, echo = FALSE, warning = FALSE, fig.height = 3.5}
 ### !!!!!
+data_distinct <- data %>% #Only keep unique studies!
+  dplyr::distinct(study, .keep_all = TRUE)
+### !!!!!
+
+### !!!!!
 firstyear <- data_distinct %>%
-  #Only keep unique studies (no duplicates by country!)
+  #Only keep unique studies!
   select(year_first_pub) %>%
   group_by(year_first_pub) %>%
   summarise(freq = n(), .groups = "keep") %>%
@@ -129,7 +129,7 @@ trendline <- line_trend %>%
         axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
         plot.title.position = "plot",
         legend.position = "bottom") +
-  labs(title = "Trend in the number of correspondence tests",
+  labs(title = paste0("Trend in the number of studies reporting on correspondence tests"," (N = ",nrow(data_distinct),")"),
        x = "Year", y = "Count")
 trendline
 ```
@@ -137,7 +137,14 @@ trendline
 <p style="line-height:1"><font size="2"><em> Notes.</em> The solid (dashed) line represents the year the study was published online in its current form (the year in which the correspondence test was finalised). If the study is a (non-)peer-reviewed manuscript, the year of online publication is the year it was first published in the journal issue (first published online). </font></p>
 
 ```{r analysis region, echo = FALSE, warning = FALSE, fig.height = 6}
-long_yr <- data %>%
+### !!!!!
+data_distinct <- data %>% #Only keep unique studies (no duplicates by ground!)
+  dplyr::distinct(study, country_iso3, .keep_all = TRUE)
+### !!!!!
+
+### !!!!!
+long_yr <- data_distinct %>% #Only keep unique studies (no duplicates by ground!)
+  ### !!!!!
   select(year_first_pub, region) %>%
   group_by(region, year_first_pub) %>%
   summarise(freq = n(), .groups = "keep") %>%
@@ -189,7 +196,7 @@ yrline <- line_yr %>%
         axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
         axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
         plot.title.position = "plot") +
-  labs(title = "Trend in the number of correspondence tests by region",
+  labs(title = paste0("Trend in the number of correspondence tests by region"," (N = ",nrow(data_distinct),")"),
        subtitle = "Considering regions where at least five tests were performed",
        x = "Year", y = "Count")
 ### !!!!!
@@ -200,7 +207,14 @@ yrline <- line_yr %>%
 ```
 
 ```{r analysis subregion, echo = FALSE, warning = FALSE, fig.height = 12}
-long_ysr <- data %>%
+### !!!!!
+data_distinct <- data %>% #Only keep unique studies (no duplicates by ground!)
+  dplyr::distinct(study, country_iso3, .keep_all = TRUE)
+### !!!!!
+
+### !!!!!
+long_ysr <- data_distinct %>% #Only keep unique studies (no duplicates by ground!)
+  ### !!!!!
   select(year_first_pub, region, subregion) %>%
   group_by(region, subregion, year_first_pub) %>%
   summarise(freq = n(), .groups = "keep") %>%
@@ -265,7 +279,8 @@ ysrline <- line_ysr %>%
         axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
         axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
         plot.title.position = "plot") +
-  labs(title = "Trend in the number of correspondence tests by subregion",
+  labs(title = paste0("Trend in the number of correspondence tests by subregion",
+                      " (N = ",nrow(data_distinct),")"),
        subtitle = "Considering subregions where at least five tests were performed",
        x = "Year", y = "Count")
 ysrline
@@ -274,7 +289,14 @@ ysrline
 <p style="line-height:1"><font size="2"><em> Notes.</em> The values on the x-axis represent the year the study was published online in its current form. If the study is a peer-reviewed manuscript, this is the year it was first published in the journal issue. If the study is a non-peer-reviewed manuscript, this is the year it was first published online. The regional classification is based on the <a href="https://unstats.un.org/unsd/methodology/m49/" target="_blank">United Nations Geoscheme</a>. </font></p>
 
 ```{r plotly worldmap, warning = FALSE, message = FALSE, echo = FALSE}
-plotly <- data %>%
+### !!!!!
+data_distinct <- data %>% #Only keep unique studies (no duplicates by ground!)
+  dplyr::distinct(study, country_iso3, .keep_all = TRUE)
+### !!!!!
+
+### !!!!!
+plotly <- data_distinct %>% #Only keep unique studies (no duplicates by ground!)
+  ### !!!!!
   filter(country_iso3 != "N/A") %>%
   group_by(country_iso3) %>%
   summarise(n.cortests = n()) %>%
@@ -294,7 +316,7 @@ geo <- list(showframe = FALSE,
           projection = list(type = "natural earth"),
           bgcolor = white)
 
-title <- list(text = "Number of correspondence tests by country",
+title <- list(text = paste0("Number of correspondence tests by country"," (N = ",nrow(data_distinct),")"),
               #font = list(size = 16),
               family = "UGent Panno Text",
               x = 0,
@@ -319,6 +341,11 @@ frameWidget(frameableWidget(fig), width = "100%", height = "450px",
 <p style="line-height:1"><font size="2"><em> Notes.</em> This is an interactive map. You can (i) pan and zoom, (ii) select (highlight) specific countries or regions and (iii) hover over countries to get more information. </font></p>
 
 ```{r analysis effect, echo = FALSE, warning = FALSE, fig.height = 6}
+### !!!!!
+data_distinct <- data %>% #Only keep unique studies (no duplicates by country!)
+  dplyr::distinct(study, treatment_group, .keep_all = TRUE)
+### !!!!!
+
 ### !!!!!
 effect <- data_distinct %>%
   #Only keep unique studies (no duplicates by country!)
@@ -373,7 +400,8 @@ effectbar <- bar_effect %>%
         axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
         axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
         plot.title.position = "plot") +
-  labs(title = "Treatment effect on the call-back by discrimination ground",
+  labs(title = paste0("Treatment effect on the call-back by discrimination ground",
+                      " (N = ",nrow(data_distinct),")"),
        #subtitle = "For discrimination grounds which were tested at least twice",
        x = "Discrimination ground", y = "Count")
 effectbar
@@ -383,7 +411,14 @@ effectbar
 
 ```{r analysis treatment classification, echo = FALSE, warning = FALSE, fig.height = 12}
 # Add table to illustrate classifications by ground
-treatclass <- treatmentclassification %>%
+
+############################# NOT RUNNING ATM #################################
+### !!!!!
+treatclass_distinct <- treatmentclassification #%>% #Only keep unique studies
+  #dplyr::distinct(study, treatment_classification, subregion, .keep_all = TRUE)
+### !!!!!
+
+treatclass <- treatclass_distinct %>%
   filter(treatment_group != "N/A") %>%
   group_by(ground, treatment_classification, treat_class_abbrev, effect) %>%
   summarise(freq = n(), .groups = "keep") %>%
@@ -446,14 +481,15 @@ treatclassbar <- treatclass %>%
         axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
         axis.title.x = element_text(margin = margin(t = 10, r = 0, b = 0, l =0)),
         plot.title.position = "plot") +
-  labs(title = "Treatment effect on the call-back by discrimination ground and treatment classification",
+  labs(title = paste0("Treatment effect on the call-back by treatment classification",
+                      " (N = ",nrow(treatclass_distinct),")"),
        subtitle = "Considering discrimination grounds with at least two treatment classifications",
        x = "Treatment classification", y = "Count") +
   guides(fill = guide_legend("Effect:"))
 treatclassbar
 ```
 
-<p style="line-height:1"><font size="2"><em> Notes.</em> If a correspondence test comprises multiple treatment classifications, the correspondence test is counted as many times as the number of treatment classifications per discrimination ground. Abbreviations used: RNO = Race and national origin, GMO = Gender and motherhood, AGE = Age, DIS = Disability, REL = Religion, PHA = Physical appearance, SEO = Sexual orientation, N (E) ((S)) (((W))) = Northern (Eastern) ((Southern)) (((Western))), Eur. = European, Gen. = Generic, His. = Hispanic, Lat. Am. = Latin American, Afr. Am. = African American, Mid. Eas. = Middle Eastern, phy. att. = physical attractiveness, aff. = affiliation. </font></p>
+<p style="line-height:1"><font size="2"><em> Notes.</em> If a correspondence test comprises multiple treatment classifications, the correspondence test is counted as many times as the number of treatment classifications per discrimination ground. Abbreviations used: RNO = Race and national origin, GMO = Gender and motherhood, AGE = Age, DIS = Disability, REL = Religion, PHA = Physical appearance, SEO = Sexual orientation, N (E) ((S)) (((W))) = Northern (Eastern) ((Southern)) (((Western))), Eur. = European, gen. = Generic, His. = Hispanic, Lat. Am. = Latin American, Afr. Am. = African American, Mid. Eas. = Middle Eastern, phy. att. = physical attractiveness, aff. = affiliation. </font></p>
 
 ### The register
 
@@ -486,8 +522,8 @@ table %>%
                       "Age" = nrow(data %>% filter(ground == grounds[5])),
                       "Military service or affiliation" = nrow(data %>% filter(ground == grounds[6])),
                       "Wealth" = nrow(data %>% filter(ground == grounds[7])),
-                      "Marital status" = nrow(data %>% filter(ground == grounds[10])),
                       #8 and 9 are 'Genetic information' & 'Citizenship status'
+                      "Marital status" = nrow(data %>% filter(ground == grounds[10])),
                       "Sexual orientation" = nrow(data %>% filter(ground == grounds[11])),
                       "Political orientation" = nrow(data %>% filter(ground == grounds[12])),
                       "Union affiliation" = nrow(data %>% filter(ground == grounds[13])),

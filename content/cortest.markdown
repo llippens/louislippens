@@ -48,7 +48,7 @@ ShowPostNavLinks: false
 <img src="/cortest_files/figure-html/analysis treatment classification-1.png" width="672" />
 
 <p style="line-height:1">
-<font size="2"><em> Notes.</em> If a correspondence test comprises multiple treatment classifications, the correspondence test is counted as many times as the number of treatment classifications per discrimination ground. Abbreviations used: RNO = Race and national origin, GMO = Gender and motherhood, AGE = Age, DIS = Disability, REL = Religion, PHA = Physical appearance, SEO = Sexual orientation, N (E) ((S)) (((W))) = Northern (Eastern) ((Southern)) (((Western))), Eur. = European, Gen. = Generic, His. = Hispanic, Lat. Am. = Latin American, Afr. Am. = African American, Mid. Eas. = Middle Eastern, phy. att. = physical attractiveness, aff. = affiliation. </font>
+<font size="2"><em> Notes.</em> If a correspondence test comprises multiple treatment classifications, the correspondence test is counted as many times as the number of treatment classifications per discrimination ground. Abbreviations used: RNO = Race and national origin, GMO = Gender and motherhood, AGE = Age, DIS = Disability, REL = Religion, PHA = Physical appearance, SEO = Sexual orientation, N (E) ((S)) (((W))) = Northern (Eastern) ((Southern)) (((Western))), Eur. = European, gen. = Generic, His. = Hispanic, Lat. Am. = Latin American, Afr. Am. = African American, Mid. Eas. = Middle Eastern, phy. att. = physical attractiveness, aff. = affiliation. </font>
 </p>
 
 ### The register
@@ -3669,4 +3669,4 @@ Negative
 </tfoot>
 </table>
 
-<br></br> <font size="3"> *This page was last updated on 17 July 2021.* </font>
+<br></br> <font size="3"> *This page was last updated on 22 July 2021.* </font>
