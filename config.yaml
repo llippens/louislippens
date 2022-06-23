@@ -48,13 +48,13 @@ params:
         Welcome to my personal website. You can read more about me in the eponymous tab or
         discover my (academic) work in one of the other tabs above. Links to my socials are below.
   socialIcons:
-      - name: "linkedin"
+      - name: "LinkedIn"
         url: "https://www.linkedin.com/in/louislippens/"
-      - name: "twitter"
+      - name: "Twitter"
         url: "https://twitter.com/LippensLouis"
-      - name: "googlescholar"
+      - name: "Google Scholar"
         url: "https://scholar.google.com/citations?user=N5hW-KgAAAAJ"
-      - name: "researchgate"
+      - name: "ResearchGate"
         url: "https://www.researchgate.net/profile/Louis-Lippens"
   assets:
         favicon: "/favicon.ico"
