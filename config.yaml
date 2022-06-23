@@ -52,7 +52,7 @@ params:
         url: "https://www.linkedin.com/in/louislippens/"
       - name: "Twitter"
         url: "https://twitter.com/LippensLouis"
-      - name: "Google Scholar"
+      - name: "GoogleScholar"
         url: "https://scholar.google.com/citations?user=N5hW-KgAAAAJ"
       - name: "ResearchGate"
         url: "https://www.researchgate.net/profile/Louis-Lippens"
