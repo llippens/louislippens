@@ -26,8 +26,8 @@ The publication overview below was taken directly from my <a href="https://schol
    <th style="text-align:left;"> Title </th>
    <th style="text-align:left;"> Authors </th>
    <th style="text-align:left;"> Source </th>
-   <th style="text-align:right;"> Year </th>
-   <th style="text-align:left;"> Citations </th>
+   <th style="text-align:center;"> Year </th>
+   <th style="text-align:center;"> Citations </th>
   </tr>
  </thead>
 <tbody>
@@ -36,67 +36,67 @@ The publication overview below was taken directly from my <a href="https://schol
    <td style="text-align:left;"> Is labour market discrimination against ethnic minorities better explained by taste or statistics? A systematic review of the empirical evidence </td>
    <td style="text-align:left;"> L Lippens, S Baert, A Ghekiere, PP Verhaeghe, E Derous </td>
    <td style="text-align:left;"> Journal of Ethnic and Migration Studies </td>
-   <td style="text-align:right;"> 2022 </td>
-   <td style="text-align:left;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:qjMakFHDy7sC" target="_blank">13</a> </td>
+   <td style="text-align:center;"> 2022 </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:qjMakFHDy7sC" target="_blank">13</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Ethnic discrimination on paper: Uncovering realtors’ willingness to discriminate with mystery mails </td>
    <td style="text-align:left;"> A Ghekiere, L Lippens, S Baert, PP Verhaeghe </td>
    <td style="text-align:left;"> Applied Economics Letters </td>
-   <td style="text-align:right;"> 2022 </td>
-   <td style="text-align:left;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:Zph67rFs4hoC" target="_blank">0</a> </td>
+   <td style="text-align:center;"> 2022 </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:Zph67rFs4hoC" target="_blank">0</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> The COVID-19 crisis and telework: A research survey on experiences, expectations and hopes </td>
    <td style="text-align:left;"> E Moens, L Lippens, P Sterkens, J Weytjens, S Baert </td>
    <td style="text-align:left;"> The European Journal of Health Economics </td>
-   <td style="text-align:right;"> 2021 </td>
-   <td style="text-align:left;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:LkGwnXOMwfcC" target="_blank">197</a> </td>
+   <td style="text-align:center;"> 2021 </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:LkGwnXOMwfcC" target="_blank">197</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> How do employees think the COVID-19 crisis will affect their careers? </td>
    <td style="text-align:left;"> L Lippens, E Moens, P Sterkens, J Weytjens, S Baert </td>
    <td style="text-align:left;"> PLOS ONE <br>[16 (5), e0246899] </td>
-   <td style="text-align:right;"> 2021 </td>
-   <td style="text-align:left;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:UeHWp8X0CEIC" target="_blank">95</a> </td>
+   <td style="text-align:center;"> 2021 </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:UeHWp8X0CEIC" target="_blank">95</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Loss aversion in taste-based employee discrimination: Evidence from a choice experiment </td>
    <td style="text-align:left;"> L Lippens, S Baert, E Derous </td>
    <td style="text-align:left;"> Economics Letters <br>[208] </td>
-   <td style="text-align:right;"> 2021 </td>
-   <td style="text-align:left;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:ufrVoPGSRksC" target="_blank">1</a> </td>
+   <td style="text-align:center;"> 2021 </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:ufrVoPGSRksC" target="_blank">1</a> </td>
   </tr>
   <tr grouplength="1"><td colspan="5" style="border-bottom: 1px solid;"><strong>Discussion Papers</strong></td></tr>
 <tr>
    <td style="text-align:left;"> The state of hiring discrimination: A meta-analysis of (almost) all recent correspondence experiments </td>
    <td style="text-align:left;"> L Lippens, S Vermeiren, S Baert </td>
    <td style="text-align:left;"> IZA Discussion Paper </td>
-   <td style="text-align:right;"> 2021 </td>
-   <td style="text-align:left;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:hqOjcs7Dif8C" target="_blank">8</a> </td>
+   <td style="text-align:center;"> 2021 </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:hqOjcs7Dif8C" target="_blank">8</a> </td>
   </tr>
   <tr grouplength="1"><td colspan="5" style="border-bottom: 1px solid;"><strong>Master's Thesis</strong></td></tr>
 <tr>
    <td style="text-align:left;"> Short form of the Wilde Intelligenztest: Psychometric qualities and utility of a 12-minute intelligence test for personnel selection </td>
    <td style="text-align:left;"> L Lippens </td>
    <td style="text-align:left;"> Ghent University </td>
-   <td style="text-align:right;"> 2015 </td>
-   <td style="text-align:left;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:u5HHmVD_uO8C" target="_blank">5</a> </td>
+   <td style="text-align:center;"> 2015 </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:u5HHmVD_uO8C" target="_blank">5</a> </td>
   </tr>
   <tr groupLength="2"><td colspan="5" style="border-bottom: 1px solid;"><strong>Other</strong></td></tr>
 <tr>
    <td style="text-align:left;"> Nulmeting discriminatie op de Antwerpse arbeidsmarkt: rapportering </td>
    <td style="text-align:left;"> S Baert, A Dalle, L Lippens, L Malfait, A Sharipova </td>
    <td style="text-align:left;"> Ghent University </td>
-   <td style="text-align:right;"> 2021 </td>
-   <td style="text-align:left;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:Se3iqnhoufwC" target="_blank">0</a> </td>
+   <td style="text-align:center;"> 2021 </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:Se3iqnhoufwC" target="_blank">0</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Discriminatie op de Gentse arbeidsmarkt anno 2021: rapportering </td>
    <td style="text-align:left;"> S Baert, A Dalle, L Lippens, L Malfait </td>
    <td style="text-align:left;"> Ghent University </td>
-   <td style="text-align:right;"> 2021 </td>
-   <td style="text-align:left;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:UebtZRa9Y70C" target="_blank">0</a> </td>
+   <td style="text-align:center;"> 2021 </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:UebtZRa9Y70C" target="_blank">0</a> </td>
   </tr>
 </tbody>
 </table>
