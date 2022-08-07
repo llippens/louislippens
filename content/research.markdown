@@ -75,29 +75,8 @@ The publication overview below was taken directly from my <a href="https://schol
    <td style="text-align:center;"> 2021 </td>
    <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:hqOjcs7Dif8C" target="_blank">8</a> </td>
   </tr>
-  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Master's Thesis</strong></td></tr>
+  <tr grouplength="1"><td colspan="5" style="border-bottom: 1px solid;"><strong>Master's Thesis</strong></td></tr>
 <tr>
-   <td style="text-align:left;"> Welzijn op het werk in Vlaanderen </td>
-   <td style="text-align:left;"> S Baert, E Clays, E Derous, K du Bois, L Lippens, S Mertens, B Neyt, ... </td>
-   <td style="text-align:left;"> Ghent University </td>
-   <td style="text-align:center;"> 2022 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:_kc_bZDykSQC" target="_blank">0</a> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Inactiviteit onder migranten in België </td>
-   <td style="text-align:left;"> S Baert, E Derous, B George, L Lippens, G Van Hoye, B Neyt, S Van Hoof </td>
-   <td style="text-align:left;"> Ghent University </td>
-   <td style="text-align:center;"> 2022 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:4TOpqqG69KYC" target="_blank">0</a> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Inactiviteit in Europa en de Belgische gewesten </td>
-   <td style="text-align:left;"> S Baert, L Lippens </td>
-   <td style="text-align:left;"> Ghent University </td>
-   <td style="text-align:center;"> 2022 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:M3ejUd6NZC8C" target="_blank">0</a> </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> Short form of the Wilde Intelligenztest: Psychometric qualities and utility of a 12-minute intelligence test for personnel selection </td>
    <td style="text-align:left;"> L Lippens </td>
    <td style="text-align:left;"> Ghent University </td>
@@ -106,6 +85,27 @@ The publication overview below was taken directly from my <a href="https://schol
   </tr>
   <tr groupLength="2"><td colspan="5" style="border-bottom: 1px solid;"><strong>Other</strong></td></tr>
 <tr>
+   <td style="text-align:left;"> Welzijn op het werk in Vlaanderen (SUGAW6) </td>
+   <td style="text-align:left;"> S Baert, E Clays, E Derous, K du Bois, L Lippens, S Mertens, B Neyt, ... </td>
+   <td style="text-align:left;"> Ghent University </td>
+   <td style="text-align:center;"> 2022 </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:_kc_bZDykSQC" target="_blank">0</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Inactiviteit onder migranten in België (SUGAW5) </td>
+   <td style="text-align:left;"> S Baert, E Derous, B George, L Lippens, G Van Hoye, B Neyt, S Van Hoof </td>
+   <td style="text-align:left;"> Ghent University </td>
+   <td style="text-align:center;"> 2022 </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:4TOpqqG69KYC" target="_blank">0</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Inactiviteit in Europa en de Belgische gewesten (SUGAW4) </td>
+   <td style="text-align:left;"> S Baert, L Lippens </td>
+   <td style="text-align:left;"> Ghent University </td>
+   <td style="text-align:center;"> 2022 </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:M3ejUd6NZC8C" target="_blank">0</a> </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> Nulmeting discriminatie op de Antwerpse arbeidsmarkt: rapportering </td>
    <td style="text-align:left;"> S Baert, A Dalle, L Lippens, L Malfait, A Sharipova </td>
    <td style="text-align:left;"> Ghent University </td>

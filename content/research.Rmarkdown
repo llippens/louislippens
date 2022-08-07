@@ -50,9 +50,9 @@ table <- table %>%
                                 Source != "" ~ categories[1],
                               str_detect(Source, "Discussion Paper") ~ categories[2],
                               str_detect(Source, "Ghent University") &
-                                !str_detect(Title, "rapportering") ~ categories[3],
+                                !str_detect(Title, "rapportering|SUGAW") ~ categories[3],
                               str_detect(Source, "Ghent University") &
-                                str_detect(Title, "rapportering") == "" ~ categories[4]),
+                                str_detect(Title, "rapportering|SUGAW") == "" ~ categories[4]),
          Source = case_when(Source == "" ~ "Ghent University",
                             Number == "" & Source != "" ~ Source,
                             Number != "" & Source != "" ~ paste0(Source, " <br>[", Number, "]</br>"))) %>%
