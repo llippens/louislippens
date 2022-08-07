@@ -30,4 +30,4 @@ Consult my most recent resume <a href="https://github.com/lglip/resume/raw/main/
 I live together with my cat, Abel, and my girlfriend, Anna. In a former life, I was a DJ and music producer, and, to date, I still love to get some vinyl playing (from Paul Kalkbrenner and Bonobo to KAYTRANADA and Jack Garratt). You might find <a href="https://soundcloud.com/subwaves" target="_blank">some traces</a> of this past scattered around the internet. Another couple of random facts is that I'm very fond of the sea(side) and that I used to be a lifeguard at the Belgian coast during the summer months.
 
 <br></br>
-<font size="3"> _This page was last updated on 23 June 2022._ <font>
+<font size="3"> _This page was last updated on 07 August 2022._ <font>
