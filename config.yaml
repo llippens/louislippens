@@ -34,7 +34,7 @@ menu:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: >
-        Louis Lippens, doctoral researcher in economics and sociology at UGent and VUB."
+        Louis Lippens, doctoral researcher in economics and sociology at UGent and VUB
   author: Louis Lippens
   ShowShareButtons: false
   ShowReadingTime: true
@@ -46,7 +46,8 @@ params:
       Title: "Hello, visitor \U0001F44B"
       Content: >
         Welcome to my personal website. You can read more about me in the eponymous tab or
-        discover my (academic) work in one of the other tabs above. Links to my socials are below.
+        discover my (academic) work in the other tab above. Links to my socials are below.
+        It is quite empty here, still, but more content is on its way.
   socialIcons:
       - name: "LinkedIn"
         url: "https://www.linkedin.com/in/louislippens/"
@@ -56,6 +57,8 @@ params:
         url: "https://scholar.google.com/citations?user=N5hW-KgAAAAJ"
       - name: "ResearchGate"
         url: "https://www.researchgate.net/profile/Louis-Lippens"
+      - name: "Mastodon"
+        url: "https://mstdn.social/@lippenslouis"
   assets:
         favicon: "/favicon.ico"
         favicon16x16:  "/favicon-16x16.png"

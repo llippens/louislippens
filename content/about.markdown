@@ -13,21 +13,21 @@ ShowPostNavLinks: false
 
 
 
-<img src="https://raw.githubusercontent.com/lglip/louislippens/main/images/llprofilewide.png" width="40%" style="display: block; margin: auto;" />
+<img src="https://raw.githubusercontent.com/lglip/louislippens/main/images/profilecutout.png" width="40%" style="display: block; margin: auto;" />
 
-<p style="line-height:.8; font-style:italic; text-align:center"><font size="3">PhD Researcher in Labour Economics & Sociology <br></br> Hiring Discrimination - Audit Studies - Applied Econometrics & Psychometrics </font></p>
+<p style="line-height:.8; font-style:italic; text-align:center"><font size="3">PhD Researcher in Labour Economics & Sociology <br></br> Hiring Discrimination - Audit Studies <br></br> Experimental Economics - Applied Econometrics - Applied Psychometrics </font></p>
 
 
 ### Professional
-I am a joint PhD researcher in (labour) economics and sociology (of labour) at Ghent University and Vrije Universiteit Brussel with an interdisciplinary background. My present work focuses on the determinants of and contextual factors contributing to (ethnic) hiring discrimination. I have previously worked in consulting on data governance and data analytics projects. Besides, I have obtained a master's degree in industrial and organisational psychology and a business degree in management.
+I am a joint PhD researcher in labour economics and sociology of labour at Ghent University and Vrije Universiteit Brussel with an interdisciplinary background and a pronounced interest in data visualisation. My present work focuses on the determinants of and contextual factors contributing to (ethnic) hiring discrimination. More broadly, I research labour market topics relating to hiring and selection and labour demand and supply. I have previously worked for consulting firms on data governance, data analytics, and HR projects. Besides, I have obtained a master's degree in industrial and organisational psychology and a business degree in management.
 
-I am a sucker for everything related to R (ggplot, Shiny, Xaringan...), my go-to environment for statistical computing. The content of this webspace is largely written in R using R Markdown, the <a href="https://gohugo.io/" target="_blank">Hugo</a> framework and Aditya Telange's <a href="https://github.com/adityatelange/hugo-PaperMod" target="_blank">PaperMod</a> theme. In addition, it is partly dedicated to showcasing some of the (academic) work I have produced in R. Scroll through the tabs to get a glimpse of it!
+I am a sucker for everything related to R (ggplot, Shiny, Xaringan...), my go-to environment for statistical computing. The content of this webspace is largely written in R using R Markdown, the <a href="https://gohugo.io/" target="_blank">Hugo</a> framework and Aditya Telange's <a href="https://github.com/adityatelange/hugo-PaperMod" target="_blank">PaperMod</a> theme. In addition, it is partly dedicated to showcasing some of the (academic) work I have produced in R. Scroll through the tabs to get a glimpse of it (*work in progress*)!
 
-Consult my most recent resume <a href="https://github.com/lglip/resume/raw/main/resume/resume.pdf" target="_blank">here</a> (download).
+Consult my most recent resume <a href="https://github.com/lglip/resume/raw/main/resume/resume_louislippens.pdf" target="_blank">here</a> (download).
 
 
 ### Personal
 I live together with my cat, Abel, and my girlfriend, Anna. In a former life, I was a DJ and music producer, and, to date, I still love to get some vinyl playing (from Paul Kalkbrenner and Bonobo to KAYTRANADA and Jack Garratt). You might find <a href="https://soundcloud.com/subwaves" target="_blank">some traces</a> of this past scattered around the internet. Another couple of random facts is that I'm very fond of the sea(side) and that I used to be a lifeguard at the Belgian coast during the summer months.
 
 <br></br>
-<font size="3"> _This page was last updated on 07 August 2022._ <font>
+<font size="3"> _This page was last updated on 04 November 2022._ <font>
