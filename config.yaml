@@ -30,6 +30,9 @@ menu:
     - name: research
       url: /research/
       weight: 3
+    - name: cv (download)
+      url: https://github.com/lglip/resume/raw/main/resume/resume_louislippens.pdf
+      weight: 4
       
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -49,14 +52,14 @@ params:
         discover my (academic) work in the other tab above. Links to my socials are below.
         It is quite empty here, still, but more content is on its way.
   socialIcons:
-      - name: "LinkedIn"
-        url: "https://www.linkedin.com/in/louislippens/"
-      - name: "Twitter"
-        url: "https://twitter.com/LippensLouis"
       - name: "GoogleScholar"
         url: "https://scholar.google.com/citations?user=N5hW-KgAAAAJ"
       - name: "ResearchGate"
         url: "https://www.researchgate.net/profile/Louis-Lippens"
+      - name: "LinkedIn"
+        url: "https://www.linkedin.com/in/louislippens/"
+      - name: "Twitter"
+        url: "https://twitter.com/LippensLouis"
       - name: "Mastodon"
         url: "https://mstdn.social/@lippenslouis"
   assets:

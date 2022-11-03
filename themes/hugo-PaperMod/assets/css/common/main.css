@@ -54,6 +54,9 @@
     max-width: calc(var(--main-width) + var(--gap) * 2);
     margin: auto;
     padding: var(--gap);
+}
+
+.post-content p {
     text-align: justify;
 }
 
