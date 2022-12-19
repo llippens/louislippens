@@ -22,7 +22,7 @@ Sys.setlocale("LC_ALL","English") #Setting the locale to English is crucial for 
 knitr::include_graphics("https://raw.githubusercontent.com/lglip/louislippens/main/images/profilecutout.png")
 ```
 
-<p style="line-height:.8; font-style:italic; text-align:center"><font size="3">PhD Researcher in Labour Economics & Sociology <br></br> Hiring Discrimination - Audit Studies <br></br> Experimental Economics - Applied Econometrics - Applied Psychometrics </font></p>
+<p style="line-height:.8; font-style:italic; text-align:center"><font size="3">PhD Researcher in Economics & Sociology <br></br> Labour Economics - Experimental Economics - Applied Psychometrics <br></br> Hiring Discrimination - Audit Studies </font></p>
 
 
 ### Professional
