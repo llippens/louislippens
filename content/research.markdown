@@ -18,7 +18,7 @@ ShowPostNavLinks: false
 
 
 ## Publication overview
-The publication overview below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on 16 December 2022. Clicking the value in the 'Citations' column will redirect you to the article entry. This entry provides you with additional details, including a succinct description of the research. The value in the 'Citations' column also includes citations of previous versions of the article (e.g. citations of a discussion paper which was later published in a peer-reviewed journal).
+The publication overview below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on 04 January 2023. Clicking the value in the 'Citations' column will redirect you to the article entry. This entry provides you with additional details, including a succinct description of the research. The value in the 'Citations' column also includes citations of previous versions of the article (e.g. citations of a discussion paper which was later published in a peer-reviewed journal).
 
 <table class="table" style="font-size: 13px; margin-left: auto; margin-right: auto;">
  <thead>
@@ -58,14 +58,14 @@ The publication overview below was taken directly from my <a href="https://schol
    <td style="text-align:left;"> E Moens, L Lippens, P Sterkens, J Weytjens, S Baert </td>
    <td style="text-align:left;"> The European Journal of Health Economics </td>
    <td style="text-align:center;"> 2021 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:LkGwnXOMwfcC" target="_blank">264</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:LkGwnXOMwfcC" target="_blank">270</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> How do employees think the COVID-19 crisis will affect their careers? </td>
    <td style="text-align:left;"> L Lippens, E Moens, P Sterkens, J Weytjens, S Baert </td>
    <td style="text-align:left;"> PLOS ONE <br>[16 (5), e0246899] </td>
    <td style="text-align:center;"> 2021 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:UeHWp8X0CEIC" target="_blank">130</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:UeHWp8X0CEIC" target="_blank">132</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Loss aversion in taste-based employee discrimination: Evidence from a choice experiment </td>
@@ -113,6 +113,13 @@ The publication overview below was taken directly from my <a href="https://schol
    <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:4TOpqqG69KYC" target="_blank">0</a> </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> Hoe kijken Vlaamse werknemers naar de vierdaagse werkweek? Cijfers en duiding vanuit onderzoek </td>
+   <td style="text-align:left;"> S Baert, E Derous, K du Bois, L Lippens, B Neyt, C Rooman, P Sterkens </td>
+   <td style="text-align:left;"> Ghent University </td>
+   <td style="text-align:center;"> 2022 </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:9ZlFYXVOiuMC" target="_blank">0</a> </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> SUGAW 4: Inactiviteit in Europa en de Belgische gewesten </td>
    <td style="text-align:left;"> S Baert, L Lippens </td>
    <td style="text-align:left;"> Ghent University </td>
@@ -143,4 +150,4 @@ In addition to conducting my own research, I have also reviewed the work of some
 You can find more detailed, up-to-date information about my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profiles.
 
 <br></br>
-<font size="3"> _This page was last updated on 16 December 2022._ <font>
+<font size="3"> _This page was last updated on 04 January 2023._ <font>
