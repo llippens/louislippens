@@ -13,7 +13,7 @@ ShowPostNavLinks: false
 
 
 
-**Many correspondence audit studies of labour market discrimination have been published in recent years. My research with Siel Vermeiren and Stijn Baert, which appeared in the [January 2023 issue of European Economic Review](bit.ly/sohd-eer), synthesises the data from virtually all correspondence audit tests conducted around the world between 2005 and 2020. It thus gives a bird's-eye view of the extent of hiring discrimination on various grounds of discrimination. How do, for example, age discrimination and ethnic discrimination compare? Are there regional differences? And does hiring discrimination decrease over time?**
+**Many correspondence audit studies of labour market discrimination have been published in recent years. My research with Siel Vermeiren and Stijn Baert, which appeared in the [January 2023 issue of European Economic Review](https://bit.ly/sohd-eer), synthesises the data from virtually all correspondence audit tests conducted around the world between 2005 and 2020. It thus gives a bird's-eye view of the extent of hiring discrimination on various grounds of discrimination. How do, for example, age discrimination and ethnic discrimination compare? Are there regional differences? And does hiring discrimination decrease over time?**
 
 Recent scientific research on hiring discrimination mainly relies on the tried-and-true method of the correspondence experiment. This method typically involves sending out pairs of fictitious resumes to actual job postings, assigning a particular minority characteristic to either candidate. The responses of employers or recruiters to these resumes are then compared to measure hiring discrimination.
 
@@ -46,4 +46,4 @@ The meta-analysis allows policymakers and employers to specifically target those
 Crucially, diversity promotion measures, such as information campaigns and diversity training, focus not only on ethnicity and gender but also on, say, age. In other words, the meta-analysis underscores that "diversity in the labour market" must also be given a diverse interpretation.
 
 <br></br>
-<font size="3"> _This post [also appeared via UGent @ Work](https://www.ugent.be/ugentatwork/nl/blog/blog-27.htm) and in various Belgian media, in Dutch. This page was last updated on 04 January 2023._ <font>
+<font size="3"> _This post [also appeared via UGent @ Work](https://www.ugent.be/ugentatwork/nl/blog/blog-27.htm) and in various Belgian media, in Dutch. This page was last updated on 20 March 2023._ <font>

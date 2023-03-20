@@ -20,7 +20,7 @@ Sys.setlocale("LC_ALL","English") #Setting the locale to English is crucial for 
 #Packages
 ```
 
-**Many correspondence audit studies of labour market discrimination have been published in recent years. My research with Siel Vermeiren and Stijn Baert, which appeared in the [January 2023 issue of European Economic Review](bit.ly/sohd-eer), synthesises the data from virtually all correspondence audit tests conducted around the world between 2005 and 2020. It thus gives a bird's-eye view of the extent of hiring discrimination on various grounds of discrimination. How do, for example, age discrimination and ethnic discrimination compare? Are there regional differences? And does hiring discrimination decrease over time?**
+**Many correspondence audit studies of labour market discrimination have been published in recent years. My research with Siel Vermeiren and Stijn Baert, which appeared in the [January 2023 issue of European Economic Review](https://bit.ly/sohd-eer), synthesises the data from virtually all correspondence audit tests conducted around the world between 2005 and 2020. It thus gives a bird's-eye view of the extent of hiring discrimination on various grounds of discrimination. How do, for example, age discrimination and ethnic discrimination compare? Are there regional differences? And does hiring discrimination decrease over time?**
 
 Recent scientific research on hiring discrimination mainly relies on the tried-and-true method of the correspondence experiment. This method typically involves sending out pairs of fictitious resumes to actual job postings, assigning a particular minority characteristic to either candidate. The responses of employers or recruiters to these resumes are then compared to measure hiring discrimination.
 
