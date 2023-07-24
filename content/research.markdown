@@ -172,7 +172,7 @@ The publication overview* below was taken directly from my <a href="https://scho
 </tbody>
 </table>
 
-<p style="line-height:1; font-style:italic"><font size="2">*The value in the 'Citations' column also includes citations of previous versions of the article (e.g. citations of a discussion paper which was later published in a peer-reviewed journal).</font></p>
+<p style="line-height:1; font-style:italic"><font size="2">*The value in the 'Citations' column also includes citations of previous versions of the article (e.g. citations of a discussion paper which was later published in a peer-reviewed journal). Clicking on the citations value will take you directly to the Google Scholar entry.</font></p>
 
 ## Reviewer duties
 In addition to conducting my own research, I have also reviewed the work of some of my peers. I have served as a reviewer (ad hoc) for American Sociological Review (1), Journal of Labor Economics (1), Technology in Society (1), Journal of Ethnic and Migration Studies (1), Social Science & Medicine (1), Social Forces (1), PLOS ONE (2), Journal of Sociology (1), Work and Occupations (1), Social Policy and Society (1), International Migration Review (1), Oxford Bulletin of Economics and Statistics (1), International Journal of Manpower (1), and Economics Bulletin (2).
