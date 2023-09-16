@@ -18,7 +18,7 @@ ShowPostNavLinks: false
 <p style="line-height:.8; font-style:italic; text-align:center"><font size="3">Postdoctoral Researcher in Economics<br></br>Applied Microeconomics - Labour Economics - Experimental Economics<br></br>Hiring Discrimination - Audit Studies</font></p>
 
 ### Professional
-I am currently active as a postdoctoral researcher in labour economics at Ghent University. My academic work focuses on the determinants and contextual factors contributing to hiring discrimination. This job inaccessibility still leads to a considerable waste of individual talent in today's labour market.
+I am currently active as a postdoctoral researcher in labour economics at Ghent University. My academic work focuses on the determinants and contextual factors contributing to hiring discrimination, an issue that continues to squander individual talent in today's labour market.
 
 My postdoctoral project aims to delve deeper into the relationship between market competition and hiring discrimination, using advanced statistical techniques such as multilevel meta-regression on transnational data to better inform policy interventions.
 
@@ -33,7 +33,5 @@ I live with my spouse, Anna, my son, Georges, and our cat, Abel. In a former lif
 
 <br></br>
 <font size="2">
-_The content of this webspace is primarily written in R using R Markdown, the <a href="https://gohugo.io/" target="_blank">Hugo</a> framework and the <a href="https://github.com/adityatelange/hugo-PaperMod" target="_blank">PaperMod</a> theme._
-
 _This page was last updated on 16 September 2023._
 <font>
