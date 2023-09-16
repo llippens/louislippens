@@ -40,7 +40,7 @@ table <- publications %>%
 
 names(table) <- c("Title", "Authors", "Source", "Number", "Citations", "Year", "pubid")
 
-categories <- c("Peer-reviewed Publications", "Discussion Papers", "Book Chapters", "Master's Thesis", "Other")
+categories <- c("Peer-reviewed Publications", "Discussion Papers", "Book Chapters", "PhD Thesis", "Master's Thesis", "Other")
 
 table <- table %>%
   mutate(url = paste0(scholar_url, ":", pubid)) %>%
@@ -49,11 +49,12 @@ table <- table %>%
            !str_detect(Source,
                        "Discussion|Ghent|Borgerhoff|Stories|In conflict") &
              Source != "" ~ categories[1],
+           str_detect(Title, "Recruiter says ") ~ categories[4],
            str_detect(Source, "Discussion|Ghent") &
              !str_detect(Title, " Intelligenztest") ~ categories[2],
            str_detect(Source, "Borgerhoff|In conflict") ~ categories[3],
-           str_detect(Title, " Intelligenztest") ~ categories[4],
-           TRUE ~ categories[5]),
+           str_detect(Title, " Intelligenztest") ~ categories[5],
+           TRUE ~ categories[6]),
          Source = case_when(Source == "" ~ "Ghent University",
                             Number == "" & Source != "" ~ Source,
                             Number != "" & Source != "" ~ paste0(Source, " <br>[", Number, "]</br>"))) %>%
@@ -72,8 +73,9 @@ table %>%
   group_rows(index = c("Peer-reviewed Publications" = nrow(table %>% filter(Category == categories[1])),
                        "Discussion Papers" = nrow(table %>% filter(Category == categories[2])),
                        "Book Chapters" = nrow(table %>% filter(Category == categories[3])),
-                       "Master's Thesis" = nrow(table %>% filter(Category == categories[4])),
-                       "Other" = nrow(table %>% filter(Category == categories[5]))
+                       "PhD Thesis" = nrow(table %>% filter(Category == categories[4])),
+                       "Master's Thesis" = nrow(table %>% filter(Category == categories[5])),
+                       "Other" = nrow(table %>% filter(Category == categories[6]))
   ),
   indent = FALSE)
 ```
@@ -81,7 +83,7 @@ table %>%
 <p style="line-height:1; font-style:italic"><font size="2">*The value in the 'Citations' column also includes citations of previous versions of the article (e.g. citations of a discussion paper which was later published in a peer-reviewed journal). Clicking on the citations value will take you directly to the Google Scholar entry.</font></p>
 
 ## Reviewer duties
-In addition to conducting my own research, I have also reviewed the work of some of my peers. I have served as a reviewer (ad hoc) for American Sociological Review (1), Journal of Labor Economics (1), Technology in Society (1), Journal of Ethnic and Migration Studies (1), Social Science & Medicine (1), Social Forces (1), PLOS ONE (2), Journal of Sociology (1), Work and Occupations (1), Social Policy and Society (1), International Migration Review (1), Oxford Bulletin of Economics and Statistics (1), International Journal of Manpower (1), and Economics Bulletin (2).
+In addition to conducting my own research, I have also reviewed the work of some of my peers. I have served as a reviewer (ad hoc) for American Sociological Review (1), Journal of Labor Economics (1), Technology in Society (1), Journal of Ethnic and Migration Studies (1), Social Science & Medicine (1), Social Forces (1), PLOS ONE (2), Journal of Sociology (1), Work and Occupations (1), Social Policy and Society (1), International Migration Review (1), The Annals of Regional Science (1), Oxford Bulletin of Economics and Statistics (1), International Journal of Manpower (1), and Economics Bulletin (2).
 
 ## Online profiles
 You can find more detailed, up-to-date information about my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profiles.

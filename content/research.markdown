@@ -18,7 +18,7 @@ ShowPostNavLinks: false
 
 
 ## Publication overview
-The publication overview* below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on 24 July 2023.
+The publication overview* below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on 16 September 2023.
 
 <table class="table" style="font-size: 13px; margin-left: auto; margin-right: auto;">
  <thead>
@@ -37,7 +37,7 @@ The publication overview* below was taken directly from my <a href="https://scho
    <td style="text-align:left;"> L Lippens, S Vermeiren, S Baert </td>
    <td style="text-align:left;"> European Economic Review <br>[151, 104315] </td>
    <td style="text-align:center;"> 2023 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:4DMP91E08xMC" target="_blank">39</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:4DMP91E08xMC" target="_blank">45</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Beyond the Hype: (How) Are Work Regimes Associated with Job Burnout? </td>
@@ -58,28 +58,28 @@ The publication overview* below was taken directly from my <a href="https://scho
    <td style="text-align:left;"> L Lippens, S Baert, A Ghekiere, PP Verhaeghe, E Derous </td>
    <td style="text-align:left;"> Journal of Ethnic and Migration Studies <br>[48 (17), 4243-4276] </td>
    <td style="text-align:center;"> 2022 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:qjMakFHDy7sC" target="_blank">34</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:qjMakFHDy7sC" target="_blank">36</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> The COVID-19 crisis and telework: A research survey on experiences, expectations and hopes </td>
    <td style="text-align:left;"> E Moens, L Lippens, P Sterkens, J Weytjens, S Baert </td>
    <td style="text-align:left;"> The European Journal of Health Economics <br>[23, 729–753] </td>
    <td style="text-align:center;"> 2021 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:LkGwnXOMwfcC" target="_blank">361</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:LkGwnXOMwfcC" target="_blank">374</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> How do employees think the COVID-19 crisis will affect their careers? </td>
    <td style="text-align:left;"> L Lippens, E Moens, P Sterkens, J Weytjens, S Baert </td>
    <td style="text-align:left;"> PLOS ONE <br>[16 (5), e0246899] </td>
    <td style="text-align:center;"> 2021 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:UeHWp8X0CEIC" target="_blank">152</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:UeHWp8X0CEIC" target="_blank">158</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Loss aversion in taste-based employee discrimination: Evidence from a choice experiment </td>
    <td style="text-align:left;"> L Lippens, S Baert, E Derous </td>
    <td style="text-align:left;"> Economics Letters <br>[208] </td>
    <td style="text-align:center;"> 2021 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:ufrVoPGSRksC" target="_blank">4</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:ufrVoPGSRksC" target="_blank">5</a> </td>
   </tr>
   <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Discussion Papers</strong></td></tr>
 <tr>
@@ -87,7 +87,7 @@ The publication overview* below was taken directly from my <a href="https://scho
    <td style="text-align:left;"> H Van Borm, L Lippens, S Baert </td>
    <td style="text-align:left;"> IZA Discussion Paper </td>
    <td style="text-align:center;"> 2022 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:aqlVkmm33-oC" target="_blank">1</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:aqlVkmm33-oC" target="_blank">2</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Selecting names for experiments on ethnic discrimination </td>
@@ -124,6 +124,14 @@ The publication overview* below was taken directly from my <a href="https://scho
    <td style="text-align:left;"> In conflict gaan met je baas... en andere manieren om je loopbaan in eigen … </td>
    <td style="text-align:center;"> 2023 </td>
    <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:qUcmZB5y_30C" target="_blank">0</a> </td>
+  </tr>
+  <tr grouplength="1"><td colspan="5" style="border-bottom: 1px solid;"><strong>PhD Thesis</strong></td></tr>
+<tr>
+   <td style="text-align:left;"> Recruiter says 'no': Measuring and explaining labour market discrimination </td>
+   <td style="text-align:left;"> L Lippens </td>
+   <td style="text-align:left;"> Ghent University </td>
+   <td style="text-align:center;"> 2023 </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:RHpTSmoSYBkC" target="_blank">0</a> </td>
   </tr>
   <tr grouplength="1"><td colspan="5" style="border-bottom: 1px solid;"><strong>Master's Thesis</strong></td></tr>
 <tr>
@@ -175,10 +183,10 @@ The publication overview* below was taken directly from my <a href="https://scho
 <p style="line-height:1; font-style:italic"><font size="2">*The value in the 'Citations' column also includes citations of previous versions of the article (e.g. citations of a discussion paper which was later published in a peer-reviewed journal). Clicking on the citations value will take you directly to the Google Scholar entry.</font></p>
 
 ## Reviewer duties
-In addition to conducting my own research, I have also reviewed the work of some of my peers. I have served as a reviewer (ad hoc) for American Sociological Review (1), Journal of Labor Economics (1), Technology in Society (1), Journal of Ethnic and Migration Studies (1), Social Science & Medicine (1), Social Forces (1), PLOS ONE (2), Journal of Sociology (1), Work and Occupations (1), Social Policy and Society (1), International Migration Review (1), Oxford Bulletin of Economics and Statistics (1), International Journal of Manpower (1), and Economics Bulletin (2).
+In addition to conducting my own research, I have also reviewed the work of some of my peers. I have served as a reviewer (ad hoc) for American Sociological Review (1), Journal of Labor Economics (1), Technology in Society (1), Journal of Ethnic and Migration Studies (1), Social Science & Medicine (1), Social Forces (1), PLOS ONE (2), Journal of Sociology (1), Work and Occupations (1), Social Policy and Society (1), International Migration Review (1), The Annals of Regional Science (1), Oxford Bulletin of Economics and Statistics (1), International Journal of Manpower (1), and Economics Bulletin (2).
 
 ## Online profiles
 You can find more detailed, up-to-date information about my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profiles.
 
 <br></br>
-<font size="2"> _This page was last updated on 24 July 2023._ <font>
+<font size="2"> _This page was last updated on 16 September 2023._ <font>
