@@ -31,6 +31,14 @@ citations <- get_profile(profile_id)
 publications <- get_publications(profile_id, flush = TRUE, sortby = "year")
 ```
 
+## Research highlights
+
+- Our meta-analysis (published in <a href="https://doi.org/10.1016/j.euroecorev.2022.104315" target="_blank">European Economic Review</a>) of correspondence audit experiments in hiring settings from 2005 to 2020 reveals that hiring discrimination is similarly severe for candidates with disabilities, older age, and less physical attractiveness as for those with distinct racial or ethnic characteristics, with older candidates facing more discrimination in Europe and no clear evidence of decreasing discrimination over time.
+
+- In an experimental study (preprint in <a href="https://doi.org/10.48550/arXiv.2309.07664" target="_blank">arXiv</a>) exploring whether ChatGPT displays ethnic or gender bias in job applicant screening using an audit approach, I find that ChatGPT's evaluations are influenced by ethnic cues, with some evidence for a gender--ethnicity interaction, highlighting the need for caution in using such models for selection decisions.
+
+- In a contextual study of hiring discrimination (forthcoming in Labour Economics) empirically testing theoretically-linked moderators of discrimination, we observe a distinct role of the organisation in shaping hiring discrimination, revealing that ethnic minorities face less discrimination when applying to not-for-profits or large organisations, alongside some evidence that hiring discrimination rises in jobs requiring more colleague interaction or in less tight labour markets.
+
 ## Publication overview
 The publication overview* below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on `r format(Sys.Date(), "%d %B %Y")`.
 
@@ -47,10 +55,10 @@ table <- table %>%
   mutate(Citations = paste0('<a href="', url, '" target="_blank">', Citations, '</a>'),
          Category = case_when(
            !str_detect(Source,
-                       "Discussion|Ghent|Borgerhoff|Stories|In conflict") &
+                       "Discussion|Ghent|Borgerhoff|Stories|In conflict|arXiv") &
              Source != "" ~ categories[1],
            str_detect(Title, "Recruiter says ") ~ categories[4],
-           str_detect(Source, "Discussion|Ghent") &
+           str_detect(Source, "Discussion|Ghent|arXiv") &
              !str_detect(Title, " Intelligenztest") ~ categories[2],
            str_detect(Source, "Borgerhoff|In conflict") ~ categories[3],
            str_detect(Title, " Intelligenztest") ~ categories[5],
@@ -80,10 +88,7 @@ table %>%
   indent = FALSE)
 ```
 
-<p style="line-height:1; font-style:italic"><font size="2">*The value in the 'Citations' column also includes citations of previous versions of the article (e.g. citations of a discussion paper which was later published in a peer-reviewed journal). Clicking on the citations value will take you directly to the Google Scholar entry.</font></p>
-
-## Reviewer duties
-In addition to conducting my own research, I have also reviewed the work of some of my peers. I have served as a reviewer (ad hoc) for American Sociological Review (1), Journal of Labor Economics (1), Technology in Society (1), Journal of Ethnic and Migration Studies (1), Social Science & Medicine (1), Social Forces (1), PLOS ONE (2), Journal of Sociology (1), Work and Occupations (1), Social Policy and Society (1), International Migration Review (1), The Annals of Regional Science (1), Oxford Bulletin of Economics and Statistics (1), International Journal of Manpower (1), and Economics Bulletin (2).
+<p style="line-height:1; font-style:italic"><font size="2">*The value in the Citations column also includes citations of previous versions of the article (e.g. citations of a discussion paper later published in a peer-reviewed journal). Clicking the citation value will take you directly to the Google Scholar entry.</font></p>
 
 ## Online profiles
 You can find more detailed, up-to-date information about my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profiles.

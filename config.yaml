@@ -32,6 +32,7 @@ menu:
       weight: 3
     - name: cv (download)
       url: https://github.com/lglip/resume/raw/main/resume/resume_louislippens.pdf
+      target: _blank
       weight: 4
       
 params:
@@ -46,11 +47,10 @@ params:
   defaultTheme: auto
   disableThemeToggle: true
   homeInfoParams:
-      Title: "Hello, visitor \U0001F44B"
+      Title: "Hello, visitor"
       Content: >
-        Welcome to my personal website. You can read more about me in the eponymous tab or
-        discover my (academic) work in the other tab above. Links to my socials are below.
-        It is quite empty here, still, but more content is on its way.
+        Welcome to my personal web space. You can read more about me in the eponymous tab or
+        discover my (academic) work in the research tab. Links to my socials are below.
   socialIcons:
       - name: "GoogleScholar"
         url: "https://scholar.google.com/citations?user=N5hW-KgAAAAJ"

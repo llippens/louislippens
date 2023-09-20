@@ -17,8 +17,16 @@ ShowPostNavLinks: false
 
 
 
+## Research highlights
+
+- Our meta-analysis (published in <a href="https://doi.org/10.1016/j.euroecorev.2022.104315" target="_blank">European Economic Review</a>) of correspondence audit experiments in hiring settings from 2005 to 2020 reveals that hiring discrimination is similarly severe for candidates with disabilities, older age, and less physical attractiveness as for those with distinct racial or ethnic characteristics, with older candidates facing more discrimination in Europe and no clear evidence of decreasing discrimination over time.
+
+- In an experimental study (preprint in <a href="https://doi.org/10.48550/arXiv.2309.07664" target="_blank">arXiv</a>) exploring whether ChatGPT displays ethnic or gender bias in job applicant screening using an audit approach, I find that ChatGPT's evaluations are influenced by ethnic cues, with some evidence for a gender--ethnicity interaction, highlighting the need for caution in using such models for selection decisions.
+
+- In a contextual study of hiring discrimination (forthcoming in Labour Economics) empirically testing theoretically-linked moderators of discrimination, we observe a distinct role of the organisation in shaping hiring discrimination, revealing that ethnic minorities face less discrimination when applying to not-for-profits or large organisations, alongside some evidence that hiring discrimination rises in jobs requiring more colleague interaction or in less tight labour markets.
+
 ## Publication overview
-The publication overview* below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on 16 September 2023.
+The publication overview* below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on 20 September 2023.
 
 <table class="table" style="font-size: 13px; margin-left: auto; margin-right: auto;">
  <thead>
@@ -37,7 +45,7 @@ The publication overview* below was taken directly from my <a href="https://scho
    <td style="text-align:left;"> L Lippens, S Vermeiren, S Baert </td>
    <td style="text-align:left;"> European Economic Review <br>[151, 104315] </td>
    <td style="text-align:center;"> 2023 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:4DMP91E08xMC" target="_blank">45</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:4DMP91E08xMC" target="_blank">47</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Beyond the Hype: (How) Are Work Regimes Associated with Job Burnout? </td>
@@ -81,8 +89,15 @@ The publication overview* below was taken directly from my <a href="https://scho
    <td style="text-align:center;"> 2021 </td>
    <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:ufrVoPGSRksC" target="_blank">5</a> </td>
   </tr>
-  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Discussion Papers</strong></td></tr>
+  <tr grouplength="5"><td colspan="5" style="border-bottom: 1px solid;"><strong>Discussion Papers</strong></td></tr>
 <tr>
+   <td style="text-align:left;"> Computer says' no': Exploring systemic hiring bias in ChatGPT using an audit approach </td>
+   <td style="text-align:left;"> L Lippens </td>
+   <td style="text-align:left;"> arXiv preprint arXiv: <br>[:2309.07664] </td>
+   <td style="text-align:center;"> 2023 </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:j3f4tGmQtD8C" target="_blank">0</a> </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> An Arab, an Asian, and a Black guy walk into a job interview: ethnic stigma in hiring after controlling for social class </td>
    <td style="text-align:left;"> H Van Borm, L Lippens, S Baert </td>
    <td style="text-align:left;"> IZA Discussion Paper </td>
@@ -180,13 +195,10 @@ The publication overview* below was taken directly from my <a href="https://scho
 </tbody>
 </table>
 
-<p style="line-height:1; font-style:italic"><font size="2">*The value in the 'Citations' column also includes citations of previous versions of the article (e.g. citations of a discussion paper which was later published in a peer-reviewed journal). Clicking on the citations value will take you directly to the Google Scholar entry.</font></p>
-
-## Reviewer duties
-In addition to conducting my own research, I have also reviewed the work of some of my peers. I have served as a reviewer (ad hoc) for American Sociological Review (1), Journal of Labor Economics (1), Technology in Society (1), Journal of Ethnic and Migration Studies (1), Social Science & Medicine (1), Social Forces (1), PLOS ONE (2), Journal of Sociology (1), Work and Occupations (1), Social Policy and Society (1), International Migration Review (1), The Annals of Regional Science (1), Oxford Bulletin of Economics and Statistics (1), International Journal of Manpower (1), and Economics Bulletin (2).
+<p style="line-height:1; font-style:italic"><font size="2">*The value in the Citations column also includes citations of previous versions of the article (e.g. citations of a discussion paper later published in a peer-reviewed journal). Clicking the citation value will take you directly to the Google Scholar entry.</font></p>
 
 ## Online profiles
 You can find more detailed, up-to-date information about my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profiles.
 
 <br></br>
-<font size="2"> _This page was last updated on 16 September 2023._ <font>
+<font size="2"> _This page was last updated on 20 September 2023._ <font>
