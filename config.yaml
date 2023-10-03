@@ -38,7 +38,7 @@ menu:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: >
-        Louis Lippens, doctoral researcher in economics and sociology at UGent and VUB
+        Louis Lippens, FWO postdoctoral researcher at Ghent University
   author: Louis Lippens
   ShowShareButtons: false
   ShowReadingTime: true
