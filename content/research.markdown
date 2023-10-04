@@ -23,10 +23,10 @@ ShowPostNavLinks: false
 
 - In an experimental study (preprint in <a href="https://doi.org/10.48550/arXiv.2309.07664" target="_blank">arXiv</a>) exploring whether ChatGPT displays ethnic or gender bias in job applicant screening using an audit approach, I find that ChatGPT's evaluations are influenced by ethnic cues, with some evidence for a gender--ethnicity interaction, highlighting the need for caution in using such models for selection decisions.
 
-- In a contextual study of hiring discrimination (forthcoming in Labour Economics) empirically testing theoretically-linked moderators of discrimination, we observe a distinct role of the organisation in shaping hiring discrimination, revealing that ethnic minorities face less discrimination when applying to not-for-profits or large organisations, alongside some evidence that hiring discrimination rises in jobs requiring more colleague interaction or in less tight labour markets.
+- In a contextual study of hiring discrimination (in press in <a href="https://doi.org/10.1016/j.labeco.2023.102453" target = "_blank">Labour Economics</a>) empirically testing theoretically-linked moderators of discrimination, we observe a distinct role of the organisation in shaping hiring discrimination, revealing that ethnic minorities face less discrimination when applying to not-for-profits or large organisations, alongside some evidence that hiring discrimination rises in jobs requiring more colleague interaction or in less tight labour markets.
 
 ## Publication overview
-The publication overview* below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on 20 September 2023.
+The publication overview* below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on 05 October 2023.
 
 <table class="table" style="font-size: 13px; margin-left: auto; margin-right: auto;">
  <thead>
@@ -39,48 +39,55 @@ The publication overview* below was taken directly from my <a href="https://scho
   </tr>
  </thead>
 <tbody>
-  <tr grouplength="7"><td colspan="5" style="border-bottom: 1px solid;"><strong>Peer-reviewed Publications</strong></td></tr>
+  <tr grouplength="8"><td colspan="5" style="border-bottom: 1px solid;"><strong>Peer-reviewed Publications</strong></td></tr>
 <tr>
    <td style="text-align:left;"> The state of hiring discrimination: A meta-analysis of (almost) all recent correspondence experiments </td>
    <td style="text-align:left;"> L Lippens, S Vermeiren, S Baert </td>
    <td style="text-align:left;"> European Economic Review <br>[151, 104315] </td>
    <td style="text-align:center;"> 2023 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:4DMP91E08xMC" target="_blank">47</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:4DMP91E08xMC" target="_blank">54</a> </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Beyond the Hype: (How) Are Work Regimes Associated with Job Burnout? </td>
+   <td style="text-align:left;"> Beyond the hype: (How) are work regimes associated with job burnout? </td>
    <td style="text-align:left;"> K du Bois, P Sterkens, L Lippens, S Baert, E Derous </td>
    <td style="text-align:left;"> International Journal of Environmental Research and Public Health <br>[20 (4)] </td>
    <td style="text-align:center;"> 2023 </td>
    <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:ZeXyd9-uunAC" target="_blank">1</a> </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> Understanding ethnic hiring discrimination: A contextual analysis of experimental evidence </td>
+   <td style="text-align:left;"> L Lippens, A Dalle, F D'hondt, PP Verhaeghe, S Baert </td>
+   <td style="text-align:left;"> Labour Economics <br>[102453] </td>
+   <td style="text-align:center;"> 2023 </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:bEWYMUwI8FkC" target="_blank">1</a> </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> Ethnic discrimination on paper: Uncovering realtors’ willingness to discriminate with mystery mails </td>
    <td style="text-align:left;"> A Ghekiere, L Lippens, S Baert, PP Verhaeghe </td>
    <td style="text-align:left;"> Applied Economics Letters </td>
    <td style="text-align:center;"> 2022 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:Zph67rFs4hoC" target="_blank">3</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:Zph67rFs4hoC" target="_blank">4</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Is labour market discrimination against ethnic minorities better explained by taste or statistics? A systematic review of the empirical evidence </td>
    <td style="text-align:left;"> L Lippens, S Baert, A Ghekiere, PP Verhaeghe, E Derous </td>
    <td style="text-align:left;"> Journal of Ethnic and Migration Studies <br>[48 (17), 4243-4276] </td>
    <td style="text-align:center;"> 2022 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:qjMakFHDy7sC" target="_blank">36</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:qjMakFHDy7sC" target="_blank">37</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> The COVID-19 crisis and telework: A research survey on experiences, expectations and hopes </td>
    <td style="text-align:left;"> E Moens, L Lippens, P Sterkens, J Weytjens, S Baert </td>
    <td style="text-align:left;"> The European Journal of Health Economics <br>[23, 729–753] </td>
    <td style="text-align:center;"> 2021 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:LkGwnXOMwfcC" target="_blank">374</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:LkGwnXOMwfcC" target="_blank">384</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> How do employees think the COVID-19 crisis will affect their careers? </td>
    <td style="text-align:left;"> L Lippens, E Moens, P Sterkens, J Weytjens, S Baert </td>
    <td style="text-align:left;"> PLOS ONE <br>[16 (5), e0246899] </td>
    <td style="text-align:center;"> 2021 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:UeHWp8X0CEIC" target="_blank">158</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:UeHWp8X0CEIC" target="_blank">160</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Loss aversion in taste-based employee discrimination: Evidence from a choice experiment </td>
@@ -91,9 +98,9 @@ The publication overview* below was taken directly from my <a href="https://scho
   </tr>
   <tr grouplength="5"><td colspan="5" style="border-bottom: 1px solid;"><strong>Discussion Papers</strong></td></tr>
 <tr>
-   <td style="text-align:left;"> Computer says' no': Exploring systemic hiring bias in ChatGPT using an audit approach </td>
+   <td style="text-align:left;"> Computer says 'no': Exploring systemic hiring bias in ChatGPT using an audit approach </td>
    <td style="text-align:left;"> L Lippens </td>
-   <td style="text-align:left;"> arXiv preprint arXiv: <br>[:2309.07664] </td>
+   <td style="text-align:left;"> arXiv </td>
    <td style="text-align:center;"> 2023 </td>
    <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:j3f4tGmQtD8C" target="_blank">0</a> </td>
   </tr>
@@ -112,14 +119,14 @@ The publication overview* below was taken directly from my <a href="https://scho
    <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:qxL8FJ1GzNcC" target="_blank">2</a> </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Nulmeting discriminatie op de Antwerpse arbeidsmarkt: rapportering </td>
+   <td style="text-align:left;"> Nulmeting discriminatie op de Antwerpse arbeidsmarkt </td>
    <td style="text-align:left;"> S Baert, A Dalle, L Lippens, L Malfait, A Sharipova </td>
    <td style="text-align:left;"> Ghent University </td>
    <td style="text-align:center;"> 2021 </td>
    <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:Se3iqnhoufwC" target="_blank">2</a> </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Discriminatie op de Gentse arbeidsmarkt anno 2021: rapportering </td>
+   <td style="text-align:left;"> Discriminatie op de Gentse arbeidsmarkt anno 2021 </td>
    <td style="text-align:left;"> S Baert, A Dalle, L Lippens, L Malfait </td>
    <td style="text-align:left;"> Ghent University </td>
    <td style="text-align:center;"> 2021 </td>
@@ -156,13 +163,27 @@ The publication overview* below was taken directly from my <a href="https://scho
    <td style="text-align:center;"> 2016 </td>
    <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:u5HHmVD_uO8C" target="_blank">6</a> </td>
   </tr>
-  <tr groupLength="5"><td colspan="5" style="border-bottom: 1px solid;"><strong>Other</strong></td></tr>
+  <tr groupLength="7"><td colspan="5" style="border-bottom: 1px solid;"><strong>Other</strong></td></tr>
 <tr>
    <td style="text-align:left;"> Vlaamse werknemers en hun loon: nieuwe cijfers en duiding vanuit onderzoek </td>
    <td style="text-align:left;"> M Audenaert, S Baert, E Clays, E Derous, L Lippens, B Neyt, E Schollaert, ... </td>
    <td style="text-align:left;"> Stories @ UGent @ Work </td>
    <td style="text-align:center;"> 2023 </td>
    <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:hC7cP41nSMkC" target="_blank">0</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> De Vlaamse en Belgische arbeidsmarkt in Europees perspectief: 9 opvallende cijfers </td>
+   <td style="text-align:left;"> S Baert, E Clays, A Dalle, E Derous, M De Vos, K du Bois, M El Haj, ... </td>
+   <td style="text-align:left;"> Stories @ UGent @ Work </td>
+   <td style="text-align:center;"> 2023 </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:iH-uZ7U-co4C" target="_blank">0</a> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Werkgelegenheidsconferentie federale regering 2023: 7 studies die beleid moet kennen over vrouwen op arbeidsmarkt </td>
+   <td style="text-align:left;"> S Baert, L Bolliger, E Clays, E Derous, L Lippens, S Mertens, B Neyt, ... </td>
+   <td style="text-align:left;"> Stories @ UGent @ Work </td>
+   <td style="text-align:center;"> 2023 </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:r0BpntZqJG4C" target="_blank">0</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Inactiviteit onder migranten in België </td>
@@ -201,4 +222,4 @@ The publication overview* below was taken directly from my <a href="https://scho
 You can find more detailed, up-to-date information about my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profiles.
 
 <br></br>
-<font size="2"> _This page was last updated on 20 September 2023._ <font>
+<font size="2"> _This page was last updated on 05 October 2023._ <font>
