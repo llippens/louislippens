@@ -25,6 +25,7 @@ ShowPostNavLinks: false
 
 - In our contextual study of hiring discrimination (in press in <a href="https://doi.org/10.1016/j.labeco.2023.102453" target = "_blank">Labour Economics</a>) empirically testing theoretically-linked moderators of discrimination, we observe a distinct role of the organisation in shaping hiring discrimination, revealing that ethnic minorities face less discrimination when applying to non-profits or large organisations, alongside some evidence that hiring discrimination rises in jobs requiring more colleague interaction or in less tight labour markets.
 
+
 ## Publication overview
 The publication overview* below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on 05 October 2023.
 
