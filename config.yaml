@@ -34,6 +34,9 @@ menu:
       url: https://github.com/lglip/resume/raw/main/resume/resume_louislippens.pdf
       target: _blank
       weight: 4
+    - name:
+      url: /.well-known/
+      weight: 5
       
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
