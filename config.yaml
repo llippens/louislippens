@@ -38,7 +38,7 @@ menu:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: >
-        Louis Lippens, FWO postdoctoral researcher at Ghent University
+        Louis Lippens, FWO postdoctoral fellow at Ghent University
   author: Louis Lippens
   ShowShareButtons: false
   ShowReadingTime: true
@@ -58,10 +58,8 @@ params:
         url: "https://www.researchgate.net/profile/Louis-Lippens"
       - name: "LinkedIn"
         url: "https://www.linkedin.com/in/louislippens/"
-      - name: "Twitter"
-        url: "https://twitter.com/LippensLouis"
-      - name: "Mastodon"
-        url: "https://mstdn.social/@lippenslouis"
+      - name: "other"
+        url: "https://bsky.app/profile/louislippens.be"
   assets:
         favicon: "/favicon.ico"
         favicon16x16:  "/favicon-16x16.png"
