@@ -18,7 +18,7 @@ ShowPostNavLinks: false
 <p style="line-height:.8; font-style:italic; text-align:center"><font size="3">Postdoctoral Researcher in Economics<br></br>Applied Microeconomics - Labour Economics - Experimental Economics<br></br>Hiring Discrimination - Audit Studies - Meta-analysis</font></p>
 
 ### Professional
-I am currently active as a postdoctoral researcher in labour economics at Ghent University. My academic work focuses on the determinants and contextual factors contributing to hiring discrimination, an issue that continues to squander individual talent in today's labour market.
+I am currently active as an [FWO postdoctoral researcher](https://www.fwo.be/en/fellowships-funding/postdoctoral-fellowships/junior-postdoctoral-fellowship/) in labour economics at Ghent University. My academic work focuses on the determinants and contextual factors contributing to hiring discrimination, an issue that continues to squander individual talent in today's labour market.
 
 My postdoctoral project aims to delve deeper into the relationship between market competition and hiring discrimination, using advanced statistical techniques such as multilevel meta-regression on transnational data to better inform policy interventions.
 
