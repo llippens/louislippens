@@ -41,7 +41,7 @@ publications <- get_publications(profile_id, flush = TRUE, sortby = "year")
 
 
 ## Publication overview
-The publication overview* below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on `r format(Sys.Date(), "%d %B %Y")`.
+The condensed publication overview* below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on `r format(Sys.Date(), "%d %B %Y")`.
 
 ```{r kable, echo = FALSE}
 table <- publications %>%
@@ -58,15 +58,17 @@ table <- table %>%
            !str_detect(Source,
                        "Discussion|Ghent|Borgerhoff|Stories|In conflict|arXiv") &
              Source != "" ~ categories[1],
-           str_detect(Title, "Recruiter says ") ~ categories[4],
            str_detect(Source, "Discussion|Ghent|arXiv") &
              !str_detect(Title, " Intelligenztest") ~ categories[2],
            str_detect(Source, "Borgerhoff|In conflict") ~ categories[3],
+           str_detect(Title, "Recruiter says ") ~ categories[4],
            str_detect(Title, " Intelligenztest") ~ categories[5],
            TRUE ~ categories[6]),
          Source = case_when(Source == "" ~ "Ghent University",
                             Number == "" & Source != "" ~ Source,
-                            Number != "" & Source != "" ~ paste0(Source, " <br>[", Number, "]</br>"))) %>%
+                            Number != "" & Source != "" ~
+                              paste0(Source, " <br>[", Number, "]</br>")),
+         Authors = str_replace_all(Authors, "L Lippens", "<b>L Lippens</b>")) %>%
   select(Title, Authors, Source, Year, Citations, Category) %>%
   as_tibble
 
@@ -76,20 +78,25 @@ table <- table %>%
   arrange(Category, desc(Year), Citations)
 
 table %>%
+  filter(Category %in% c("Peer-reviewed Publications", "Discussion Papers")) %>%
+  filter(Source != "Ghent University") %>%
   select(-Category) %>% #Deleting 'Category' from kable while still keeping it in 'table'
   kable(format = "html", escape = FALSE, align = "lllcc") %>% #'escape = FALSE' is vital to make links work
   kable_styling(font_size = 13) %>%
   group_rows(index = c("Peer-reviewed Publications" = nrow(table %>% filter(Category == categories[1])),
-                       "Discussion Papers" = nrow(table %>% filter(Category == categories[2])),
-                       "Book Chapters" = nrow(table %>% filter(Category == categories[3])),
-                       "PhD Thesis" = nrow(table %>% filter(Category == categories[4])),
-                       "Master's Thesis" = nrow(table %>% filter(Category == categories[5])),
-                       "Other" = nrow(table %>% filter(Category == categories[6]))
+                       "Discussion Papers" = nrow(table %>% filter(Category == categories[2]))
   ),
   indent = FALSE)
 ```
 
-<p style="line-height:1; font-style:italic"><font size="2">*The value in the Citations column also includes citations of previous versions of the article (e.g. citations of a discussion paper later published in a peer-reviewed journal). Clicking the citation value will take you directly to the Google Scholar entry.</font></p>
+```{r include = FALSE, echo = FALSE}
+#"Book Chapters" = nrow(table %>% filter(Category == categories[3]))
+#"PhD Thesis" = nrow(table %>% filter(Category == categories[4]))
+#"Master's Thesis" = nrow(table %>% filter(Category == categories[5]))
+#"Other" = nrow(table %>% filter(Category == categories[6]))
+```
+
+<p style="line-height:1; font-style:italic"><font size="2">*The full overview is available from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a> profile. The value in the Citations column also includes citations of previous versions of the article (e.g. citations of a discussion paper later published in a peer-reviewed journal). Clicking the citation value will take you directly to the Google Scholar entry.</font></p>
 
 ## Online profiles
 You can find more detailed, up-to-date information about my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profiles.
