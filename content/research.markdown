@@ -51,7 +51,7 @@ The condensed publication overview* below was taken directly from my <a href="ht
   <tr>
    <td style="text-align:left;"> Beyond the hype: (How) are work regimes associated with job burnout? </td>
    <td style="text-align:left;"> K du Bois, P Sterkens, <b>L Lippens</b>, S Baert, E Derous </td>
-   <td style="text-align:left;"> International Journal of Environmental Research and Public Health <br>[20 (4)] </td>
+   <td style="text-align:left;"> International Journal of Environmental Research and Public Health <br>[20 (4), 3331] </td>
    <td style="text-align:center;"> 2023 </td>
    <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:ZeXyd9-uunAC" target="_blank">2</a> </td>
   </tr>
@@ -65,14 +65,14 @@ The condensed publication overview* below was taken directly from my <a href="ht
   <tr>
    <td style="text-align:left;"> Ethnic discrimination on paper: Uncovering realtors’ willingness to discriminate with mystery mails </td>
    <td style="text-align:left;"> A Ghekiere, <b>L Lippens</b>, S Baert, PP Verhaeghe </td>
-   <td style="text-align:left;"> Applied Economics Letters </td>
+   <td style="text-align:left;"> Applied Economics Letters <br>[30 (9), 1235–1238] </td>
    <td style="text-align:center;"> 2022 </td>
    <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:Zph67rFs4hoC" target="_blank">6</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Is labour market discrimination against ethnic minorities better explained by taste or statistics? A systematic review of the empirical evidence </td>
    <td style="text-align:left;"> <b>L Lippens</b>, S Baert, A Ghekiere, PP Verhaeghe, E Derous </td>
-   <td style="text-align:left;"> Journal of Ethnic and Migration Studies <br>[48 (17), 4243-4276] </td>
+   <td style="text-align:left;"> Journal of Ethnic and Migration Studies <br>[48 (17), 4243–4276] </td>
    <td style="text-align:center;"> 2022 </td>
    <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:qjMakFHDy7sC" target="_blank">40</a> </td>
   </tr>
