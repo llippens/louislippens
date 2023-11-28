@@ -30,7 +30,7 @@ menu:
     - name: research
       url: /research/
       weight: 3
-    - name: cv (external url)
+    - name: cv (via github)
       url: https://github.com/llippens/resume/blob/b77a177a7e1477366437a9b03b6895327c6ff1f1/resume/resume_louislippens.pdf
       target: _blank
       weight: 4
