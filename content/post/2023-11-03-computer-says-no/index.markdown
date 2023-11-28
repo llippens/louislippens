@@ -1,5 +1,5 @@
 ---
-title: "Computer says 'no'"
+title: "Computer says 'no': Hiring bias in AI"
 author: Louis Lippens
 date: '2023-11-03'
 slug: computer-says-no
@@ -45,5 +45,5 @@ _The content of this blog post is based on a [preprint](https://doi.org/10.48550
 
 _This post also appeared via [UGent @ Work](https://www.ugent.be/ugentatwork/nl/blog/blog-61.htm) and in various Belgian media, in Dutch._
 
-_This page was last updated on 03 November 2023._
+_This page was last updated on 28 November 2023._
 </font>
