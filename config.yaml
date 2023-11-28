@@ -47,7 +47,7 @@ params:
   defaultTheme: auto
   disableThemeToggle: true
   homeInfoParams:
-      Title: "Hello, visitor."
+      Title: "Hello, visitor"
       Content: >
         I am an FWO Postdoctoral Fellow in Labour Economics at Ghent University.
         My research focuses on labour market discrimination, for which I rely on experimental methods and meta-analysis.
