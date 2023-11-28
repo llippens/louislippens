@@ -47,10 +47,12 @@ params:
   defaultTheme: auto
   disableThemeToggle: true
   homeInfoParams:
-      Title: "Hello, visitor"
+      Title: "Hello, visitor."
       Content: >
-        Welcome to my personal web space. You can read more about me in the eponymous tab or
-        discover my (academic) work in the research tab. Links to my socials and blog posts are below.
+        I am an FWO Postdoctoral Fellow in Labour Economics at Ghent University.
+        My research focuses on labour market discrimination, for which I rely on experimental methods and meta-analysis.
+        You can read more about me in the eponymous tab or discover my scientific work in the research tab.
+        Links to my socials and blog posts are below.
   socialIcons:
       - name: "GoogleScholar"
         url: "https://scholar.google.com/citations?user=N5hW-KgAAAAJ"
