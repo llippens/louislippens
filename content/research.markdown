@@ -27,7 +27,7 @@ ShowPostNavLinks: false
 
 
 ## Publication overview
-The condensed publication overview* below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on 20 November 2023.
+The condensed publication overview* below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on 28 November 2023.
 
 <table class="table" style="font-size: 13px; margin-left: auto; margin-right: auto;">
  <thead>
@@ -46,7 +46,7 @@ The condensed publication overview* below was taken directly from my <a href="ht
    <td style="text-align:left;"> <b>L Lippens</b>, S Vermeiren, S Baert </td>
    <td style="text-align:left;"> European Economic Review <br>[151, 104315] </td>
    <td style="text-align:center;"> 2023 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:4DMP91E08xMC" target="_blank">59</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:4DMP91E08xMC" target="_blank">61</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Beyond the hype: (How) are work regimes associated with job burnout? </td>
@@ -81,7 +81,7 @@ The condensed publication overview* below was taken directly from my <a href="ht
    <td style="text-align:left;"> E Moens, <b>L Lippens</b>, P Sterkens, J Weytjens, S Baert </td>
    <td style="text-align:left;"> The European Journal of Health Economics <br>[23, 729–753] </td>
    <td style="text-align:center;"> 2021 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:LkGwnXOMwfcC" target="_blank">399</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:LkGwnXOMwfcC" target="_blank">406</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> How do employees think the COVID-19 crisis will affect their careers? </td>
@@ -127,7 +127,7 @@ The condensed publication overview* below was taken directly from my <a href="ht
 <p style="line-height:1; font-style:italic"><font size="2">*The full overview is available from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a> profile. The value in the Citations column also includes citations of previous versions of the article (e.g. citations of a discussion paper later published in a peer-reviewed journal). Clicking the citation value will take you directly to the Google Scholar entry.</font></p>
 
 ## Online profiles
-You can find more detailed, up-to-date information about my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profiles.
+You can find more detailed, up-to-date information about my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profile.
 
 <br></br>
-<font size="2"> _This page was last updated on 20 November 2023._ <font>
+<font size="2"> _This page was last updated on 28 November 2023._ <font>

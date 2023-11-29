@@ -99,7 +99,7 @@ table %>%
 <p style="line-height:1; font-style:italic"><font size="2">*The full overview is available from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a> profile. The value in the Citations column also includes citations of previous versions of the article (e.g. citations of a discussion paper later published in a peer-reviewed journal). Clicking the citation value will take you directly to the Google Scholar entry.</font></p>
 
 ## Online profiles
-You can find more detailed, up-to-date information about my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profiles.
+You can find more detailed, up-to-date information about my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profile.
 
 <br></br>
 <font size="2"> _This page was last updated on `r format(Sys.Date(), "%d %B %Y")`._ <font>
