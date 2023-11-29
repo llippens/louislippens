@@ -45,7 +45,5 @@ Above all, it is the responsibility of organisations that deploy such AI in thei
 <font size="2">
 _The content of this blog post is based on a [preprint](https://doi.org/10.48550/arXiv.2309.07664) that has not yet been subjected to peer review. The conclusions based on this research are therefore preliminary._
 
-_This post also appeared via [UGent @ Work](https://www.ugent.be/ugentatwork/nl/blog/blog-61.htm) and in various Belgian media, in Dutch._
-
-_This page was last updated on 29 November 2023._
+_This post also appeared via [UGent @ Work](https://www.ugent.be/ugentatwork/nl/blog/blog-61.htm) and in various Belgian media, in Dutch. This page was last updated on 29 November 2023._
 </font>
