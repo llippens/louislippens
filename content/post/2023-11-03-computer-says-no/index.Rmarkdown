@@ -20,7 +20,7 @@ Sys.setlocale("LC_ALL","English") #Setting the locale to English is crucial for 
 #Packages
 ```
 
-**ChatGPT-related artificial intelligence (AI) seems likely to impact the labour market by making organisational processes, such as personnel selection, more efficient. At the same time, it may also introduce and reinforce bias and discrimination in these processes. A [simulated CV screening task with ChatGPT](https://doi.org/10.48550/arXiv.2309.07664) shows that the chatbot discriminates based on ethnic identity when evaluating job applicants. The experiment shows that we should be careful when using ChatGPT-like AI in selection processes.**
+**ChatGPT-related artificial intelligence (AI) seems likely to impact the labour market by making organisational processes, such as personnel selection, more efficient. At the same time, it may also introduce and reinforce bias in these processes. A [simulated CV screening task with ChatGPT](https://doi.org/10.48550/arXiv.2309.07664) shows that the chatbot discriminates based on ethnic identity when evaluating job applicants. The experiment shows that we should be careful when using ChatGPT-like AI in selection processes.**
 
 Chances are you have used ChatGPT before -- whether it was to get ideas for a birthday gift, to summarise a company report or an interaction of a completely different nature. The chatbot provides an accessible, conversational model that can generate text and even image output based on user textual input, creating a chat experience that feels almost human. On the face of it, nothing but benefits, or do some interactions with ChatGPT require a caveat?
 
@@ -40,7 +40,7 @@ The key question is whether ChatGPT is a friend or a foe in keeping discriminati
 
 On the other hand, I found no structural gender discrimination by ChatGPT, and ethnic discrimination is often more limited than what is observed in human recruiters. Except for the Hispanic subgroup, ChatGPT seems to consistently discriminate less than what we observe in [field experiments worldwide](https://doi.org/10.1016/j.euroecorev.2022.104315), where the *average* percentage of fewer positive responses to job applications for ethnic minorities is about 30%. Even if restrict my comparison to recent [correspondence audits in Flanders](https://doi.org/10.1016/j.labeco.2023.102453), ChatGPT discriminates about as much as Flemish recruiters against candidates with Arabic or Turkish names but less against candidates with Eastern European names.
 
-The main drawback of using ChatGPT in the personnel selection process potentially lies in using the model as a preselector. If the language model first screens applications en masse before a human recruiter processes a smaller selection manually, discrimination is accumulated; the group of ethnic minorities is then harmed twice.
+The main drawback of using ChatGPT in the personnel selection process potentially lies in using the model as a preselector. If the language model first screens applications en masse before a human recruiter processes a smaller selection manually, discrimination is accumulated; the group of ethnic minority applicants is then harmed twice.
 
 ### Policy implications
 
