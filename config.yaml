@@ -49,8 +49,8 @@ params:
   homeInfoParams:
       Title: "Hello, visitor"
       Content: >
-        I am an FWO Postdoctoral Fellow in Labour Economics at Ghent University.
-        My research focuses on measuring and explaining labour market discrimination, for which I rely on experimental methods and meta-analysis.
+        I am an FWO postdoctoral fellow in labour economics at Ghent University.
+        My research focuses discrimination and the labour market discrimination, for which I rely on experimental methods and meta-analysis.
         You can read more about me in the eponymous tab or discover my scientific work in the research tab.
         Links to my socials and blog posts are below.
   socialIcons:
