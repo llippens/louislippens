@@ -35,10 +35,9 @@ publications <- get_publications(profile_id, flush = TRUE, sortby = "year")
 
 - In our meta-analysis (published in <a href="https://doi.org/10.1016/j.euroecorev.2022.104315" target="_blank">European Economic Review</a>), we synthesise a quasi-exhaustive register of correspondence audit experiments in hiring published between 2005 to 2020. We show that hiring discrimination is similarly severe for candidates with disabilities, older age, and less physical attractiveness as for those with distinct racial or ethnic characteristics, with older candidates facing more discrimination in Europe and no clear evidence of decreasing discrimination over time.
 
-- In an experimental study (preprint in <a href="https://doi.org/10.48550/arXiv.2309.07664" target="_blank">arXiv</a>), I explore whether ChatGPT displays ethnic or gender bias in job applicant screening using an audit approach. I show that ChatGPT's evaluations are influenced by ethnic cues, with some evidence for a gender--ethnicity interaction, highlighting the need for caution in using such models for selection decisions.
+- In an experimental study (preprint via <a href="https://doi.org/10.48550/arXiv.2309.07664" target="_blank">arXiv</a>), I explore whether ChatGPT displays ethnic or gender bias in job applicant screening using an audit approach. I show that ChatGPT's evaluations are influenced by ethnic cues, with some evidence for a gender--ethnicity interaction, highlighting the need for caution in using such models for selection decisions.
 
 - In our contextual study of hiring discrimination (in press in <a href="https://doi.org/10.1016/j.labeco.2023.102453" target = "_blank">Labour Economics</a>), we empirically test theoretically-linked moderators of discrimination. We observe a distinct role of the organisation in shaping hiring discrimination, revealing that ethnic minorities face less discrimination when applying to non-profits or large organisations, alongside some evidence that hiring discrimination rises in jobs with more colleague interaction or lower tightness.
-
 
 ## Publication overview
 The condensed publication overview* below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on `r format(Sys.Date(), "%d %B %Y")`.
@@ -102,4 +101,4 @@ table %>%
 You can find more detailed, up-to-date information about my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profile.
 
 <br></br>
-<font size="2"> _This page was last updated on `r format(Sys.Date(), "%d %B %Y")`._ <font>
+<font size="2"> _This page was last updated on `r format(Sys.Date(), "%d %B %Y")`._ </font>
