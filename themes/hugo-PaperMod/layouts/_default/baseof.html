@@ -1,5 +1,9 @@
+{{- if lt hugo.Version "0.112.4" }}
+{{- errorf "=> hugo v0.112.4 or greater is required for hugo-PaperMod to build " }}
+{{- end -}}
+
 <!DOCTYPE html>
-<html lang="{{ .Site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
 
 <head>
     {{- partial "head.html" . }}
@@ -9,7 +13,7 @@
 {{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) -}}
 {{- print "list" -}}
 {{- end -}}
-{{- if eq $.Site.Params.defaultTheme `dark` -}}
+{{- if eq site.Params.defaultTheme `dark` -}}
 {{- print " dark" }}
 {{- end -}}
 " id="top">
@@ -17,37 +21,7 @@
     <main class="main">
         {{- block "main" . }}{{ end }}
     </main>
-    {{ partialCached "footer.html" . .Layout .Kind -}}
+    {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
 </body>
-
-<div class="cookie-container">
-  <p>
-    I use cookies on this website for user metrics. 
-    Learn more about <a href="https://www.cookiesandyou.com/" target="_blank">cookies</a> or how
-    <a href="https://support.google.com/analytics/answer/6004245" target="_blank">Google Analytics</a>
-    helps to measure user activity.
-  </p>
-  <button class="cookie-btn">
-    No problem, I understand!
-  </button>
-</div>
-<script>
-    const cookieContainer = document.querySelector(".cookie-container");
-      const cookieButton = document.querySelector(".cookie-btn");
-
-      cookieButton.addEventListener("click", () => {
-      cookieContainer.classList.remove("active");
-      localStorage.setItem("cookieBannerDisplayed", "true");
-      });
-
-      setTimeout(() => {
-      if (!localStorage.getItem("cookieBannerDisplayed")) {
-          cookieContainer.classList.add("active");
-      }
-      }, 1000);
-</script>
-
-<a rel="me" href="https://mstdn.social/@lippenslouis"></a>
-<a rel="me" href="https://econtwitter.net/@lippenslouis"></a>
 
 </html>

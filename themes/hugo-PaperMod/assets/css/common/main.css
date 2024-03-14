@@ -1,63 +1,9 @@
-.wrapper {
-    padding: 2rem;
-}
-
-.cookie-container {
-    position: fixed;
-    bottom: -100%;
-    left: 0;
-    right: 0;
-    background: #333333;
-    color: #ffffff;
-    padding: 0 32px;
-    box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
-    z-index: 1;
-    font-size: 1rem;
-
-    transition: 400ms;
-}
-
-.cookie-container.active {
-    bottom: 0;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.cookie-container>p {
-    margin-top: .5rem;
-}
-
-.cookie-container a {
-    color: #ffd200;
-    font-size: 1rem;
-}
-
-.cookie-btn {
-    margin-top: 1.2rem;
-    background: #ffd200;
-    border: 0;
-    color: #000000;
-    padding: .8rem 1rem;
-    font-size: 1rem;
-    margin-bottom: 1.2rem;
-    border-radius: .2rem;
-    cursor: pointer;
-}
-
-
-
 .main {
     position: relative;
     min-height: calc(100vh - var(--header-height) - var(--footer-height));
     max-width: calc(var(--main-width) + var(--gap) * 2);
     margin: auto;
     padding: var(--gap);
-}
-
-.post-content p {
-    text-align: justify;
 }
 
 .page-header h1 {
@@ -81,12 +27,10 @@
     margin-inline-start: auto;
 }
 
-.social-icons {
-    padding: 12px 0;
-}
 
-.social-icons a:not(:last-of-type) {
-    margin-inline-end: 12px;
+.social-icons a {
+    display: inline-flex;
+    padding: 10px;
 }
 
 .social-icons a svg {
@@ -113,6 +57,7 @@ pre {
     border-radius: var(--radius);
     padding: 0 5px;
     font-size: 14px;
+    user-select: none;
 }
 
 div.highlight:hover .copy-code,
