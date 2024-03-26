@@ -112,14 +112,14 @@ The condensed publication overview* below was taken directly from my <a href="ht
   </tr>
   <tr groupLength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Discussion Papers</strong></td></tr>
 <tr>
-   <td style="text-align:left;"> Labour Market Disadvantages of Citizens with a Migration Background in Belgium: A Systematic Review </td>
+   <td style="text-align:left;"> Labour market disadvantages of citizens with a migration background in Belgium: A systematic review </td>
    <td style="text-align:left;"> L Devos, <b>L Lippens</b>, D Lens, F Rycx, M Volral, S Baert </td>
    <td style="text-align:left;"> IZA Discussion Paper </td>
    <td style="text-align:center;"> 2024 </td>
    <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:YFjsv_pBGBYC" target="_blank">0</a> </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Nothing Really Matters: Evaluating Demand-Side Moderators of Age Discrimination in Hiring </td>
+   <td style="text-align:left;"> Nothing really matters: Evaluating demand-side moderators of age discrimination in hiring </td>
    <td style="text-align:left;"> A Dalle, <b>L Lippens</b>, S Baert </td>
    <td style="text-align:left;"> IZA Discussion Paper </td>
    <td style="text-align:center;"> 2023 </td>
