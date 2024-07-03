@@ -30,8 +30,8 @@ menu:
     - name: research
       url: /research/
       weight: 3
-    - name: cv (via github)
-      url: https://github.com/llippens/resume/blob/b77a177a7e1477366437a9b03b6895327c6ff1f1/resume/resume_louislippens.pdf
+    - name: cv (via dropbox)
+      url: https://www.dropbox.com/scl/fi/toyqy51thp1u1rz62jj8k/240703_Louis-Lippens.pdf?rlkey=5oweym6to9m68d6yan6vk2w4z&dl=0
       target: _blank
       weight: 4
       
@@ -60,8 +60,6 @@ params:
         url: "https://www.researchgate.net/profile/Louis-Lippens"
       - name: "LinkedIn"
         url: "https://www.linkedin.com/in/louislippens/"
-      - name: "other"
-        url: "https://bsky.app/profile/louislippens.be"
   assets:
         favicon: "/favicon.ico"
         favicon16x16:  "/favicon-16x16.png"
