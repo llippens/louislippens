@@ -26,7 +26,7 @@ ShowPostNavLinks: false
 - In our contextual study of hiring discrimination (published in <a href="https://doi.org/10.1016/j.labeco.2023.102453" target = "_blank">Labour Economics</a>), we empirically test theoretically linked moderators of discrimination. We observe a distinct role of the organisation in shaping hiring discrimination, with ethnic minorities facing less discrimination when applying to non-profits or large organisations. We also find some evidence that hiring discrimination rises in jobs with more colleague interaction or less shortage.
 
 ## Publication overview
-The condensed publication overview* below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on 03 July 2024.
+The condensed publication overview* below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on 11 July 2024.
 
 <table class="table" style="font-size: 13px; color: black; margin-left: auto; margin-right: auto;">
  <thead>
@@ -45,14 +45,14 @@ The condensed publication overview* below was taken directly from my <a href="ht
    <td style="text-align:left;"> <b>L Lippens</b> </td>
    <td style="text-align:left;"> Computers in Human Behavior: Artificial Humans <br>[2 (1), 100054] </td>
    <td style="text-align:center;"> 2024 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:JV2RwH3_ST0C" target="_blank">3</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:JV2RwH3_ST0C" target="_blank">4</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> The state of hiring discrimination: A meta-analysis of (almost) all recent correspondence experiments </td>
    <td style="text-align:left;"> <b>L Lippens</b>, S Vermeiren, S Baert </td>
    <td style="text-align:left;"> European Economic Review <br>[151, 104315] </td>
    <td style="text-align:center;"> 2023 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:4DMP91E08xMC" target="_blank">99</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:4DMP91E08xMC" target="_blank">101</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Beyond the hype: (How) are work regimes associated with job burnout? </td>
@@ -94,14 +94,14 @@ The condensed publication overview* below was taken directly from my <a href="ht
    <td style="text-align:left;"> E Moens, <b>L Lippens</b>, P Sterkens, J Weytjens, S Baert </td>
    <td style="text-align:left;"> The European Journal of Health Economics <br>[23, 729–753] </td>
    <td style="text-align:center;"> 2021 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:LkGwnXOMwfcC" target="_blank">471</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:LkGwnXOMwfcC" target="_blank">473</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> How do employees think the COVID-19 crisis will affect their careers? </td>
    <td style="text-align:left;"> <b>L Lippens</b>, E Moens, P Sterkens, J Weytjens, S Baert </td>
    <td style="text-align:left;"> PLOS ONE <br>[16 (5), e0246899] </td>
    <td style="text-align:center;"> 2021 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:UeHWp8X0CEIC" target="_blank">180</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:UeHWp8X0CEIC" target="_blank">181</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Loss aversion in taste-based employee discrimination: Evidence from a choice experiment </td>
@@ -110,8 +110,15 @@ The condensed publication overview* below was taken directly from my <a href="ht
    <td style="text-align:center;"> 2021 </td>
    <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:ufrVoPGSRksC" target="_blank">7</a> </td>
   </tr>
-  <tr groupLength="5"><td colspan="5" style="border-bottom: 1px solid;"><strong>Discussion Papers</strong></td></tr>
+  <tr groupLength="6"><td colspan="5" style="border-bottom: 1px solid;"><strong>Discussion Papers</strong></td></tr>
 <tr>
+   <td style="text-align:left;"> Unemployment, inactivity, and hiring chances: A systematic review and meta-analysis </td>
+   <td style="text-align:left;"> L D'hert, S Baert, <b>L Lippens</b> </td>
+   <td style="text-align:left;"> Working Papers of Faculty of Economics and Business Administration, Ghent … </td>
+   <td style="text-align:center;"> 2024 </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:35N4QoGY0k4C" target="_blank">0</a> </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> Labour market disadvantages of citizens with a migration background in Belgium: A systematic review </td>
    <td style="text-align:left;"> L Devos, <b>L Lippens</b>, D Lens, F Rycx, M Volral, S Baert </td>
    <td style="text-align:left;"> IZA Discussion Paper </td>
@@ -157,4 +164,4 @@ The condensed publication overview* below was taken directly from my <a href="ht
 You can find more detailed, up-to-date information about my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profile.
 
 <br></br>
-<font size="2"> _This page was last updated on 03 July 2024._ </font>
+<font size="2"> _This page was last updated on 11 July 2024._ </font>
