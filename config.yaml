@@ -30,8 +30,8 @@ menu:
     - name: research
       url: /research/
       weight: 3
-    - name: cv (via dropbox)
-      url: https://www.dropbox.com/scl/fi/1luoypd84b3rwqgtjlcmu/240704_Louis-Lippens.pdf?rlkey=zps317i5vrxvd6tuy7rgf8orp&dl=0
+    - name: cv (via github)
+      url: https://llippens.github.io/Louis%20Lippens.pdf
       target: _blank
       weight: 4
       
@@ -47,7 +47,7 @@ params:
   defaultTheme: auto
   disableThemeToggle: true
   homeInfoParams:
-      Title: "Hello, visitor."
+      Title: "Hello, visitor"
       Content: >
         I am an FWO postdoctoral fellow in labour economics at Ghent University.
         My research focuses on hiring discrimination and the labour market, for which I primarily rely on experimental methods and meta-analysis.
@@ -58,6 +58,8 @@ params:
         url: "https://scholar.google.com/citations?user=N5hW-KgAAAAJ"
       - name: "ResearchGate"
         url: "https://www.researchgate.net/profile/Louis-Lippens"
+      - name: "X"
+        url: "https://x.com/LippensLouis"
       - name: "LinkedIn"
         url: "https://www.linkedin.com/in/louislippens/"
   assets:
