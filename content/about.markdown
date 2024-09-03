@@ -13,25 +13,25 @@ ShowPostNavLinks: false
 
 
 
-<img src="https://raw.githubusercontent.com/lglip/louislippens/main/images/profilecutout.png" width="40%" style="display: block; margin: auto;" />
+<img src="https://raw.githubusercontent.com/lglip/louislippens/main/images/profilecutout_c.png" width="40%" style="display: block; margin: auto;" />
 
 <p style="line-height:.8; font-style:italic; text-align:center"><font size="3">Postdoctoral Researcher in Economics<br></br>Applied Microeconomics - Labour Economics - Experimental Economics<br></br>Hiring Discrimination - Audit Studies - Meta-analysis</font></p>
 
 ### Professional
-I am currently active as an [FWO postdoctoral researcher](https://www.fwo.be/en/fellowships-funding/postdoctoral-fellowships/junior-postdoctoral-fellowship/) in labour economics at Ghent University. My academic work focuses on the determinants and contextual factors contributing to hiring discrimination, an issue that continues to squander individual talent in today's labour market.
+I am an [FWO postdoctoral fellow](https://www.fwo.be/en/fellowships-funding/postdoctoral-fellowships/junior-postdoctoral-fellowship/) in labour economics at Ghent University. My academic work focuses on the determinants of and solutions to to labour market discrimination, an issue that continues to squander individual talent in today's labour market.
 
-My postdoctoral project aims to delve deeper into the relationship between market competition and hiring discrimination, using advanced statistical techniques such as multilevel meta-regression on transnational data to better inform policy interventions.
+In my postdoctoral project, I examine how market competition can decrease labour market discrimination by applying advanced statistical techniques, such as multilevel meta-regression, to transnational data.
 
-More broadly, as an affiliated researcher at [UGent @ Work](https://www.ugent.be/ugentatwork/en), I collaborate on interdisciplinary projects addressing key challenges in the labour market. Our focus is not just academic; we are committed to creating real-world impact by translating our research into evidence-based policy advice.
+More broadly, as an affiliated researcher at [UGent @ Work](https://www.ugent.be/ugentatwork/en), I collaborate on interdisciplinary projects addressing key issues in the labour market. Our focus is not just academic; we are committed to creating real-world impact by translating research results into evidence-based advice for professionals, business leaders, and policymakers.
 
 I hold a master's degree in industrial and organisational psychology from Ghent University and a business degree in management from Vlerick Business School. Prior to re-entering academia and obtaining a joint PhD in economics and sociology, I worked in management consulting, where I gained experience in data governance and data analytics.
 
-My expertise extends from experimental economics, including audit studies, to applied psychometrics and data visualisation.
+My expertise extends from experimental economics, including audit studies, and meta-analysis to applied microeconomics and data visualisation.
 
 ### Personal
-I live with my spouse, Anna, my son, Georges, and our cat, Abel. In a former life, I produced electronic music, and, to date, I still love to get some vinyl playing (from Paul Kalkbrenner and Bonobo to KAYTRANADA and Fred Again..). You might find <a href="https://soundcloud.com/subwaves" target="_blank">some traces</a> of this past scattered around the internet. I also love good food -- sometimes stirring the pots myself -- and am fond of the sea(side).
+I live with my spouse, Anna, my son, Georges, and our cat, Abel. In a former life, I produced electronic music, and, to date, I still love to get some vinyl playing (from Paul Kalkbrenner and Bonobo to KAYTRANADA and Fred Again..). I also love good food -- sometimes stirring the pots myself -- and I am fond of the sea(side).
 
 <br></br>
 <font size="2">
-_This page was last updated on 05 November 2023._
+_This page was last updated on 04 September 2024._
 <font>

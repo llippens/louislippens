@@ -33,11 +33,11 @@ publications <- get_publications(profile_id, flush = TRUE, sortby = "year")
 
 ## Research highlights
 
-- In our meta-analysis (published in <a href="https://doi.org/10.1016/j.euroecorev.2022.104315" target="_blank">European Economic Review</a>), we synthesise a quasi-exhaustive register of correspondence audit experiments in hiring published between 2005 to 2020. We show that hiring discrimination is similarly severe for candidates with disabilities, older age, and less physical attractiveness as for those with distinct racial or ethnic characteristics. Older candidates face more discrimination in Europe than in the United States. We find no clear evidence of decreasing discrimination over time.
+- In our meta-analysis (published in <a href="https://doi.org/10.1016/j.euroecorev.2022.104315" target="_blank">European Economic Review</a>), we synthesise a quasi-exhaustive register of correspondence audit experiments in hiring from across the globe published between 2005 to 2020. We show that hiring discrimination is equivalently severe for candidates with disabilities, older age, and less physical attractiveness as for those with distinct racial or ethnic characteristics. Older candidates face more discrimination in Europe than in the United States. We find no clear evidence of decreasing discrimination over time.
 
-- In an experimental study (published in <a href="https://doi.org/10.1016/j.chbah.2024.100054" target="_blank">Computers in Human Behavior: Artificial Humans</a>), I explore whether OpenAI's GPT-3.5 displays ethnic or gender bias in job applicant screening using an audit approach. I show that GPT's evaluations are influenced by ethnic cues, with some evidence for a gender--ethnicity interaction. The chatbot produces stereotyped output as humans would, e.g. favouring females as clothing sellers or ethnic minorities for jobs with poor working conditions.
+- In an experimental study (published in <a href="https://doi.org/10.1016/j.chbah.2024.100054" target="_blank">Computers in Human Behavior: Artificial Humans</a>), I explore whether OpenAI's GPT-3.5 language model displays ethnic or gender bias in job applicant screening using an audit approach. I show that GPT's evaluations are influenced by ethnic cues, with some evidence for a gender--ethnicity interaction. The chatbot produces similarly stereotyped output as humans would, e.g. favouring females as clothing sellers or ethnic minorities for jobs with poor working conditions.
 
-- In our contextual study of hiring discrimination (published in <a href="https://doi.org/10.1016/j.labeco.2023.102453" target = "_blank">Labour Economics</a>), we empirically test theoretically linked moderators of discrimination. We observe a distinct role of the organisation in shaping hiring discrimination, with ethnic minorities facing less discrimination when applying to non-profits or large organisations. We also find some evidence that hiring discrimination rises in jobs with more colleague interaction or less shortage.
+- In our contextual study of hiring discrimination (published in <a href="https://doi.org/10.1016/j.labeco.2023.102453" target = "_blank">Labour Economics</a>), we empirically test theoretically linked moderators of discrimination. We observe a distinct role of the organisation in shaping hiring discrimination, with ethnic minorities facing less discrimination when applying to non-profits or large organisations. We also find some evidence that hiring discrimination increases in jobs with more colleague interaction or less labour shortage.
 
 ## Publication overview
 The condensed publication overview* below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on `r format(Sys.Date(), "%d %B %Y")`.
@@ -56,9 +56,9 @@ table <- table %>%
          Category = case_when(
            str_detect(Title, "Recruiter says ") ~ categories[4],
            !str_detect(Source,
-                       "Discussion|Ghent|Vrije Universiteit Brussel|Borgerhoff|Stories|In conflict|arXiv") &
+                       "Discussion|Ghent|Vrije Universiteit Brussel|Borgerhoff|Stories|In conflict|arXiv|OSF") &
              Source != "" ~ categories[1],
-           str_detect(Source, "Discussion|Ghent|arXiv|Vrije Universiteit Brussel") &
+           str_detect(Source, "Discussion|Ghent|arXiv|OSF|Vrije Universiteit Brussel") &
              !str_detect(Title, "Intelligenztest") ~ categories[2],
            str_detect(Source, "Borgerhoff|In conflict") ~ categories[3],
            str_detect(Title, "Intelligenztest") ~ categories[5],
