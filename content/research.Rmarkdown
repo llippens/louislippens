@@ -19,6 +19,8 @@ library(scholar)
 
 d <- Sys.Date()
 Sys.setlocale("LC_ALL","English") #Setting the locale to English is crucial for dates
+
+'%!in%' <- Negate('%in%')
 ```
 
 ```{r google scholar, echo = FALSE, warning = FALSE, message = FALSE, include = FALSE}
@@ -40,7 +42,7 @@ publications <- get_publications(profile_id, flush = TRUE, sortby = "year")
 - In our contextual study of hiring discrimination (published in <a href="https://doi.org/10.1016/j.labeco.2023.102453" target = "_blank">Labour Economics</a>), we empirically test theoretically linked moderators of discrimination. We observe a distinct role of the organisation in shaping hiring discrimination, with ethnic minorities facing less discrimination when applying to non-profits or large organisations. We also find some evidence that hiring discrimination increases in jobs with more colleague interaction or less labour shortage.
 
 ## Publication overview
-The condensed publication overview* below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on `r format(Sys.Date(), "%d %B %Y")`.
+The selection* of publications below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on `r format(Sys.Date(), "%d %B %Y")`.
 
 ```{r kable, echo = FALSE, warning = FALSE}
 table <- publications %>%
@@ -68,6 +70,7 @@ table <- table %>%
                             Number != "" & Source != "" ~
                               paste0(Source, " <br>[", Number, "]</br>")),
          Authors = str_replace_all(Authors, "L Lippens", "<b>L Lippens</b>")) %>%
+  filter(Source %!in% c("Over.Werk", "Applied Economics Letters")) %>%
   select(Title, Authors, Source, Year, Citations, Category) %>%
   as_tibble
 

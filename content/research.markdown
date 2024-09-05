@@ -26,7 +26,7 @@ ShowPostNavLinks: false
 - In our contextual study of hiring discrimination (published in <a href="https://doi.org/10.1016/j.labeco.2023.102453" target = "_blank">Labour Economics</a>), we empirically test theoretically linked moderators of discrimination. We observe a distinct role of the organisation in shaping hiring discrimination, with ethnic minorities facing less discrimination when applying to non-profits or large organisations. We also find some evidence that hiring discrimination increases in jobs with more colleague interaction or less labour shortage.
 
 ## Publication overview
-The condensed publication overview* below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on 03 September 2024.
+The selection* of publications below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on 06 September 2024.
 
 <table class="table" style="font-size: 13px; margin-left: auto; margin-right: auto;">
  <thead>
@@ -52,7 +52,7 @@ The condensed publication overview* below was taken directly from my <a href="ht
    <td style="text-align:left;"> <b>L Lippens</b>, S Vermeiren, S Baert </td>
    <td style="text-align:left;"> European Economic Review <br>[151, 104315] </td>
    <td style="text-align:center;"> 2023 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:4DMP91E08xMC" target="_blank">123</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:4DMP91E08xMC" target="_blank">126</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Beyond the hype: (How) are work regimes associated with job burnout? </td>
@@ -171,4 +171,4 @@ The condensed publication overview* below was taken directly from my <a href="ht
 You can find more detailed, up-to-date information about my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profile.
 
 <br></br>
-<font size="2"> _This page was last updated on 03 September 2024._ </font>
+<font size="2"> _This page was last updated on 06 September 2024._ </font>
