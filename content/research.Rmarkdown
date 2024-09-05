@@ -70,7 +70,7 @@ table <- table %>%
                             Number != "" & Source != "" ~
                               paste0(Source, " <br>[", Number, "]</br>")),
          Authors = str_replace_all(Authors, "L Lippens", "<b>L Lippens</b>")) %>%
-  filter(Source %!in% c("Over.Werk", "Applied Economics Letters")) %>%
+  filter(!str_detect(Source, "Over.Werk|Applied Economics Letters")) %>%
   select(Title, Authors, Source, Year, Citations, Category) %>%
   as_tibble
 

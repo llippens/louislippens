@@ -39,7 +39,7 @@ The selection* of publications below was taken directly from my <a href="https:/
   </tr>
  </thead>
 <tbody>
-  <tr grouplength="10"><td colspan="5" style="border-bottom: 1px solid;"><strong>Peer-reviewed Publications</strong></td></tr>
+  <tr grouplength="8"><td colspan="5" style="border-bottom: 1px solid;"><strong>Peer-reviewed Publications</strong></td></tr>
 <tr>
    <td style="text-align:left;"> Computer says ‘no’: Exploring systemic bias in ChatGPT using an audit approach </td>
    <td style="text-align:left;"> <b>L Lippens</b> </td>
@@ -67,20 +67,6 @@ The selection* of publications below was taken directly from my <a href="https:/
    <td style="text-align:left;"> Labour Economics <br>[85, 102453] </td>
    <td style="text-align:center;"> 2023 </td>
    <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:bEWYMUwI8FkC" target="_blank">12</a> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Een risicoanalyse van gecomprimeerde werkschema’s in de federale arbeidsdeal </td>
-   <td style="text-align:left;"> K du Bois, C Rooman, P Sterkens, <b>L Lippens</b>, S Baert, E Derous </td>
-   <td style="text-align:left;"> Over.Werk <br>[33 (2), 56-65] </td>
-   <td style="text-align:center;"> 2023 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:maZDTaKrznsC" target="_blank">0</a> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Ethnic discrimination on paper: Uncovering realtors’ willingness to discriminate with mystery mails </td>
-   <td style="text-align:left;"> A Ghekiere, <b>L Lippens</b>, S Baert, PP Verhaeghe </td>
-   <td style="text-align:left;"> Applied Economics Letters <br>[30 (9), 1235–1238] </td>
-   <td style="text-align:center;"> 2022 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:Zph67rFs4hoC" target="_blank">10</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Is labour market discrimination against ethnic minorities better explained by taste or statistics? A systematic review of the empirical evidence </td>
