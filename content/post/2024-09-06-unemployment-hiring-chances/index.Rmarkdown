@@ -1,0 +1,43 @@
+---
+title: "Are employers eager to hire the unemployed?"
+author: Louis Lippens
+date: '2024-09-06'
+slug: unemployment-hiring-chances
+ShowToc: false
+TocOpen: false
+draft: false
+ShowReadingTime: true
+ShowShareButtons: true
+ShowPostNavLinks: false
+---
+```{r setup, echo = FALSE, include = FALSE}
+#Justification ('justify') of the text is set, for all content, in main.css
+
+d <- Sys.Date()
+Sys.setlocale("LC_ALL","English") #Setting the locale to English is crucial for dates
+
+#Packages
+```
+
+**Employers are reluctant to hire long-term unemployed applicants but prefer short-term unemployed over currently employed candidates**
+
+Policymakers are focusing on increasing the employment rate, particularly due to the impact of an ageing population on living standards and social security systems. Achieving this goal involves facilitating the transition of unemployed and inactive individuals into the workforce. However, the stigma associated with unemployment or inactivity can impede their chances of being hired.
+
+Our recent [IZA Discussion Paper](https://www.iza.org/publications/dp/17141/unemployment-inactivity-and-hiring-chances-a-systematic-review-and-meta-analysis) examines employer responses to approximately 67,000 fictitious job applications across 28 international studies. The research reveals that the interview callbacks of unemployed applicants are influenced by various factors, including the duration of their unemployment and current labour market conditions.
+
+We identified relevant studies through the Web of Science platform, which aggregates leading scientific journals. These studies primarily involved field experiments where academics sent fictitious resumes with varying unemployment durations to actual job openings. By combining data from these experiments, we conducted a meta-analysis to synthesise the findings.
+
+Our results indicate that unemployment itself does not necessarily lead to employer scepticism. The critical factor shaping employer perceptions is the length of unemployment. Specifically, our research shows that long-term unemployed individuals—those out of work for at least a year—are, on average, about 21% less likely to receive a callback from the employer.
+
+The likelihood of receiving a callback decreases further for those unemployed for a year and a half or more. Interestingly, candidates who have been unemployed for less than six months have better job prospects than those currently employed. This advantage is likely because employed candidates may need to complete a notice period, whereas unemployed candidates are immediately available. Moreover, employers often believe that the motivation and skills of short-term unemployed candidates are comparable to those of employed individuals. However, this perception does not extend to the long-term unemployed.
+
+Employers often view long-term unemployment as a sign of lower motivation, competence, and productivity. Certain applicant traits, such as strong social skills, can mitigate these negative perceptions. Notably, these negative perceptions do not intensify for job seekers who already face fewer interview callbacks, such as candidates with a migration background.
+
+Our analysis also shows that employers are less critical of unemployed applicants during periods, in regions, and within sectors where unemployment is more prevalent. In such contexts, employers are more likely to attribute periods of unemployment to external factors, such as a challenging labour market, rather than to individual shortcomings like a lack of skills. In a tight labour market with few candidates and many job openings, short-term unemployment is even more favourably viewed, as employers prioritise immediately available workers.
+
+Overall, our study underscores the importance of unemployed individuals securing new employment as quickly as possible, ideally within the first six months. This approach allows them to leverage the benefits of unemployment, such as immediate availability, while minimising the drawbacks, such as perceived reduced productivity.   
+
+---
+
+<br></br>
+<font size="2"> _The study is joint work with Liam D’hert and Stijn Baert. Read more about our point of view on this issue in our commentary for [IZA World of Labor](https://wol.iza.org/opinions/are-employers-eager-to-hire-the-unemployed). This page was last updated on `r format(Sys.Date(), "%d %B %Y")`._ <font>
