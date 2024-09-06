@@ -1,7 +1,7 @@
 ---
 title: "Are employers eager to hire the unemployed?"
 author: Louis Lippens
-date: '2024-09-06'
+date: '2024-09-05'
 slug: unemployment-hiring-chances
 ShowToc: false
 TocOpen: false

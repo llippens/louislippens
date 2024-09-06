@@ -1,0 +1,23 @@
+---
+title: "Understanding ethnic hiring discrimination"
+author: Louis Lippens
+date: '2023-12-18'
+slug: context-of-discrimination
+ShowToc: false
+TocOpen: false
+draft: true
+ShowReadingTime: true
+ShowShareButtons: true
+ShowPostNavLinks: false
+---
+
+
+
+**Investigating discrimination against individuals with a migration background is one step; effectively tackling it is a separate challenge. This endeavour involves understanding discrimination and pinpointing when discrimination typically happens. Our [study featured in the December 2023 edition of Labour Economics](https://doi.org/10.1016/j.labeco.2023.102453) offers insights into the correlates of ethnic hiring discrimination.**
+
+
+
+<br></br>
+<font size="2">
+_This post also appeared via [UGent @ Work](https://www.ugent.be/ugentatwork/nl/blog/blog-67.htm) and in various Belgian media, in Dutch. This page was last updated on 21 December 2023._
+</font>
