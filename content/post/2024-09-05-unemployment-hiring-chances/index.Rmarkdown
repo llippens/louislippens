@@ -19,7 +19,7 @@ Sys.setlocale("LC_ALL","English") #Setting the locale to English is crucial for 
 #Packages
 ```
 
-**Employers are reluctant to hire long-term unemployed applicants but prefer short-term unemployed over currently employed candidates**
+**Employers are reluctant to hire long-term unemployed applicants but prefer short-term unemployed over currently employed candidates.**
 
 Policymakers are focusing on increasing the employment rate, particularly due to the impact of an ageing population on living standards and social security systems. Achieving this goal involves facilitating the transition of unemployed and inactive individuals into the workforce. However, the stigma associated with unemployment or inactivity can impede their chances of being hired.
 
@@ -38,4 +38,4 @@ Our analysis also shows that employers are less critical of unemployed applicant
 Overall, our study underscores the importance of unemployed individuals securing new employment as quickly as possible, ideally within the first six months. This approach allows them to leverage the benefits of unemployment, such as immediate availability, while minimising the drawbacks, such as perceived reduced productivity.
 
 <br></br>
-<font size="2"> _The study is joint work with Liam D’hert and Stijn Baert. Read more about our point of view on this issue in our commentary for [IZA World of Labor](https://wol.iza.org/opinions/are-employers-eager-to-hire-the-unemployed). This page was last updated on `r format(Sys.Date(), "%d %B %Y")`._ <font>
+<font size="2"> _The study is joint work with [Liam D’hert](https://scholar.google.be/citations?user=gmc-vTcAAAAJ) and [Stijn Baert](https://stijnbaert.eu/). Our commentary on this issue appeared first via [IZA World of Labor](https://wol.iza.org/opinions/are-employers-eager-to-hire-the-unemployed). This page was last updated on `r format(Sys.Date(), "%d %B %Y")`._ <font>
