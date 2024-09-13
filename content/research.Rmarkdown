@@ -68,7 +68,8 @@ table <- table %>%
          Source = case_when(Source == "" ~ "Ghent University",
                             Number == "" & Source != "" ~ Source,
                             Number != "" & Source != "" ~
-                              paste0(Source, " <br>[", Number, "]</br>")),
+                              #paste0(Source, " <br>[", Number, "]</br>")),
+                              Source),
          Authors = str_replace_all(Authors, "L Lippens", "<b>L Lippens</b>")) %>%
   filter(!str_detect(Source, "Over.Werk|Applied Economics Letters")) %>%
   select(Title, Authors, Source, Year, Citations, Category) %>%
