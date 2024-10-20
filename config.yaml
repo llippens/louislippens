@@ -30,7 +30,7 @@ menu:
     - name: research
       url: /research/
       weight: 3
-    - name: cv (via github)
+    - name: cv
       url: https://llippens.github.io/Louis%20Lippens.pdf
       target: _blank
       weight: 4
