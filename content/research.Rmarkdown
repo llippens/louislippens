@@ -66,12 +66,9 @@ table <- table %>%
            str_detect(Title, "Intelligenztest") ~ categories[5],
            TRUE ~ categories[6]),
          Source = case_when(Source == "" ~ "Ghent University",
-                            Number == "" & Source != "" ~ Source,
-                            Number != "" & Source != "" ~
-                              #paste0(Source, " <br>[", Number, "]</br>")),
-                              Source),
+                            Source != "" ~ Source),
          Authors = str_replace_all(Authors, "L Lippens", "<b>L Lippens</b>")) %>%
-  filter(!str_detect(Source, "Over.Werk|Applied Economics Letters")) %>%
+  filter(!str_detect(Source, "Over.Werk|Applied Economics Letters|International Journal of Environmental Research and Public Health")) %>%
   select(Title, Authors, Source, Year, Citations, Category) %>%
   as_tibble
 
