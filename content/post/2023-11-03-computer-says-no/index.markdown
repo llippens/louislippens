@@ -1,5 +1,5 @@
 ---
-title: "Computer says 'no': Hiring bias in AI"
+title: "Computer says 'no': Hiring bias in GenAI"
 author: Louis Lippens
 date: '2023-11-03'
 slug: computer-says-no
@@ -43,5 +43,5 @@ Above all, it is the responsibility of organisations that deploy such AI in thei
 
 <br></br>
 <font size="2">
-_This post also appeared via [UGent @ Work](https://www.ugent.be/ugentatwork/nl/blog/blog-61.htm) and in various Belgian media, in Dutch. This page was last updated on 13 May 2024._
+_This post also appeared via [UGent @ Work](https://www.ugent.be/ugentatwork/nl/blog/blog-61.htm) and in various Belgian media, in Dutch. This page was last updated on 13 February 2025._
 </font>
