@@ -50,16 +50,19 @@ params:
       Title: "Hello, visitor"
       Content: >
         I am an FWO postdoctoral fellow in labour economics at Ghent University.
-        My research focuses on hiring discrimination and other labour market issues, for which I primarily rely on experimental methods and meta-analysis.
+        My research focuses on hiring discrimination and other labour market issues such as unemployment and inactivity, alternative work arrangements, and the role of AI in the labour market.
+        I primarily rely on experimental methods and meta-analysis.
         You can read more about me in the eponymous tab or discover my scientific work in the research tab.
         Links to my socials and blog posts are below.
   socialIcons:
-      - name: "GoogleScholar"
+      - name: "googlescholar"
         url: "https://scholar.google.com/citations?user=N5hW-KgAAAAJ"
-      - name: "ResearchGate"
+      - name: "researchgate"
         url: "https://www.researchgate.net/profile/Louis-Lippens"
-      - name: "LinkedIn"
+      - name: "linkedin"
         url: "https://www.linkedin.com/in/louislippens/"
+      - name: "bluesky"
+        url: "https://bsky.app/profile/louislippens.be"
   assets:
         favicon: "/favicon.ico"
         favicon16x16:  "/favicon-16x16.png"
