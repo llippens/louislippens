@@ -58,7 +58,7 @@ table <- table %>%
          Category = case_when(
            str_detect(Title, "Recruiter says ") ~ categories[4],
            !str_detect(Source,
-                       "Discussion|Ghent|Vrije Universiteit Brussel|Borgerhoff|Stories|In conflict|arXiv|OSF") &
+                       "Discussion|Ghent|Vrije Universiteit Brussel|Borgerhoff|Policy Briefs|In conflict|arXiv|OSF") &
              Source != "" ~ categories[1],
            str_detect(Source, "Discussion|Ghent|arXiv|OSF|Vrije Universiteit Brussel") &
              !str_detect(Title, "Intelligenztest") ~ categories[2],

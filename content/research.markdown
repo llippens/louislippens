@@ -26,9 +26,9 @@ ShowPostNavLinks: false
 - In our contextual study of hiring discrimination (published in <a href="https://doi.org/10.1016/j.labeco.2023.102453" target = "_blank">Labour Economics</a>), we empirically test theoretically linked moderators of discrimination. We observe a distinct role of the organisation in shaping hiring discrimination, with ethnic minorities facing less discrimination when applying to non-profits or large organisations. We also find some evidence that hiring discrimination increases in jobs with more colleague interaction or less labour shortage.
 
 ## Publication overview
-The selection* of publications below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on 13 February 2025.
+The selection* of publications below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on 16 February 2025.
 
-<table class="table" style="font-size: 13px; color: black; margin-left: auto; margin-right: auto;">
+<table class="table" style="font-size: 13px; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;"> Title </th>
@@ -39,7 +39,7 @@ The selection* of publications below was taken directly from my <a href="https:/
   </tr>
  </thead>
 <tbody>
-  <tr grouplength="19"><td colspan="5" style="border-bottom: 1px solid;"><strong>Peer-reviewed Publications</strong></td></tr>
+  <tr grouplength="9"><td colspan="5" style="border-bottom: 1px solid;"><strong>Peer-reviewed Publications</strong></td></tr>
 <tr>
    <td style="text-align:left;"> Time Tetris: a longitudinal study on compressed schedules and workplace well-being at IKEA </td>
    <td style="text-align:left;"> K du Bois, S Baert, <b>L Lippens</b>, E Derous </td>
@@ -55,20 +55,6 @@ The selection* of publications below was taken directly from my <a href="https:/
    <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:JV2RwH3_ST0C" target="_blank">16</a> </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Waarom de werkzaamheidsgraad in België en de gewesten achterop bleef hinken sinds de vorige verkiezingen </td>
-   <td style="text-align:left;"> S Baert, E Derous, L D'hert, M El Haj, <b>L Lippens</b>, S Mertens, B Neyt </td>
-   <td style="text-align:left;"> UGent @ Work Policy Briefs </td>
-   <td style="text-align:center;"> 2024 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:J_g5lzvAfSwC" target="_blank">0</a> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Niet-Europese migranten op de Belgische arbeidsmarkt: evaluatie van hun positie in 2023 </td>
-   <td style="text-align:left;"> S Baert, E Derous, L Devos, L D'hert, <b>L Lippens</b>, B Neyt, G Van Hoye </td>
-   <td style="text-align:left;"> UGent @ Work Policy Briefs </td>
-   <td style="text-align:center;"> 2024 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:NaGl4SEjCO4C" target="_blank">0</a> </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> Nothing really matters: Evaluating demand-side moderators of age discrimination in hiring </td>
    <td style="text-align:left;"> A Dalle, <b>L Lippens</b>, S Baert </td>
    <td style="text-align:left;"> Socio-Economic Review </td>
@@ -80,7 +66,7 @@ The selection* of publications below was taken directly from my <a href="https:/
    <td style="text-align:left;"> <b>L Lippens</b>, S Vermeiren, S Baert </td>
    <td style="text-align:left;"> European Economic Review </td>
    <td style="text-align:center;"> 2023 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:4DMP91E08xMC" target="_blank">177</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:4DMP91E08xMC" target="_blank">176</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Understanding ethnic hiring discrimination: A contextual analysis of experimental evidence </td>
@@ -88,62 +74,6 @@ The selection* of publications below was taken directly from my <a href="https:/
    <td style="text-align:left;"> Labour Economics </td>
    <td style="text-align:center;"> 2023 </td>
    <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:bEWYMUwI8FkC" target="_blank">15</a> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Vlaamse werknemers en hun loon: nieuwe cijfers en duiding vanuit onderzoek </td>
-   <td style="text-align:left;"> M Audenaert, S Baert, E Clays, E Derous, <b>L Lippens</b>, B Neyt, E Schollaert, ... </td>
-   <td style="text-align:left;"> UGent @ Work Policy Briefs </td>
-   <td style="text-align:center;"> 2023 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:hC7cP41nSMkC" target="_blank">0</a> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> De Vlaamse en Belgische arbeidsmarkt in Europees perspectief: 9 opvallende cijfers </td>
-   <td style="text-align:left;"> S Baert, E Clays, A Dalle, E Derous, M De Vos, K du Bois, M El Haj, ... </td>
-   <td style="text-align:left;"> UGent @ Work Policy Briefs </td>
-   <td style="text-align:center;"> 2023 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:iH-uZ7U-co4C" target="_blank">0</a> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> De vierdaagse werkweek uit de federale arbeidsdeal: eerste ervaringen in kaart gebracht </td>
-   <td style="text-align:left;"> K du Bois, S Baert, E Derous, <b>L Lippens</b>, E Clays, J Neirynck, B Neyt, ... </td>
-   <td style="text-align:left;"> UGent @ Work Policy Briefs </td>
-   <td style="text-align:center;"> 2023 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:isC4tDSrTZIC" target="_blank">0</a> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Werkgelegenheidsconferentie federale regering 2023: 7 studies die beleid moet kennen over vrouwen op arbeidsmarkt </td>
-   <td style="text-align:left;"> S Baert, L Bolliger, E Clays, E Derous, <b>L Lippens</b>, S Mertens, B Neyt, ... </td>
-   <td style="text-align:left;"> UGent @ Work Policy Briefs </td>
-   <td style="text-align:center;"> 2023 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:r0BpntZqJG4C" target="_blank">0</a> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Inactiviteit onder migranten in België </td>
-   <td style="text-align:left;"> S Baert, E Derous, B George, <b>L Lippens</b>, G Van Hoye, B Neyt, S Van Hoof </td>
-   <td style="text-align:left;"> UGent @ Work Policy Briefs </td>
-   <td style="text-align:center;"> 2022 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:4TOpqqG69KYC" target="_blank">1</a> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Hoe kijken Vlaamse werknemers naar de vierdaagse werkweek? </td>
-   <td style="text-align:left;"> S Baert, E Derous, K du Bois, <b>L Lippens</b>, B Neyt, C Rooman, P Sterkens </td>
-   <td style="text-align:left;"> UGent @ Work Policy Briefs </td>
-   <td style="text-align:center;"> 2022 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:9ZlFYXVOiuMC" target="_blank">1</a> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Inactiviteit in Europa en de Belgische gewesten </td>
-   <td style="text-align:left;"> S Baert, <b>L Lippens</b> </td>
-   <td style="text-align:left;"> UGent @ Work Policy Briefs </td>
-   <td style="text-align:center;"> 2022 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:M3ejUd6NZC8C" target="_blank">0</a> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Welzijn op het werk in Vlaanderen </td>
-   <td style="text-align:left;"> S Baert, E Clays, E Derous, K du Bois, <b>L Lippens</b>, S Mertens, B Neyt, ... </td>
-   <td style="text-align:left;"> UGent @ Work Policy Briefs </td>
-   <td style="text-align:center;"> 2022 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:_kc_bZDykSQC" target="_blank">1</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Is labour market discrimination against ethnic minorities better explained by taste or statistics? A systematic review of the empirical evidence </td>
@@ -157,14 +87,14 @@ The selection* of publications below was taken directly from my <a href="https:/
    <td style="text-align:left;"> E Moens, <b>L Lippens</b>, P Sterkens, J Weytjens, S Baert </td>
    <td style="text-align:left;"> The European Journal of Health Economics </td>
    <td style="text-align:center;"> 2021 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:LkGwnXOMwfcC" target="_blank">541</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:LkGwnXOMwfcC" target="_blank">542</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> How do employees think the COVID-19 crisis will affect their careers? </td>
    <td style="text-align:left;"> <b>L Lippens</b>, E Moens, P Sterkens, J Weytjens, S Baert </td>
    <td style="text-align:left;"> PLOS ONE </td>
    <td style="text-align:center;"> 2021 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:UeHWp8X0CEIC" target="_blank">201</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:UeHWp8X0CEIC" target="_blank">200</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Loss aversion in taste-based employee discrimination: Evidence from a choice experiment </td>
@@ -173,8 +103,15 @@ The selection* of publications below was taken directly from my <a href="https:/
    <td style="text-align:center;"> 2021 </td>
    <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:ufrVoPGSRksC" target="_blank">9</a> </td>
   </tr>
-  <tr groupLength="9"><td colspan="5" style="border-bottom: 1px solid;"><strong>Discussion Papers</strong></td></tr>
+  <tr groupLength="10"><td colspan="5" style="border-bottom: 1px solid;"><strong>Discussion Papers</strong></td></tr>
 <tr>
+   <td style="text-align:left;"> Too much of a good thing? Telework intensity and workplace experiences </td>
+   <td style="text-align:left;"> E Moens, <b>L Lippens</b>, K Vangronsvelt, A De Vos, S Baert </td>
+   <td style="text-align:left;"> Working Papers of Faculty of Economics and Business Administration, Ghent … </td>
+   <td style="text-align:center;"> 2025 </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:CHSYGLWDkRkC" target="_blank">0</a> </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> Intercultural competence at work: The origins of an implicit trait policy </td>
    <td style="text-align:left;"> S Schelfhout, <b>L Lippens</b>, E Derous </td>
    <td style="text-align:left;"> OSF Preprints </td>
@@ -207,7 +144,7 @@ The selection* of publications below was taken directly from my <a href="https:/
    <td style="text-align:left;"> E Moens, <b>L Lippens</b>, L D'hert, S Baert </td>
    <td style="text-align:left;"> IZA Discussion Paper </td>
    <td style="text-align:center;"> 2024 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:lSLTfruPkqcC" target="_blank">0</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:lSLTfruPkqcC" target="_blank">1</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Fertility, pregnancy, and parenthood discrimination in the labour market: A systematic review </td>
@@ -248,4 +185,4 @@ The selection* of publications below was taken directly from my <a href="https:/
 You can find more detailed, up-to-date information about my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profile.
 
 <br></br>
-<font size="2"> _This page was last updated on 13 February 2025._ </font>
+<font size="2"> _This page was last updated on 16 February 2025._ </font>
