@@ -26,9 +26,9 @@ ShowPostNavLinks: false
 - In our contextual study of hiring discrimination (published in <a href="https://doi.org/10.1016/j.labeco.2023.102453" target = "_blank">Labour Economics</a>), we empirically test theoretically linked moderators of discrimination. We observe a distinct role of the organisation in shaping hiring discrimination, with ethnic minorities facing less discrimination when applying to non-profits or large organisations. We also find some evidence that hiring discrimination increases in jobs with more colleague interaction or less labour shortage.
 
 ## Publication overview
-The selection* of publications below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on 16 February 2025.
+The selection* of publications below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on 21 February 2025.
 
-<table class="table" style="font-size: 13px; margin-left: auto; margin-right: auto;">
+<table class="table" style="font-size: 13px; color: black; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;"> Title </th>
@@ -66,7 +66,7 @@ The selection* of publications below was taken directly from my <a href="https:/
    <td style="text-align:left;"> <b>L Lippens</b>, S Vermeiren, S Baert </td>
    <td style="text-align:left;"> European Economic Review </td>
    <td style="text-align:center;"> 2023 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:4DMP91E08xMC" target="_blank">176</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:4DMP91E08xMC" target="_blank">178</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Understanding ethnic hiring discrimination: A contextual analysis of experimental evidence </td>
@@ -87,7 +87,7 @@ The selection* of publications below was taken directly from my <a href="https:/
    <td style="text-align:left;"> E Moens, <b>L Lippens</b>, P Sterkens, J Weytjens, S Baert </td>
    <td style="text-align:left;"> The European Journal of Health Economics </td>
    <td style="text-align:center;"> 2021 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:LkGwnXOMwfcC" target="_blank">542</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:LkGwnXOMwfcC" target="_blank">541</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> How do employees think the COVID-19 crisis will affect their careers? </td>
@@ -103,7 +103,7 @@ The selection* of publications below was taken directly from my <a href="https:/
    <td style="text-align:center;"> 2021 </td>
    <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:ufrVoPGSRksC" target="_blank">9</a> </td>
   </tr>
-  <tr groupLength="10"><td colspan="5" style="border-bottom: 1px solid;"><strong>Discussion Papers</strong></td></tr>
+  <tr groupLength="8"><td colspan="5" style="border-bottom: 1px solid;"><strong>Discussion Papers</strong></td></tr>
 <tr>
    <td style="text-align:left;"> Too much of a good thing? Telework intensity and workplace experiences </td>
    <td style="text-align:left;"> E Moens, <b>L Lippens</b>, K Vangronsvelt, A De Vos, S Baert </td>
@@ -160,20 +160,6 @@ The selection* of publications below was taken directly from my <a href="https:/
    <td style="text-align:center;"> 2024 </td>
    <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:zA6iFVUQeVQC" target="_blank">0</a> </td>
   </tr>
-  <tr>
-   <td style="text-align:left;"> An Arab, an Asian, and a Black guy walk into a job interview: ethnic stigma in hiring after controlling for social class </td>
-   <td style="text-align:left;"> H Van Borm, <b>L Lippens</b>, S Baert </td>
-   <td style="text-align:left;"> IZA Discussion Paper </td>
-   <td style="text-align:center;"> 2022 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:aqlVkmm33-oC" target="_blank">3</a> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Selecting names for experiments on ethnic discrimination </td>
-   <td style="text-align:left;"> S Baert, <b>L Lippens</b>, H Van Borm </td>
-   <td style="text-align:left;"> IZA Discussion Paper </td>
-   <td style="text-align:center;"> 2022 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:qxL8FJ1GzNcC" target="_blank">5</a> </td>
-  </tr>
 </tbody>
 </table>
 
@@ -185,4 +171,4 @@ The selection* of publications below was taken directly from my <a href="https:/
 You can find more detailed, up-to-date information about my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profile.
 
 <br></br>
-<font size="2"> _This page was last updated on 16 February 2025._ </font>
+<font size="2"> _This page was last updated on 21 February 2025._ </font>
