@@ -30,7 +30,7 @@ exports.handler = async (event, context) => {
       statusCode: 200,
       headers: {
         "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*"  // or specify 'https://ugent.qualtrics.com'
+        "Access-Control-Allow-Origin": "*"
       },
       body: JSON.stringify(data)
     };
