@@ -45,59 +45,52 @@ publications <- get_publications(profile_id, flush = TRUE, sortby = "year")
 The selection* of publications below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on `r format(Sys.Date(), "%d %B %Y")`.
 
 ```{r kable, echo = FALSE, warning = FALSE}
-table <- publications %>%
-  select("title", "author", "journal", "number", "cites", "year", "pubid")
+categories <- c(
+  "Peer-reviewed Publications", "Discussion Papers", "Book Chapters",
+  "PhD Thesis", "Master's Thesis", "Other"
+)
+desired <- c("Peer-reviewed Publications", "Discussion Papers")
+exclude_src <- "Discussion|Ghent University|Working Papers FEB UGent|Vrije Universiteit Brussel|Borgerhoff|Policy Briefs|In conflict|arXiv|OSF"
 
-names(table) <- c("Title", "Authors", "Source", "Number", "Citations", "Year", "pubid")
+tbl <-
+  publications %>%
+  arrange(desc(cites)) %>%
+  transmute(
+    Title = title,
+    Authors = str_replace_all(author, "L Lippens", "<b>L Lippens</b>"),
+    Source = case_when(str_detect(journal, "Working Papers of Faculty") ~ "Working Papers FEB UGent",
+                       TRUE ~ journal),
+    Year = year,
+    url = paste0(scholar_url, ":", pubid),
+    Citations = paste0('<a href="', url, '" target="_blank">', cites, '</a>'),
+    Category = case_when(
+      str_detect(Title, "Recruiter says ") ~ "PhD Thesis",
+      !str_detect(Source, exclude_src) ~ "Peer-reviewed Publications",
+      str_detect(Source, "Discussion|arXiv|OSF|Vrije Universiteit Brussel|Working Papers FEB") ~ "Discussion Papers",
+      str_detect(Source, "Borgerhoff|In conflict") ~ "Book Chapters",
+      str_detect(Title, "Intelligenztest") ~ "Master's Thesis",
+      TRUE ~ "Other"
+    )
+  ) %>%
+  filter(
+    !str_detect(Source, "Over\\.Werk|Applied Economics Letters|International Journal of Environmental Research and Public Health"),
+    Year > year(today()) - 3 | Category == "Peer-reviewed Publications"
+  ) %>%
+  arrange(factor(Category, levels = categories), desc(Year))
 
-categories <- c("Peer-reviewed Publications", "Discussion Papers", "Book Chapters", "PhD Thesis", "Master's Thesis", "Other")
+counts <-
+  tbl %>%
+  count(Category) %>%
+  filter(Category %in% desired) %>%
+  arrange(desc(Category)) %>%
+  deframe()
 
-table <- table %>%
-  mutate(url = paste0(scholar_url, ":", pubid)) %>%
-  mutate(Citations = paste0('<a href="', url, '" target="_blank">', Citations, '</a>'),
-         Category = case_when(
-           str_detect(Title, "Recruiter says ") ~ categories[4],
-           !str_detect(Source,
-                       "Discussion|Ghent|Vrije Universiteit Brussel|Borgerhoff|Policy Briefs|In conflict|arXiv|OSF") &
-             Source != "" ~ categories[1],
-           str_detect(Source, "Discussion|Ghent|arXiv|OSF|Vrije Universiteit Brussel") &
-             !str_detect(Title, "Intelligenztest") ~ categories[2],
-           str_detect(Source, "Borgerhoff|In conflict") ~ categories[3],
-           str_detect(Title, "Intelligenztest") ~ categories[5],
-           TRUE ~ categories[6]),
-         Source = case_when(Source == "" ~ "Ghent University",
-                            Source != "" ~ Source),
-         Authors = str_replace_all(Authors, "L Lippens", "<b>L Lippens</b>")) %>%
-  filter(!str_detect(Source, "Over.Werk|Applied Economics Letters|International Journal of Environmental Research and Public Health"),
-         (Year > year(today())-2 | Category == "Peer-reviewed Publications")) %>%
-  select(Title, Authors, Source, Year, Citations, Category) %>%
-  as_tibble
-
-table$Category <- factor(table$Category, levels = categories)
-
-table <- table %>%
-  arrange(Category, desc(Year), Citations)
-
-# Calculate the number of rows for each category
-peer_reviewed_count <- nrow(table %>% filter(Category == "Peer-reviewed Publications", !str_detect(Source, "Ghent University|Vrije Universiteit Brussel")))
-discussion_papers_count <- nrow(table %>% filter(Category == "Discussion Papers", !str_detect(Source, "Ghent University|Vrije Universiteit Brussel")))
-
-# Generate the table and apply the styling and grouping
-kable_output <- table %>%
-  filter(Category %in% c("Peer-reviewed Publications", "Discussion Papers")) %>%
-  filter(!str_detect(Source, "Ghent University|Vrije Universiteit Brussel")) %>%
-  select(-Category) %>%
+tbl %>%
+  filter(Category %in% desired, !str_detect(Source, "Ghent University|Vrije Universiteit Brussel")) %>%
+  select(-Category, -url) %>%
   kable(format = "html", escape = FALSE, align = "lllcc") %>%
-  kable_styling(font_size = 13)
-
-# Apply grouping, ensuring correct count
-kable_output <- kable_output %>%
-  group_rows(index = list("Peer-reviewed Publications" = peer_reviewed_count,
-                          "Discussion Papers" = discussion_papers_count),
-             indent = FALSE)
-
-# Print or return the final kable object
-kable_output
+  kable_styling(font_size = 13) %>%
+  group_rows(index = counts, indent = FALSE)
 ```
 
 ```{r include = FALSE, echo = FALSE}
