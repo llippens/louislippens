@@ -17,21 +17,19 @@ ShowPostNavLinks: false
 
 <p style="line-height:.8; font-style:italic; text-align:center"><font size="3">Postdoctoral Researcher in Economics<br></br>Applied Microeconomics - Labour Economics - Experimental Economics<br></br>Hiring Discrimination - Audit Studies - Meta-analysis</font></p>
 
-### Professional
-I am an [FWO postdoctoral fellow](https://www.fwo.be/en/fellowships-funding/postdoctoral-fellowships/junior-postdoctoral-fellowship/) in labour economics at Ghent University. My academic work focuses on the determinants of and solutions to to labour market discrimination, an issue that continues to squander individual talent in today's labour market.
+## Academia
+I currently work as an [FWO postdoctoral fellow](https://www.fwo.be/en/fellowships-funding/postdoctoral-fellowships/junior-postdoctoral-fellowship/) in labour economics at Ghent University. My academic work focuses primarily on the determinants of and solutions to labour market discrimination, an issue that continues to squander individual talent in today's labour market.
 
-In my postdoctoral project, I examine how market competition can decrease labour market discrimination by applying advanced statistical techniques, such as multilevel meta-regression, to transnational data.
+In my [postdoctoral project](https://osf.io/hty7w/), I examine how labour market discrimination is tied to market competition and the business cycle. In the context of this project, I apply advanced meta-analytic techniques to (cross-)national panel data. I also developed the meta-analytic event study approach, a novel method to estimate dynamic treatment effects controlling for publication bias.
 
-More broadly, as an affiliated researcher at [UGent @ Work](https://www.ugent.be/ugentatwork/en), I collaborate on interdisciplinary projects addressing key issues in the labour market. Our focus is not just academic; we are committed to creating real-world impact by translating research results into evidence-based advice for professionals, business leaders, and policymakers.
+As an affiliated researcher at [UGent @ Work](https://www.ugent.be/ugentatwork/en), I collaborate on interdisciplinary projects addressing key issues in the labour market. Research topics include  include unemployment and inactivity, alternative work arrangements, and the role of AI in the labour market. The UGent @ Work platform allows for creating real-world impact by translating research results into evidence-based advice for professionals, business leaders, and policymakers.
 
-I hold a master's degree in industrial and organisational psychology from Ghent University and a business degree in management from Vlerick Business School. Prior to re-entering academia and obtaining a joint PhD in economics and sociology, I worked in management consulting, where I gained experience in data governance and data analytics.
+## Industry
+I have a an interdisciplinary background along with prior industry experience. More specifically, I hold a master's degree in industrial and organisational psychology from Ghent University and a business degree in management from Vlerick Business School. Prior to re-entering academia and obtaining a joint PhD in economics and sociology, I worked in management consulting, where I worked on projects in data governance and data analytics.
 
-My expertise extends from experimental economics, including audit studies, and meta-analysis to applied microeconomics and data visualisation.
-
-### Personal
-I live with my spouse, Anna, my son, Georges, and our cat, Abel. In a former life, I produced electronic music, and, to date, I still love to get some vinyl playing (from Paul Kalkbrenner and Bonobo to KAYTRANADA and Fred Again..). I also love good food -- sometimes stirring the pots myself -- and I am fond of the sea(side).
+At present, I am active as an external member of the ethics board of the Flemish public employment services (VDAB). In this role, I provide independent advice on the ethical and [responsible use of AI](https://www.vdab.be/vdab/artificiele-intelligentie) and automated decision-making within VDAB based on the principles of transparency, trust, and beneficialness to all stakeholders.
 
 <br></br>
 <font size="2">
-_This page was last updated on 04 September 2024._
+_This page was last updated on 11 June 2025._
 <font>

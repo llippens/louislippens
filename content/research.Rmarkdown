@@ -57,7 +57,7 @@ tbl <-
   arrange(desc(cites)) %>%
   transmute(
     Title = title,
-    Authors = str_replace_all(author, "L Lippens", "<b>L Lippens</b>"),
+    Authors = str_replace_all(author, "L Lippens", "<i>L Lippens</i>"),
     Source = case_when(str_detect(journal, "Working Papers of Faculty") ~ "Working Papers FEB UGent",
                        TRUE ~ journal),
     Year = year,
