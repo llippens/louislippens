@@ -1,0 +1,127 @@
+---
+title: My research
+url: "/research2"
+author: " "
+slug: research
+ShowToc: false
+TocOpen: false
+draft: false
+ShowReadingTime: false
+ShowShareButtons: false
+ShowPostNavLinks: false
+---
+
+## Research highlights
+
+- In our meta-analysis (published in <a href="https://doi.org/10.1016/j.euroecorev.2022.104315" target="_blank">European Economic Review</a>), we synthesise a quasi-exhaustive register of correspondence audit experiments in hiring from across the globe published between 2005 to 2020. We show that hiring discrimination is equivalently or more severe for candidates with disabilities, older age, and less physical attractiveness than for those with distinct racial or ethnic characteristics. Older candidates face more discrimination in Europe than in the United States. We find no clear evidence of decreasing discrimination over time.
+
+- In an experimental study (published in <a href="https://doi.org/10.1016/j.chbah.2024.100054" target="_blank">Computers in Human Behavior: Artificial Humans</a>), I explore whether OpenAI's GPT-3.5 language model displays ethnic or gender bias in job applicant screening using an audit approach. I show that GPT's evaluations are influenced by ethnic and gender cues, with some evidence for a gender--ethnicity interaction. The chatbot produces similarly stereotyped output as humans would, e.g. favouring ethnic minorities for jobs with poor working conditions or women as clothing sellers.
+
+- In our contextual study of hiring discrimination (published in <a href="https://doi.org/10.1016/j.labeco.2023.102453" target = "_blank">Labour Economics</a>), we empirically test theoretically linked moderators of discrimination. We observe a distinct role of the organisation in shaping hiring discrimination, with ethnic minorities facing less discrimination when applying to non-profits or large organisations. We also find some evidence that hiring discrimination increases in jobs with more colleague interaction or less labour shortage.
+
+## Selected work
+Below is a selection of my research. The full overview is available from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a> profile.
+
+### Publications in international peer-reviewed journals
+{{< details summary="'How do employers view applicants with and without children?' with Morien El Haj, Axana Dalle, and Stijn Baert (2025). **Journal of Marriage and Family**. [[published version](https://doi.org/10.1111/jomf.70008)]" >}}
+This study investigates how parenthood influences employers’ hiring decisions and the underlying signals that drive this discrimination. Prior research has consistently shown a motherhood penalty in hiring, whereas evidence on fatherhood remains less clear. Yet, most studies simplify parenthood into a binary distinction between parents and non-parents, neglecting potential variations based on the number and age of children. Moreover, little research has examined the underlying reasons for these disparate hiring decisions. A state-of-the-art vignette experiment was conducted with 452 real recruiters in Flanders (Belgium). Recruiters evaluated fictitious job applicants, whose parental status varied, on invitation rating and sixteen theoretically relevant stigmas. Mothers received lower invitation ratings than non-mothers, regardless of the number and age of children, which can be understood by a range of negative stigma, including lower flexibility, higher absenteeism risk, higher career break risk and lower willingness to work overtime. For men, a penalty was found when they had many children, especially older children. Compared to fathers with fewer children, those with three children were seen as less ambitious, less flexible, less likely to work overtime and more likely to have experienced recent loss of skills. The study highlights the persistent motherhood penalty and demonstrates that the fatherhood effect depends on the number and age of children.
+{{< /details >}}
+
+{{< details summary="'Time Tetris: A longitudinal study on compressed schedules and workplace well-being at IKEA' with Kristen du Bois, Stijn Baert, and Eva Derous (2025). **BMC Public Health**, 25(1). [[published version](https://doi.org/10.1186/s12889-025-21323-4), [OSF version](https://doi.org/10.31219/osf.io/ch8uk)]" >}}
+Compressed schedules, where workers perform longer daily hours to enjoy additional days off, are increasingly promoted as a workplace well-being intervention. Nevertheless, their implications for work-related well-being outcomes, such as recovery from work and burnout risk, are understudied. This gap leaves employers with little evidence on whether and how the arrangement contributes to workplace well-being. IKEA Belgium offered its employees the option to enter compressed schedules in the aftermath of a national labour reform aimed at improving well-being and reducing burnout. We collected data on psychological detachment from work, work-related exhaustion, and burnout risk in four waves before and after implementation. We used mixed-effects growth models to estimate the within-subjects changes in these three domains, and two-way fixed effects models to compare changes with those from a non-treated comparison group. Workers experienced increased psychological detachment from work in compressed schedules, yet we saw no decrease in work-related exhaustion or burnout risk. While between-subjects analyses confirm that the increase in psychological detachment is related to treatment, they also hint that this association may fade out during summer when all workers take more extended breaks from work. While workers in compressed schedules may mentally switch off from work more effectively, this does not translate into decreased burnout risk scores. Consistent with theoretical expectations, policymakers and employers should be cautious in assuming that the arrangements significantly reduce burnout.
+{{< /details >}}
+
+{{< details summary="'Nothing really matters: Evaluating demand-side moderators of age discrimination in hiring' with Axana Dalle and Stijn Baert (2024). **Socio-Economic Review**. [[published version](https://doi.org/10.1093/ser/mwae070), [IZA version](https://docs.iza.org/dp16672.pdf)]" >}}
+As age discrimination hampers the OECD’s ambition to extend the working
+population, an efficient anti-discrimination policy targeted at the right employers is
+critical. Therefore, the context in which age discrimination is most prevalent must
+be identified. In this study, we thoroughly review the current theoretical arguments
+and empirical findings regarding moderators of age discrimination in different
+demand-side domains (i.e. decision-maker, vacancy, occupation, organization and
+sector). Our review demonstrates that the current literature is highly fragmented
+and often lacks field-experimental evidence, raising concerns about its internal and
+external validity. To address this gap, we conducted a correspondence experiment
+and systematically linked the resulting data to external data sources. In so doing,
+we were able to study the priorly determined demand-side moderators within a single
+multi-level analysis and simultaneously control multiple correlations between
+potential moderators and discrimination estimates. Having done so, we found no
+empirical support for any of these moderators.
+{{< /details >}}
+
+{{< details summary="'Computer says ‘no’: Exploring systemic bias in ChatGPT using an audit approach' (2024). **Computers in Human Behavior: Artificial Humans**, 2(1). [[published version](https://doi.org/10.1016/j.chbah.2024.100054), [arXiv version](https://doi.org/10.48550/arXiv.2309.07664), [GitHub project](https://github.com/llippens/computersaysno)]" >}}
+Large language models offer significant potential for increasing labour productivity, such as streamlining personnel selection, but raise concerns about perpetuating systemic biases embedded into their pre-training data. This study explores the potential ethnic and gender bias of ChatGPT—a chatbot producing human-like responses to language tasks—in assessing job applicants. Using the correspondence audit approach from the social sciences, I simulated a CV screening task with 34,560 vacancy–CV combinations where the chatbot had to rate fictitious applicant profiles. Comparing ChatGPT's ratings of Arab, Asian, Black American, Central African, Dutch, Eastern European, Hispanic, Turkish, and White American male and female applicants, I show that ethnic and gender identity influence the chatbot's evaluations. Ethnic discrimination is more pronounced than gender discrimination and mainly occurs in jobs with favourable labour conditions or requiring greater language proficiency. In contrast, gender bias emerges in gender-atypical roles. These findings suggest that ChatGPT's discriminatory output reflects a statistical mechanism echoing societal stereotypes. Policymakers and developers should address systemic bias in language model-driven applications to ensure equitable treatment across demographic groups. Practitioners should practice caution, given the adverse impact these tools can (re)produce, especially in selection decisions involving humans.
+{{< /details >}}
+
+{{< details summary="'Understanding ethnic hiring discrimination: A contextual analysis of experimental evidence' with Axana Dalle, Fanny D’hondt, Pieter-Paul Verhaeghe, and Stijn Baert (2023). **Labour Economics**, 85. [[published version](https://doi.org/10.1016/j.labeco.2023.102453)]" >}}
+Previous research has demonstrated that context matters in understanding unequal treatment in hiring—for example, some studies have illustrated that hiring discrimination is low in large organisations or high in public-facing occupations. Following a review of the recent literature on ethnic hiring discrimination, we identified fourteen plausible moderators (i.e. discrimination correlates) from which we derived an equal number of hypotheses related to taste-based and statistical discrimination theories. We empirically tested these hypotheses through a moderation analysis of data from a correspondence experiment supplemented with occupation, organisation, and sector characteristics. Our empirical approach allowed us to simultaneously evaluate and control the interaction effects of multiple contextual factors with ethnic hiring discrimination. Overall, we find that minority (non-Flemish) candidates receive significantly fewer positive responses to their job applications than majority (Flemish) candidates. In particular, non-Flemish candidates experience significantly less discrimination when applying to not-for-profit organisations or organisations with a large workforce. We also find partial empirical support for the hypotheses that hiring discrimination is high in occupations requiring much interaction between colleagues and in occupations where labour market tightness is low. Future research avenues include evaluating the rationale behind the discrimination correlates mentioned above and testing the replicability of this study's findings across different institutional contexts, labour markets, and grounds for discrimination.
+{{< /details >}}
+
+{{< details summary="'The state of hiring discrimination: A meta-analysis of (almost) all recent correspondence experiments' with Siel Vermeiren and Stijn Baert (2023). **European Economic Review**, 151 *(lead article)*. [[published version](https://doi.org/10.1016/j.euroecorev.2022.104315)]" >}}
+Notwithstanding the improved integration of various minority groups in the workforce, unequal treatment in hiring still hinders many individuals’ access to the labour market. To tackle this inaccessibility, it is essential to know which and to what extent minority groups face hiring discrimination. This meta-analysis synthesises a quasi-exhaustive register of correspondence experiments on hiring discrimination published between 2005 and 2020. Using a random-effects model, we computed pooled discrimination ratios concerning ten discrimination grounds upon which unequal treatment in hiring is forbidden by law. Our meta-analysis shows that hiring discrimination against candidates with disabilities, older candidates, and less physically attractive candidates seems equally severe as the unequal treatment of candidates with salient racial or ethnic characteristics. Moreover, hiring discrimination against older applicants is more prominent in Europe than in the United States. Last, while we initially find a significant decrease in ethnic hiring discrimination in (Western) Europe, we find no structural evidence of recent temporal changes in hiring discrimination when controlling for the minority groups considered, at the country level, or based on the various other grounds within the scope of this review.
+{{< /details >}}
+
+{{< details summary="'Is labour market discrimination against ethnic minorities better explained by taste or statistics? A systematic review of the empirical evidence' with Stijn Baert, Abel Ghekiere, Pieter-Paul Verhaeghe, and Eva Derous (2022). **Journal of Ethnic and Migration Studies**, 48(17), 4243–4276. [[published version](https://doi.org/10.1080/1369183X.2022.2050191)]" >}}
+To mitigate ethnic labour market discrimination, it is essential to understand its underlying mechanisms because different mechanisms call for different counteracting measures. To this end, we reviewed the recent literature that confronts the theories of taste-based and statistical discrimination against the empirical reality. Whereas the empirical evidence for both mechanisms is generally mixed, (field) experimental research, which predominantly focuses on hiring outcomes, appears to yield proportionately more evidence in favour of taste-based discrimination vis-à-vis statistical discrimination. This finding suggests that the taste-based mechanism may better explain ethnic discrimination in hiring. However, we also observe that the measurement operationalisations of the mechanisms vary substantially between studies and that alternative theoretical interpretations of some of the evidence are plausible. Taken together, additional research efforts, using clear measurement standards and appropriate synthesis methods, are required to solidify the review’s main finding.
+{{< /details >}}
+
+{{< details summary="'Loss aversion in taste-based employee discrimination: Evidence from a choice experiment' with Stijn Baert and Eva Derous (2021). **Economics Letters**, 208. [[published version](https://doi.org/10.1016/j.econlet.2021.110081)]" >}}
+Using a choice experiment, we test whether taste-based employee discrimination against ethnic minorities is susceptible to loss aversion. In line with empirical evidence from previous research, our results indicate that introducing a hypothetical wage penalty for discriminatory choice behaviour lowers discrimination and that higher penalties have a greater effect. Most notably, we find that the propensity to discriminate is significantly lower when this penalty is loss-framed rather than gain-framed. From a policy perspective, it could therefore be more effective to financially penalise taste-based discriminators than to incentivise them not to discriminate.
+{{< /details >}}
+
+### Policy papers
+{{< details summary="'Hiring discrimination across vulnerable groups' with Stijn Baert and Brecht Neyt (2025). **IZA World of Labor**. [[published version](https://doi.org/10.15185/izawol.515), [OSF version]()]" >}}
+Over the past decades, academics worldwide have conducted experiments with fictitious job applications to measure discrimination in hiring. This discrimination leads to underutilization of labor market potential and higher unemployment rates for individuals from vulnerable groups. Collectively, the insights from the published research suggest that three groups face more discrimination than ethnic minorities: people with disabilities, less physically attractive people, and older people. The discrimination found in Western economies generally persists across countries and is stable over time, although some variation exists.
+{{< /details >}}
+
+### Discussion papers
+{{< details summary="'The impact of regional identity on hiring chances: An experiment examining employer bias' with Louise Devos, Dagmar Claus, and Stijn Baert (2025). IZA Discussion Paper Series, 17855. [[IZA version](https://docs.iza.org/dp17855.pdf)]" >}}
+{{< /details >}}
+
+{{< details summary="'Too much of a good thing? Telework intensity and workplace experiences' with Eline Moens, Kathleen Vangronsvelt, Ans De Vos, and Stijn Baert (2025). IZA Discussion Paper Series, 17721. [[IZA version](https://docs.iza.org/dp17721.pdf)]" >}}
+{{< /details >}}
+
+{{< details summary="'Not a lucky break? Why and when a career hiatus hijacks hiring chances' with Liam D’hert and Stijn Baert (2024). IZA Discussion Paper Series, 17497. [[IZA version](https://docs.iza.org/dp17497.pdf)]" >}}
+{{< /details >}}
+
+{{< details summary="'Fertility, pregnancy, and parenthood discrimination in the labour market: A systematic review' with Morien El Haj, Elsy Verhofstadt, Luc Van Ootegem, and Stijn Baert (2024). IZA Discussion Paper Series, 17435. *(Under review, 1st round, Journal of Economic Surveys)* [[IZA version](https://docs.iza.org/dp17435.pdf)]" >}}
+{{< /details >}}
+
+{{< details summary="'Unemployment, inactivity, and hiring chances: A systematic review and meta-analysis' with Liam D’hert and Stijn Baert (2024). IZA Discussion Paper Series, 17141. [[IZA version](https://docs.iza.org/dp17141.pdf), [IZA opinion](https://wol.iza.org/opinions/are-employers-eager-to-hire-the-unemployed)]" >}}
+{{< /details >}}
+
+### Work in progress
+{{< details summary="'The cyclicality of hiring discrimination' with Stijn Baert." >}}
+Hiring discrimination remains a persistent, global challenge. Discrimination in hiring may increase during labour market booms and decrease during busts, showing a cyclical pattern. Yet, much of the existing empirical literature on the cyclicality of hiring discrimination has focused on single groups, single countries, single indicators, and limited time frames, sometimes arriving at different conclusions. Here, we bring the results of a meta-reanalysis of over two decades' worth of correspondence experiments spanning multiple groups and diverse labour market contexts, representing more than 1,200,000 applications to examine whether, for which groups, and when market conditions explain variation in discriminatory hiring practices. We also assess the impact of the Great Recession on hiring discrimination against racial and ethnic groups using a meta-analytic event study-like approach, strengthening our causal identification.
+{{< /details >}}
+
+{{< details summary="'Humans vs GPTs: Bias and validity in hiring decisions'. [[OSF draft](https://doi.org/10.31219/osf.io/zxf5y)]" >}}
+The advent of large language models (LLMs) may reshape hiring in the labour market. This paper investigates how generative pre-trained transformers (GPTs)—i.e. OpenAI’s GPT-3.5, GPT-4, and GPT-4o—can aid hiring decisions. In a direct comparison between humans and GPTs on an identical hiring task, I show that GPTs tend to select candidates more liberally than humans but exhibit less ethnic bias. GPT-4 even slightly favours certain ethnic minorities. While LLMs may complement humans in hiring by making a (relatively extensive) pre-selection of job candidates, the findings suggest that they may miss-select due to a lack of contextual understanding and may reproduce pre-trained human bias at scale.
+{{< /details >}}
+
+{{< details summary="'The state of rental discrimination: A meta-analysis across five groups in the housing market' with Pieter-Paul Verhaeghe, Abel Ghekiere, Louise Devos, and Stijn Baert." >}}
+Four decades of research on rental discrimination documents persistent inequalities in housing access. Correspondence experiments, in particular, have been used in various countries to examine the magnitude and patterns of rental discrimination. However, the relative severity of discrimination across groups remains less known, as such studies are often conducted with single groups examined in isolation. We perform a meta-analysis of (almost) all correspondence experiments on rental discrimination worldwide between 2002 and 2023 based on the five most studied grounds of discrimination in the rental market – ethnicity, gender, disability, sexual orientation, and wealth. We use meta-regression techniques to compare rental discrimination across contexts (location, time, and landlord type) and methods (communication means and experimental design). We also review the studies’ empirical evidence for their proposed theoretical mechanisms.
+{{< /details >}}
+
+{{< details summary="'Political discourse and discrimination'." >}}
+_No abstract yet._
+{{< /details >}}
+
+{{< details summary="'Measuring and remedying hiring bias in large language models' with Stefanie Sprong, Pieter-Paul Verhaeghe, and Valentina Di Stasio." >}}
+_No abstract yet._
+{{< /details >}}
+
+{{< details summary="'GenAI in hiring: Testing productivity-enhancing and bias-minimising effects of using ChatGPT in CV screening' with Mirthe Laureys." >}}
+_No abstract yet._
+{{< /details >}}
+
+{{< details summary="'Hiring discrimination and ethnic penalties' with Dries Lens." >}}
+_No abstract yet._
+{{< /details >}}
+
+{{< details summary="'Age bias in ChatGPT’s vs. recruiters’ assessment of resumes: The role of job age-type' with Maaike Schellaert, Janneke K. Oostrom, and Eva Derous." >}}
+_No abstract yet._
+{{< /details >}}
+
+{{< details summary="'A comparative meta-analysis of housing and hiring discrimination' with Louise Devos, Stijn Baert, and Pieter-Paul Verhaeghe." >}}
+_No abstract yet._
+{{< /details >}}
