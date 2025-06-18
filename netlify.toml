@@ -3,7 +3,7 @@ command = "hugo"
 publish = "public"
 functions = ".netlify/functions"
 [build.environment]
-HUGO_VERSION = "0.123.8"
+HUGO_VERSION = "0.147.8"
 
 [context]
 [context.branch-deploy]
