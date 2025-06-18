@@ -2,7 +2,8 @@ theme: "hugo-PaperMod"
 baseURL: https://louislippens.be
 languageCode: en-uk
 title: Louis Lippens
-paginate: 3
+pagination:
+  pagerSize: 10
 googleAnalytics: G-353SE2Q1DW
 
 ignoreFiles:
@@ -28,7 +29,7 @@ menu:
       url: /about/
       weight: 2
     - name: research
-      url: /research/
+      url: /research2/
       weight: 3
     - name: cv
       url: https://llippens.github.io/Louis%20Lippens-academic.pdf
@@ -47,10 +48,10 @@ params:
   defaultTheme: auto
   disableThemeToggle: true
   homeInfoParams:
-      Title: "Hello, visitor"
+      Title: "Louis Lippens"
       Content: >
         I am an FWO postdoctoral fellow in labour economics at Ghent University.
-        My research focuses on hiring discrimination and other labour market issues such as unemployment and inactivity, alternative work arrangements, and the role of AI in the labour market.
+        My research focuses on hiring discrimination and other labour market issues such as unemployment and inactivity, alternative work arrangements, and the role of GenAI in the labour market.
         I primarily rely on experimental methods and meta-analysis.
         You can read more about me in the eponymous tab or discover my scientific work in the research tab.
         Links to my socials and blog posts are below.

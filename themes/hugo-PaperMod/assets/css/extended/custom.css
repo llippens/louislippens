@@ -1,0 +1,18 @@
+main div.post-content p {
+  font-size: 11pt;
+}
+
+main div.post-content h1 { font-size: 1.75rem; }
+main div.post-content h2 { font-size: 1.5rem; }
+main div.post-content h3 { font-size: 1.25rem; }
+
+main article.post-single header.post-header h1.post-title {
+  font-size: 1.75rem !important;
+}
+
+details, details summary {
+  font-size: 11pt !important;
+  margin-block-end: .25em;
+}
+
+
