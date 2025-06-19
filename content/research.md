@@ -60,7 +60,7 @@ Previous research has demonstrated that context matters in understanding unequal
 Notwithstanding the improved integration of various minority groups in the workforce, unequal treatment in hiring still hinders many individuals’ access to the labour market. To tackle this inaccessibility, it is essential to know which and to what extent minority groups face hiring discrimination. This meta-analysis synthesises a quasi-exhaustive register of correspondence experiments on hiring discrimination published between 2005 and 2020. Using a random-effects model, we computed pooled discrimination ratios concerning ten discrimination grounds upon which unequal treatment in hiring is forbidden by law. Our meta-analysis shows that hiring discrimination against candidates with disabilities, older candidates, and less physically attractive candidates seems equally severe as the unequal treatment of candidates with salient racial or ethnic characteristics. Moreover, hiring discrimination against older applicants is more prominent in Europe than in the United States. Last, while we initially find a significant decrease in ethnic hiring discrimination in (Western) Europe, we find no structural evidence of recent temporal changes in hiring discrimination when controlling for the minority groups considered, at the country level, or based on the various other grounds within the scope of this review.
 {{< /details >}}
 
-{{< details summary="'Is labour market discrimination against ethnic minorities better explained by taste or statistics? A systematic review of the empirical evidence' with Stijn Baert, Abel Ghekiere, Pieter-Paul Verhaeghe, and Eva Derous (2022). **Journal of Ethnic and Migration Studies**, 48(17), 4243–4276. [[published version](https://doi.org/10.1080/1369183X.2022.2050191)]" >}}
+{{< details summary="'Is labour market discrimination against ethnic minorities better explained by taste or statistics? A systematic review of the empirical evidence' with Stijn Baert, Abel Ghekiere, Pieter-Paul Verhaeghe, and Eva Derous (2022). **Journal of Ethnic and Migration Studies**, 48(17). [[published version](https://doi.org/10.1080/1369183X.2022.2050191)]" >}}
 To mitigate ethnic labour market discrimination, it is essential to understand its underlying mechanisms because different mechanisms call for different counteracting measures. To this end, we reviewed the recent literature that confronts the theories of taste-based and statistical discrimination against the empirical reality. Whereas the empirical evidence for both mechanisms is generally mixed, (field) experimental research, which predominantly focuses on hiring outcomes, appears to yield proportionately more evidence in favour of taste-based discrimination vis-à-vis statistical discrimination. This finding suggests that the taste-based mechanism may better explain ethnic discrimination in hiring. However, we also observe that the measurement operationalisations of the mechanisms vary substantially between studies and that alternative theoretical interpretations of some of the evidence are plausible. Taken together, additional research efforts, using clear measurement standards and appropriate synthesis methods, are required to solidify the review’s main finding.
 {{< /details >}}
 
@@ -74,19 +74,19 @@ Over the past decades, academics worldwide have conducted experiments with ficti
 {{< /details >}}
 
 ### Discussion papers
-{{< details summary="'The impact of regional identity on hiring chances: An experiment examining employer bias' with Louise Devos, Dagmar Claus, and Stijn Baert (2025). IZA Discussion Paper Series, 17855. [[IZA version](https://docs.iza.org/dp17855.pdf)]" >}}
+{{< details summary="'The impact of regional identity on hiring chances: An experiment examining employer bias' with Louise Devos, Dagmar Claus, and Stijn Baert (2025). [[IZA version](https://docs.iza.org/dp17855.pdf)]" >}}
 {{< /details >}}
 
-{{< details summary="'Too much of a good thing? Telework intensity and workplace experiences' with Eline Moens, Kathleen Vangronsvelt, Ans De Vos, and Stijn Baert (2025). IZA Discussion Paper Series, 17721. [[IZA version](https://docs.iza.org/dp17721.pdf)]" >}}
+{{< details summary="'Too much of a good thing? Telework intensity and workplace experiences' with Eline Moens, Kathleen Vangronsvelt, Ans De Vos, and Stijn Baert (2025). [[IZA version](https://docs.iza.org/dp17721.pdf)]" >}}
 {{< /details >}}
 
-{{< details summary="'Not a lucky break? Why and when a career hiatus hijacks hiring chances' with Liam D’hert and Stijn Baert (2024). IZA Discussion Paper Series, 17497. [[IZA version](https://docs.iza.org/dp17497.pdf)]" >}}
+{{< details summary="'Not a lucky break? Why and when a career hiatus hijacks hiring chances' with Liam D’hert and Stijn Baert (2024). [[IZA version](https://docs.iza.org/dp17497.pdf)]" >}}
 {{< /details >}}
 
-{{< details summary="'Fertility, pregnancy, and parenthood discrimination in the labour market: A systematic review' with Morien El Haj, Elsy Verhofstadt, Luc Van Ootegem, and Stijn Baert (2024). IZA Discussion Paper Series, 17435. *(Under review, 1st round, Journal of Economic Surveys)* [[IZA version](https://docs.iza.org/dp17435.pdf)]" >}}
+{{< details summary="'Fertility, pregnancy, and parenthood discrimination in the labour market: A systematic review' with Morien El Haj, Elsy Verhofstadt, Luc Van Ootegem, and Stijn Baert (2024). *(Under review, 1st round, Journal of Economic Surveys)* [[IZA version](https://docs.iza.org/dp17435.pdf)]" >}}
 {{< /details >}}
 
-{{< details summary="'Unemployment, inactivity, and hiring chances: A systematic review and meta-analysis' with Liam D’hert and Stijn Baert (2024). IZA Discussion Paper Series, 17141. [[IZA version](https://docs.iza.org/dp17141.pdf), [IZA opinion](https://wol.iza.org/opinions/are-employers-eager-to-hire-the-unemployed)]" >}}
+{{< details summary="'Unemployment, inactivity, and hiring chances: A systematic review and meta-analysis' with Liam D’hert and Stijn Baert (2024). [[IZA version](https://docs.iza.org/dp17141.pdf), [IZA opinion](https://wol.iza.org/opinions/are-employers-eager-to-hire-the-unemployed)]" >}}
 {{< /details >}}
 
 ### Work in progress
@@ -125,3 +125,8 @@ _No abstract yet._
 {{< details summary="'A comparative meta-analysis of housing and hiring discrimination' with Louise Devos, Stijn Baert, and Pieter-Paul Verhaeghe." >}}
 _No abstract yet._
 {{< /details >}}
+
+<br></br>
+<font size="2">
+_This page was last updated on 19 June 2025._
+<font>
