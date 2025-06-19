@@ -1,6 +1,6 @@
 ---
 title: My research
-url: "/research2"
+url: "/research"
 author: " "
 slug: research
 ShowToc: false
@@ -19,8 +19,8 @@ ShowPostNavLinks: false
 
 - In our contextual study of hiring discrimination (published in <a href="https://doi.org/10.1016/j.labeco.2023.102453" target = "_blank">Labour Economics</a>), we empirically test theoretically linked moderators of discrimination. We observe a distinct role of the organisation in shaping hiring discrimination, with ethnic minorities facing less discrimination when applying to non-profits or large organisations. We also find some evidence that hiring discrimination increases in jobs with more colleague interaction or less labour shortage.
 
-## Selected work
-Below is a selection of my research. The full overview is available from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a> profile.
+## Selected works
+Below is a selection of my research. The full overview is available on my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a> page. You can consult the abstract of a given study by clicking the citation text. More details are also available on my <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> pages.
 
 ### Publications in international peer-reviewed journals
 {{< details summary="'How do employers view applicants with and without children?' with Morien El Haj, Axana Dalle, and Stijn Baert (2025). **Journal of Marriage and Family**. [[published version](https://doi.org/10.1111/jomf.70008)]" >}}

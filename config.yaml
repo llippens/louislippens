@@ -29,7 +29,7 @@ menu:
       url: /about/
       weight: 2
     - name: research
-      url: /research2/
+      url: /research/
       weight: 3
     - name: cv
       url: https://llippens.github.io/Louis%20Lippens-academic.pdf

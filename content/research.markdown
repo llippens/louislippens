@@ -1,6 +1,6 @@
 ---
 title: My research
-url: "/research"
+url: "/research_old"
 author: " "
 slug: research
 ShowToc: false
@@ -26,7 +26,7 @@ ShowPostNavLinks: false
 - In our contextual study of hiring discrimination (published in <a href="https://doi.org/10.1016/j.labeco.2023.102453" target = "_blank">Labour Economics</a>), we empirically test theoretically linked moderators of discrimination. We observe a distinct role of the organisation in shaping hiring discrimination, with ethnic minorities facing less discrimination when applying to non-profits or large organisations. We also find some evidence that hiring discrimination increases in jobs with more colleague interaction or less labour shortage.
 
 ## Publication overview
-The selection* of publications below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on 11 June 2025.
+The selection* of publications below was taken directly from my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar profile</a> on 19 June 2025.
 
 <table class="table" style="font-size: 13px; color: black; margin-left: auto; margin-right: auto;">
  <thead>
@@ -73,14 +73,14 @@ The selection* of publications below was taken directly from my <a href="https:/
    <td style="text-align:left;"> <i>L Lippens</i>, S Vermeiren, S Baert </td>
    <td style="text-align:left;"> European Economic Review </td>
    <td style="text-align:center;"> 2023 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:4DMP91E08xMC" target="_blank">218</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:4DMP91E08xMC" target="_blank">222</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Understanding ethnic hiring discrimination: A contextual analysis of experimental evidence </td>
    <td style="text-align:left;"> <i>L Lippens</i>, A Dalle, F D'hondt, PP Verhaeghe, S Baert </td>
    <td style="text-align:left;"> Labour Economics </td>
    <td style="text-align:center;"> 2023 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:bEWYMUwI8FkC" target="_blank">23</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:bEWYMUwI8FkC" target="_blank">22</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Is labour market discrimination against ethnic minorities better explained by taste or statistics? A systematic review of the empirical evidence </td>
@@ -94,7 +94,7 @@ The selection* of publications below was taken directly from my <a href="https:/
    <td style="text-align:left;"> E Moens, <i>L Lippens</i>, P Sterkens, J Weytjens, S Baert </td>
    <td style="text-align:left;"> The European Journal of Health Economics </td>
    <td style="text-align:center;"> 2021 </td>
-   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:LkGwnXOMwfcC" target="_blank">551</a> </td>
+   <td style="text-align:center;"> <a href="https://scholar.google.be/citations?view_op=view_citation&amp;hl=en&amp;user=N5hW-KgAAAAJ&amp;citation_for_view=N5hW-KgAAAAJ:LkGwnXOMwfcC" target="_blank">556</a> </td>
   </tr>
   <tr>
    <td style="text-align:left;"> How do employees think the COVID-19 crisis will affect their careers? </td>
@@ -185,4 +185,4 @@ The selection* of publications below was taken directly from my <a href="https:/
 You can find more detailed, up-to-date information about my research via my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> profile.
 
 <br></br>
-<font size="2"> _This page was last updated on 11 June 2025._ </font>
+<font size="2"> _This page was last updated on 19 June 2025._ </font>
