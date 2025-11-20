@@ -13,18 +13,16 @@ ShowPostNavLinks: false
 
 ## Research highlights
 
-- In our meta-analysis (published in <a href="https://doi.org/10.1016/j.euroecorev.2022.104315" target="_blank">European Economic Review</a>), we synthesise a quasi-exhaustive register of correspondence audit experiments in hiring from across the globe published between 2005 to 2020. We show that hiring discrimination is equivalently or more severe for candidates with disabilities, older age, and less physical attractiveness than for those with distinct racial or ethnic characteristics. Older candidates face more discrimination in Europe than in the United States. We find no clear evidence of decreasing discrimination over time.
+- In our meta-analysis (published in <a href="https://doi.org/10.1016/j.euroecorev.2022.104315" target="_blank">European Economic Review</a>), we synthesise a quasi-exhaustive register of correspondence audit experiments in hiring from across the globe published between 2005 and 2020. We show that hiring discrimination is equivalent to or more severe for candidates with disabilities, older age, and less physical attractiveness than for those with distinct racial or ethnic characteristics. Older candidates face more discrimination in Europe than in the United States. We find no clear evidence of a decline in discrimination over time.
 
 - In an experimental study (published in <a href="https://doi.org/10.1016/j.chbah.2024.100054" target="_blank">Computers in Human Behavior: Artificial Humans</a>), I explore whether OpenAI's GPT-3.5 language model displays ethnic or gender bias in job applicant screening using an audit approach. I show that GPT's evaluations are influenced by ethnic and gender cues, with some evidence for a gender--ethnicity interaction. The chatbot produces similarly stereotyped output as humans would, e.g., favouring ethnic minorities for jobs with poor working conditions or women for female-dominated occupations, such as the job of clothing seller.
 
-- In our contextual study of hiring discrimination (published in <a href="https://doi.org/10.1016/j.labeco.2023.102453" target = "_blank">Labour Economics</a>), we empirically test theoretically linked moderators of discrimination. We observe a distinct role of the organisation in shaping hiring discrimination, with ethnic minorities facing less discrimination when applying to non-profits or large organisations. We also find some evidence that hiring discrimination increases in jobs with more interaction between colleagues or lower labour shortage.
+- In our contextual study of hiring discrimination (published in <a href="https://doi.org/10.1016/j.labeco.2023.102453" target = "_blank">Labour Economics</a>), we empirically test theoretically linked moderators of discrimination. We observe a distinct role of the organisation in shaping hiring discrimination, with ethnic minorities facing less discrimination when applying to non-profits or large organisations. We also find some evidence that hiring discrimination increases in jobs with greater interaction among colleagues or lower labour shortages.
 
 ## Selected works
 Below is a selection of my research. The full overview is available on my <a href="https://scholar.google.com/citations?hl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a> page. More details are also available on my <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> pages.
 
-<font size="2">
-_Click the citation text to consult the abstract of a given study._
-</font>
+<font size="2">_Click the citation text to consult the abstract of a given study._</font>
 
 ### 1. Publications in international peer-reviewed journals
 
@@ -61,6 +59,10 @@ Large language models offer significant potential for increasing labour producti
 {{< /details >}}
 
 #### 1.3. Work regimes
+{{< details summary="'Speeding up on the learning curve: The evaluation of telework following a surge in telework experience' with Eline Moens<sup>1</sup>, Liam D'hert, and Stijn Baert (2025). *Applied Economics Letters*. [[published version](https://doi.org/10.1080/13504851.2025.2587237), [IZA version](https://docs.iza.org/dp16900.pdf)]" >}}
+This research letter adds to the literature on the importance of telework experience in employee evaluation by leveraging the telework experience accumulated during the COVID-19 crisis. We conducted a follow-up survey on the evaluation of telework exactly 3 years after our initial data collection in 2020. We find evidence of a learning curve regarding self-reported i) efficiency in performing tasks, ii) work-life balance, and iii) concentration during work, characterized by a more positive evaluation as telework experience increased.
+{{< /details >}}
+
 {{< details summary="'Time Tetris: A longitudinal study on compressed schedules and workplace well-being at IKEA' with Kristen du Bois<sup>1</sup>, Stijn Baert, and Eva Derous (2025). *BMC Public Health*, 25(1). [[published version](https://doi.org/10.1186/s12889-025-21323-4), [OSF version](https://doi.org/10.31219/osf.io/ch8uk)]" >}}
 Compressed schedules, where workers perform longer daily hours to enjoy additional days off, are increasingly promoted as a workplace well-being intervention. Nevertheless, their implications for work-related well-being outcomes, such as recovery from work and burnout risk, are understudied. This gap leaves employers with little evidence on whether and how the arrangement contributes to workplace well-being. IKEA Belgium offered its employees the option to enter compressed schedules in the aftermath of a national labour reform aimed at improving well-being and reducing burnout. We collected data on psychological detachment from work, work-related exhaustion, and burnout risk in four waves before and after implementation. We used mixed-effects growth models to estimate the within-subjects changes in these three domains, and two-way fixed effects models to compare changes with those from a non-treated comparison group. Workers experienced increased psychological detachment from work in compressed schedules, yet we saw no decrease in work-related exhaustion or burnout risk. While between-subjects analyses confirm that the increase in psychological detachment is related to treatment, they also hint that this association may fade out during summer when all workers take more extended breaks from work. While workers in compressed schedules may mentally switch off from work more effectively, this does not translate into decreased burnout risk scores. Consistent with theoretical expectations, policymakers and employers should be cautious in assuming that the arrangements significantly reduce burnout.
 {{< /details >}}
@@ -79,13 +81,17 @@ This study is the first in the world to investigate the expected impact of the C
 Over the past decades, academics worldwide have conducted experiments with fictitious job applications to measure discrimination in hiring. This discrimination leads to underutilization of labor market potential and higher unemployment rates for individuals from vulnerable groups. Collectively, the insights from the published research suggest that three groups face more discrimination than ethnic minorities: people with disabilities, less physically attractive people, and older people. The discrimination found in Western economies generally persists across countries and is stable over time, although some variation exists.
 {{< /details >}}
 
-### 3. Discussion papers
+### 3. Working papers
 {{< details summary="'The impact of regional identity on hiring chances: An experiment examining employer bias' with Louise Devos<sup>1</sup>, Dagmar Claus, and Stijn Baert (2025). [[IZA version](https://docs.iza.org/dp17855.pdf)]" >}}
 Regional mobility is crucial for addressing labour shortages, as jobseekers from one region may fill vacancies in another region with few local candidates. However, this requires a willingness amongst employers to consider candidates from across regional borders. This study examines the influence of regional identity on hiring decisions in the Belgian labour market, focusing on perceptions of Flemish recruiters towards Flemish and Walloon candidates. Through a state-of-the-art vignette experiment, genuine Flemish recruiters evaluated fictitious resumes of school leavers that signalled regional identity through their name, place of birth, residential address, secondary school location, and/or language proficiency. Walloon candidates consistently score lower on key hiring metrics. Structural equation modelling reveals that Flemish employers hold negative perceptions of Walloon candidates, particularly regarding availability, interpersonal competency, attitude, and willingness of employers, employees, and clients to cooperate with them. These findings highlight the persistent role of regional identity stereotypes in reinforcing labour market inequalities and impeding mobility as a strategy to mitigate labour market tightness.
 {{< /details >}}
 
-{{< details summary="'Too much of a good thing? Telework intensity and workplace experiences' with Eline Moens<sup>1</sup>, Kathleen Vangronsvelt, Ans De Vos, and Stijn Baert (2025). [[IZA version](https://docs.iza.org/dp17721.pdf)]" >}}
+{{< details summary="'Too much of a good thing? Telework intensity and workplace experiences' with Eline Moens<sup>1</sup>, Kathleen Vangronsvelt, Ans De Vos, and Stijn Baert (2025). *(Revise & resubmit after 1st round, Kyklos)* [[IZA version](https://docs.iza.org/dp17721.pdf)]" >}}
 At a time when numerous organisations are urging a return to the office while many employees prefer to continue teleworking, it is crucial to ascertain the optimal level of telework intensity. In the present study, we determine this ideal level with respect to self-rated employee attitudes, behaviour, well-being, social relations and professional growth. Drawing on a five-wave longitudinal dataset, we apply fixed effects regression analyses to investigate associations between telework intensity and various dimensions of workplace experience. We offer more robust empirical evidence for favouring hybrid work schedules over an office-only or telework-only regime owing to significant advances in causal interpretation of linear and non-linear associations compared to the majority of existing studies that examine linear associations based on cross-sectional data. Our results point toward an inverted U-shaped association between telework intensity and self-rated job satisfaction, worklife balance, relationships with colleagues and professional development, with optimal levels peaking around 50% teleworking. For task efficiency and work concentration, the association appears to be concave with a plateau, stabilising at teleworking levels above 70%. Only between telework intensity and employer connectedness do we observe a slightly negative linear association.
+{{< /details >}}
+
+{{< details summary="'Intercultural competence at work: The origins of an implicit trait policy' with Stijn Schelfhout<sup>1</sup> and Eva Derous (2024). *(Accepted, Human Performance)* [[OSF version](https://doi.org/10.31219/osf.io/gbzq5)]" >}}
+An implicit trait policy (ITP) on intercultural competence reflects a worker’s self-beliefs regarding effectiveness of behavior in intercultural work situations. An ITP thus integrates the worker’s competence on selection of effective behavior like intensifying intercultural contacts and rejection of ineffective behavior like discrimination. The present study researches to which extent selection and rejection relate to different origins by mapping worker data from a public employment service (N = 3,310) onto the present study’s ITP framework of intercultural competence. Results show that a worker’s competence to avoid ineffective behavior is unrelated to the worker’s ability to endorse effective behavior, with both competences showing relations to (partly) different origins. These results also trend further towards two actual behavioral outcomes. Both processes of effective selection and rejection of behavior are relevant for the worker’s intensity of intercultural contacts. However, only rejection remains relevant for avoiding the display of discriminatory behavior in the future. Indeed, an organizational development intervention to promote intercultural contacts needs a different approach than preventing discrimination, as both outcomes are related to different origins. The key to a successful intervention therefore resides in addressing the appropriate ITP origins in order to evoke selection or rejection of the targeted behavior.
 {{< /details >}}
 
 {{< details summary="'Not a lucky break? Why and when a career hiatus hijacks hiring chances' with Liam D’hert<sup>1</sup> and Stijn Baert (2024). [[IZA version](https://docs.iza.org/dp17497.pdf)]" >}}
@@ -101,8 +107,8 @@ Policymakers' push for higher employment rates requires the activation of long-t
 {{< /details >}}
 
 ### 4. Work in progress
-{{< details summary="'The cyclicality of hiring discrimination' with Stijn Baert." >}}
-Hiring discrimination remains a persistent, global challenge. Discrimination in hiring may increase during labour market booms and decrease during busts, showing a cyclical pattern. Yet, much of the existing empirical literature on the cyclicality of hiring discrimination has focused on single groups, single countries, single indicators, and limited time frames, sometimes arriving at different conclusions. Here, we bring the results of a meta-reanalysis of over two decades' worth of correspondence experiments spanning multiple groups and diverse labour market contexts, representing more than 1,200,000 applications to examine whether, for which groups, and when market conditions explain variation in discriminatory hiring practices. We also assess the impact of the Great Recession on hiring discrimination against racial and ethnic groups using a meta-analytic event study-like approach, strengthening our causal identification.
+{{< details summary="'The cyclicality of hiring discrimination'. [[Draft](https://llippens.github.io/preprints/lippens_cycdis.pdf)]" >}}
+I reanalyse over two decades' worth of correspondence experiments – representing over 1.4 million applications – to test whether hiring discrimination varies over the labour market cycle, for which groups, and where. To strengthen causal identification, I introduce the meta-analytic event study method, which integrates dynamic treatment effect estimation within a meta-regression framework. The results suggest that discrimination rises when unemployment is high. By group, meta-analytic empirical evidence of countercyclicality is consistent for racial and ethnic minorities in Western Europe and for older workers, but mixed for sexual and gender minorities. In contrast, I detect no systematic cyclicality in discrimination for racial and gender minorities in North America. The results reconcile mixed findings from the present empirical literature, often covering single countries, single groups, and restricted timeframes. From a policy perspective, I argue that anti-discrimination efforts are most needed in slack labour markets, when discriminatory hiring typically intensifies.
 {{< /details >}}
 
 {{< details summary="'Humans vs GPTs: Bias and validity in hiring decisions'. [[OSF draft](https://doi.org/10.31219/osf.io/zxf5y)]" >}}
@@ -121,19 +127,11 @@ _No abstract yet._
 _No abstract yet._
 {{< /details >}}
 
-{{< details summary="'Political discourse and discrimination'." >}}
-_No abstract yet._
-{{< /details >}}
-
 {{< details summary="'Age bias in ChatGPT’s vs. recruiters’ assessment of resumes: The role of job age-type' with Maaike Schellaert<sup>1</sup>, Janneke K. Oostrom, and Eva Derous." >}}
-_No abstract yet._
+_Proposal accepted at the Journal of Business and Psychology._
 {{< /details >}}
 
 {{< details summary="'Measuring and remedying hiring bias in large language models' with Stefanie Sprong, Pieter-Paul Verhaeghe, and Valentina Di Stasio." >}}
-_No abstract yet._
-{{< /details >}}
-
-{{< details summary="'GenAI in hiring: Productivity-enhancing and bias-minimising effects of LLMs in CV screening'." >}}
 _No abstract yet._
 {{< /details >}}
 
@@ -141,5 +139,5 @@ _No abstract yet._
 
 <br></br>
 <font size="2">
-_This page was last updated on 30 September 2025._
+_This page was last updated on 20 November 2025._
 </font>
