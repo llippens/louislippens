@@ -14,8 +14,6 @@ ShowBreadCrumbs: false
 
 Below is a selection of my research. The full overview is available on my <a href="https://scholar.google.com/citationsahl=en&user=N5hW-KgAAAAJ" target="_blank">Google Scholar</a> page. More details are also available on my <a href="https://www.researchgate.net/profile/Louis-Lippens" target="_blank">ResearchGate</a> or <a href="https://orcid.org/0000-0001-7840-2753" target="_blank">ORCID</a> pages.
 
-<font size="2">_Click the citation text to consult the abstract of a given study._</font>
-
 ## 1. Publications in international peer-reviewed journals
 
 ### 1.1. Discrimination
