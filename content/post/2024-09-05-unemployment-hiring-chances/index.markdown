@@ -9,6 +9,11 @@ draft: false
 ShowReadingTime: true
 ShowShareButtons: true
 ShowPostNavLinks: false
+tags:
+  - unemployment
+  - hiring
+  - stigma
+  - labour-economics
 ---
 
 
@@ -31,4 +36,4 @@ Our analysis also shows that employers are less critical of unemployed applicant
 Overall, our study underscores the importance of unemployed individuals securing new employment as quickly as possible, ideally within the first six months. This approach allows them to leverage the benefits of unemployment, such as immediate availability, while minimising the drawbacks, such as perceived reduced productivity.
 
 <br></br>
-<font size="2"> _The study is joint work with [Liam D’hert](https://scholar.google.be/citations?user=gmc-vTcAAAAJ) and [Stijn Baert](https://stijnbaert.eu/). Our commentary on this issue appeared first via [IZA World of Labor](https://wol.iza.org/opinions/are-employers-eager-to-hire-the-unemployed). This page was last updated on 08 September 2024._ <font>
+<font size="2"> _The study is joint work with [Liam D’hert](https://scholar.google.be/citations?user=gmc-vTcAAAAJ) and [Stijn Baert](https://stijnbaert.eu/). Our commentary on this issue appeared first via [IZA World of Labor](https://wol.iza.org/opinions/are-employers-eager-to-hire-the-unemployed). This page was last updated on 07 April 2026._ <font>

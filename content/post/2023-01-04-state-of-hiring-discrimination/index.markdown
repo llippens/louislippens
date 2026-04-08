@@ -9,6 +9,11 @@ draft: false
 ShowReadingTime: true
 ShowShareButtons: true
 ShowPostNavLinks: false
+tags:
+  - discrimination
+  - meta-analysis
+  - hiring
+  - labour-economics
 ---
 
 
@@ -46,4 +51,4 @@ The meta-analysis allows policymakers and employers to target those minority gro
 Crucially, diversity promotion measures, such as information campaigns and diversity training, should focus not only on ethnicity and gender but also on, say, age. In other words, the meta-analysis underscores that *diversity in the labour market* must also be given a *diverse interpretation*.
 
 <br></br>
-<font size="2"> _This post [also appeared via UGent @ Work](https://www.ugent.be/ugentatwork/nl/blog/blog-27.htm) and in various Belgian media, in Dutch. This page was last updated on 29 November 2023._ <font>
+<font size="2"> _This post [also appeared via UGent @ Work](https://www.ugent.be/ugentatwork/nl/blog/blog-27.htm) and in various Belgian media, in Dutch. This page was last updated on 07 April 2026._ <font>

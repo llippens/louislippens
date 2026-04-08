@@ -9,6 +9,11 @@ draft: false
 ShowReadingTime: true
 ShowShareButtons: true
 ShowPostNavLinks: false
+tags:
+  - generative-ai
+  - discrimination
+  - hiring
+  - algorithmic-bias
 ---
 
 ```{r setup, echo = FALSE, include = FALSE}

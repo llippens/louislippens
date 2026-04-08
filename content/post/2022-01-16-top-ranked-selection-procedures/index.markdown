@@ -9,6 +9,10 @@ draft: false
 ShowReadingTime: true
 ShowShareButtons: true
 ShowPostNavLinks: false
+tags:
+  - hiring
+  - personnel-selection
+  - labour-economics
 ---
 
 

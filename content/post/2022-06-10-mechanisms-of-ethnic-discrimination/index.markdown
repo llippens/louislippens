@@ -9,6 +9,10 @@ draft: false
 ShowReadingTime: true
 ShowShareButtons: true
 ShowPostNavLinks: false
+tags:
+  - discrimination
+  - ethnicity
+  - labour-economics
 ---
 
 

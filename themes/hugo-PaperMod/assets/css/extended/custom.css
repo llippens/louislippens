@@ -1,18 +1,105 @@
-main div.post-content p {
-  font-size: 11pt;
+/* ========================================================
+   TYPOGRAPHY
+   ======================================================== */
+
+/* Body/post content: academic serif */
+body,
+.post-content p,
+.post-content li,
+.post-content blockquote {
+  font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
 }
 
-main div.post-content h1 { font-size: 1.75rem; }
-main div.post-content h2 { font-size: 1.5rem; }
-main div.post-content h3 { font-size: 1.25rem; }
-
-main article.post-single header.post-header h1.post-title {
-  font-size: 1.75rem !important;
+/* Headings + site logo: system sans */
+h1, h2, h3, .post-title, .logo a {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  letter-spacing: -0.01em;
 }
 
-details, details summary {
-  font-size: 11pt !important;
-  margin-block-end: .35em;
+/* Meta, UI chrome: system sans */
+.post-meta, .breadcrumbs, .post-tags,
+.entry-footer, .footer, .social-icons {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
+/* Font sizing: relative units */
+.post-content p, .post-content li { font-size: 1.05rem; line-height: 1.75; }
+.post-content h1 { font-size: 1.75rem; }
+.post-content h2 { font-size: 1.45rem; }
+.post-content h3 { font-size: 1.15rem; }
+main article.post-single header.post-header h1.post-title { font-size: 1.75rem !important; }
 
+/* ========================================================
+   COLOUR PALETTE
+   ======================================================== */
+
+:root {
+  --theme: #fafaf8;
+  --entry: #ffffff;
+}
+
+/* Links */
+.post-content a, .toc a { color: #1e64c8; }
+.post-content a:hover, .toc a:hover { color: #163f7a; }
+
+/* Active nav */
+#menu a:hover, #menu .active { color: #1e64c8; }
+
+/* Tags */
+.post-tags a { color: #1e64c8; border-color: #1e64c8; }
+
+/* ========================================================
+   RESEARCH PAGE: DETAILS / ABSTRACT STYLING
+   ======================================================== */
+
+details {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.5em 0.75em;
+  margin-bottom: 0.5em;
+  background: transparent;
+}
+
+details[open] { box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06); }
+
+details summary {
+  cursor: pointer;
+  list-style: none;
+  padding-left: 1.3em;
+  position: relative;
+  font-size: 0.875rem;
+  line-height: 1.45;
+}
+
+details summary::before {
+  content: '▶';
+  position: absolute;
+  left: 0;
+  font-size: 0.6em;
+  top: 0.3em;
+  color: var(--secondary);
+  transition: transform 0.2s ease;
+}
+
+details[open] > summary::before { transform: rotate(90deg); }
+details summary::-webkit-details-marker { display: none; }
+
+.post-content details[open] > p {
+  margin-top: 0.6em;
+  padding-top: 0.6em;
+  border-top: 1px solid var(--border);
+  color: var(--content);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+/* Research section headings: tighter vertical rhythm */
+.post-content h2 { margin-top: 2rem; margin-bottom: 0.6rem; }
+.post-content h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--secondary);
+  margin-top: 1.25rem;
+  margin-bottom: 0.4rem;
+}

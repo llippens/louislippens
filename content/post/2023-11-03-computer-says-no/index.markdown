@@ -9,6 +9,11 @@ draft: false
 ShowReadingTime: true
 ShowShareButtons: true
 ShowPostNavLinks: false
+tags:
+  - generative-ai
+  - discrimination
+  - hiring
+  - algorithmic-bias
 ---
 
 
@@ -43,5 +48,5 @@ Above all, it is the responsibility of organisations that deploy such AI in thei
 
 <br></br>
 <font size="2">
-_This post also appeared via [UGent @ Work](https://www.ugent.be/ugentatwork/nl/blog/blog-61.htm) and in various Belgian media, in Dutch. This page was last updated on 13 February 2025._
+_This post also appeared via [UGent @ Work](https://www.ugent.be/ugentatwork/nl/blog/blog-61.htm) and in various Belgian media, in Dutch. This page was last updated on 07 April 2026._
 </font>

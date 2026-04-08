@@ -9,6 +9,10 @@ draft: false
 ShowReadingTime: true
 ShowShareButtons: true
 ShowPostNavLinks: false
+tags:
+  - discrimination
+  - ethnicity
+  - labour-economics
 ---
 ```{r setup, echo = FALSE, include = FALSE}
 #Justification ('justify') of the text is set, for all content, in main.css

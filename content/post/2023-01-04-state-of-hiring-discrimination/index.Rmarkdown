@@ -9,6 +9,11 @@ draft: false
 ShowReadingTime: true
 ShowShareButtons: true
 ShowPostNavLinks: false
+tags:
+  - discrimination
+  - meta-analysis
+  - hiring
+  - labour-economics
 ---
 
 ```{r setup, echo = FALSE, include = FALSE}
